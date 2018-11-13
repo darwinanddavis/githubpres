@@ -1,0 +1,182 @@
+---
+title: "Using Github for research and life"
+author: Matt Malishev
+date: November 15, 2018
+output: 
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true  
+    transition: faster
+    includes:
+      after_body: # highlight.html # enable default highlight mode  
+---
+<!-- adding footnote capabilities in ioslides (https://stackoverflow.com/questions/42690955/how-to-insert-footnotes-in-ioslides-presentations-using-rmarkdown ) -->
+<style>
+div.footnotes {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+  width: 80%;
+  font-size: 0.6em;
+}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+  $('slide:not(.backdrop):not(.title-slide)').append('<div class=\"footnotes\">');
+
+  $('footnote').each(function(index) {
+    var text  = $(this).html();
+    var fnNum = (index+1).toString();
+    $(this).html(fnNum.sup());
+
+    var footnote   = fnNum + '. ' + text + '<br/>';
+    var oldContent = $(this).parents('slide').children('div.footnotes').html();
+    var newContent = oldContent + footnote;
+    $(this).parents('slide').children('div.footnotes').html(newContent);
+  });
+});
+</script> 
+<!-- end footnote capabilities in ioslides -->
+<!-- Useage: Some text.<footnote>A *footnote* with **formatting**</footnote> -->
+
+## What the hell is Github? | And git {.flexbox .vcenter}      
+
+# Slide 2 {.vcenter}
+
+text  
+
+more text  that should be centered
+
+# Applications 
+
+## But why? {.build}  
+
+- Reproducible    
+- Unlimited    
+- Transparent      
+- Shareable    
+
+## Best practice {.build}  
+
+### Avoid spaces and CamelCase  
+- e.g. 'my data.csv', 'My Data.csv'  
+### Annotation    
+```{r}
+p <- rep(rnorm(100),20) # this is well annotated code  
+```
+### _Tab_ is your friend  
+
+------  
+## Useful syntax {.build}     
+
+`cd` set working dir  
+`pwd` print current working dir  
+`ls` list files in working dir  
+`mkdir newfolder` make new working dir
+`touch text.txt` create new file 
+
+## More useful syntax {.build}    
+`cp source destination`  
+copy files from _source_ to _destination_. e.g. cp /Users/mydir/README.txt ~/Documents  
+
+`cp -R source destination`  
+copy all folders, subfolders, and files from _source_ to _destination_  
+
+`mv source destination`  
+move files or folders from _source_ to _destination_ (no need for `-R`)  
+
+`cp ~/Desktop/*.rtf ~/Documents`  
+move multiple files with the * wildcard, which copies all .rtf files. The tilde (~) symbol is a shortcut for your Home folder, which contains '/Desktop'.    
+
+`mv ~/Desktop/MyFile.rtf ~/Desktop/MyFile-old.rtf`  
+`cp ~/Desktop/MyFile.rtf ~/Documents/MyFile-old.rtf`  
+rename files    
+
+# Let's git  
+
+## Initialising and using your repo {.build}  
+
+### 1. Create a repo  
+### 2. Create and stage your files  
+#### - `add` and `commit` your files  
+### 3. Push to a remote github repo  
+#### - `push` your files
+
+## 1. Create a repo {.build}     
+Navigate to your new project folder in the command line    
+`cd ~/Documents/`  
+`ls`  
+Make a new project on your local comp
+```{bash eval=F, echo=T}
+# create new project  
+### <b> 
+cd ~/Documents/
+### </b>
+# make a new folder  
+### <b> 
+mkdir newgit  
+### </b>
+# navigate to that folder  
+### <b>
+cd newgit/
+ls  
+### </b>   
+```
+
+Initialise your new local repo
+```{bash eval=F, echo=T}
+# init git
+### <b> 
+git init  
+### </b> 
+```
+
+Create a new file in the command line       
+```{bash eval=F, echo=T}
+# create new file 
+### <b> 
+touch test.txt  
+### </b> 
+
+# navigate to your new git repo  
+### <b>
+pwd  
+cd ~/Documents/newgit/
+### </b> 
+
+# move the new file into the git repo      
+### <b> 
+mv ~/Documents/test.txt ~/Documents/newgit/
+ls  
+### </b> 
+
+```
+
+## 2. Create and stage your files  
+
+## 3. Push to a remote github repo  
+
+# Cloning an existing repo   
+
+```{bash echo=T, eval=F}
+git clone URL
+```
+
+Every version of every file for the history of the project is pulled down by default when you run git clone.
+
+# That's it  
+
+# Troubleshooting  
+
+## Staging and pushing files  
+
+If Github questions your user credentials.    
+
+```{bash eval=F, echo=T}
+git config --global user.email "<your email>" 
+git config --global user.name "<your github user name>" 
+```
+

@@ -180,3 +180,12 @@ git config --global user.email "<your email>"
 git config --global user.name "<your github user name>" 
 ```
 
+When using SSH for your github remote repo, e.g. git@github.com:username/reponame.git  
+[Generating a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)  
+
+Accessing your SSH key:  
+- In Mac, in Terminal, type `cat ~/.ssh/id_rsa.pub`  
+- In Windows, in cmd, type `ls ~/.ssh/*.pub`    
+
+
+

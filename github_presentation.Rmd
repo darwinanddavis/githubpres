@@ -290,7 +290,7 @@ Then push your staged (`commit`) files from your local repo to the remote repo
 ```{bash eval=F, echo=T}  
 # set the new remote repo
 ### <b>
-git remote add github "your github repo"  
+git remote set-url origin "your github repo"  
 ### </b>
 # see what remote repo you have
 ### <b>
@@ -298,7 +298,7 @@ git remote -v
 ### </b>
 # push changes from local repo to remote repo 
 ### <b>
-git push -u github master
+git push -u origin master
 ### </b>
 ```
 
@@ -368,9 +368,10 @@ git commit -m 'redo intro' # '-m' = message
 # see what remote repo you have. if a github one exists, you can push
 git remote -v  
 # set the new remote repo if necessary  
-git remote add github "your github repo"  
+git remote add github "your github repo"  # if remote branch doesn't exist
+git remote set-url origin "your github repo"  # if already exists
 # push changes from local repo to remote repo 
-git push -u github master
+git push -u origin master
 ```
 
 ### **If in doubt, ask the internet**  

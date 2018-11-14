@@ -23,3 +23,169 @@ highlight.html			repopage_.png
 ]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git in;10D[K[K[K[K[Knit
 Reinitialized existing Git repository in /Users/malishev/Documents/Emory/research/presentations/github/.git/
 ]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git add .
+]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git commit -m ''g'i'[1P'[1P'g'i't'b'[1P'h'u'b'p'r'e's'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'i'n'i't' 'p'r'e's'
+[master 3a173a7] init pres
+ 137 files changed, 1230 insertions(+), 15785 deletions(-)
+ create mode 100644 .Rproj.user/ABE7B653/console06/587CA191
+ create mode 100644 .Rproj.user/ABE7B653/console06/587CA191.env
+ create mode 100644 .Rproj.user/ABE7B653/console06/INDEX001
+ create mode 100644 billnye.gif
+ create mode 100644 github_presentation.pdf
+ create mode 100644 githublogo.png
+ delete mode 100644 libs/Proj4Leaflet/proj4-compressed.js
+ delete mode 100644 libs/Proj4Leaflet/proj4leaflet.js
+ delete mode 100644 libs/htmlwidgets/htmlwidgets.js
+ delete mode 100644 libs/jquery/jquery.min.js
+ delete mode 100644 libs/leaflet-binding/leaflet.js
+ delete mode 100644 libs/leaflet-binding/leaflet.yaml
+ delete mode 100644 libs/leaflet-binding/lib/jquery/jquery.min.js
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/cancel.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/cancel_@2X.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/check.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/check_@2X.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/focus.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/focus_@2X.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/rulers.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/rulers_@2X.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/start.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/start_@2X.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/trash.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/trash_@2X.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/leaflet-measure.css
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/leaflet-measure.min.js
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-omnivore/LICENSE
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-omnivore/index.js
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-omnivore/leaflet-omnivore.min.js
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-omnivore/package.json
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-providers/leaflet-providers.js
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-providers/package.json
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-providers/providers.json
+ delete mode 100644 libs/leaflet-binding/lib/leaflet-providers/rstudio_install.md
+ delete mode 100644 libs/leaflet-binding/lib/leaflet/images/layers-2x.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet/images/layers.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet/images/marker-icon-2x.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet/images/marker-icon.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet/images/marker-shadow.png
+ delete mode 100644 libs/leaflet-binding/lib/leaflet/leaflet.css
+ delete mode 100644 libs/leaflet-binding/lib/leaflet/leaflet.js
+ delete mode 100644 libs/leaflet-binding/lib/leafletfix/leafletfix.css
+ delete mode 100644 libs/leaflet-binding/lib/rstudio_leaflet/images/1px.png
+ delete mode 100644 libs/leaflet-binding/lib/rstudio_leaflet/rstudio_leaflet.css
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet-MiniMap/Control.MiniMap.css
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet-MiniMap/Control.MiniMap.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet-MiniMap/Control.MiniMap.min.css
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet-MiniMap/Control.MiniMap.min.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet-MiniMap/Minimap-binding.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet-MiniMap/images/toggle.png
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet-MiniMap/images/toggle.svg
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.EasyButton/EasyButton-binding.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.EasyButton/LICENSE
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.EasyButton/easy-button.css
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.EasyButton/easy-button.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.Graticule/Graticule-binding.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.Graticule/L.Graticule.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.Graticule/Leaflet.Graticule.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.SimpleGraticule/L.SimpleGraticule.css
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.SimpleGraticule/L.SimpleGraticule.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.SimpleGraticule/SimpleGraticule-binding.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.Terminator/L.Terminator.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.Terminator/Terminator-binding.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/bootstrap-theme.min.css
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/bootstrap.min.css
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/bootstrap.min.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/font-awesome.min.css
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/FontAwesome.otf
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/fontawesome-webfont.eot
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/fontawesome-webfont.svg
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/fontawesome-webfont.ttf
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/fontawesome-webfont.woff
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/glyphicons-halflings-regular.eot
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/glyphicons-halflings-regular.svg
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/glyphicons-halflings-regular.ttf
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/glyphicons-halflings-regular.woff
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/ionicons.eot
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/ionicons.svg
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/ionicons.ttf
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/ionicons.woff
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-matte.png
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-matte@2x.png
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-plain.png
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-shadow.png
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-shadow@2x.png
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-soft.png
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-soft@2x.png
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/ionicons.min.css
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/leaflet.awesome-markers.css
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/leaflet.awesome-markers.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/leaflet.awesome-markers.min.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.markercluster/MIT-LICENCE.txt
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.markercluster/MarkerCluster.Default.css
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.markercluster/MarkerCluster.css
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.markercluster/leaflet.markercluster.freezable.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.markercluster/leaflet.markercluster.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.markercluster/leaflet.markercluster.layersupport.js
+ delete mode 100644 libs/leaflet-binding/plugins/Leaflet.markercluster/package.json
+ delete mode 100644 libs/leaflet-binding/plugins/Proj4Leaflet/proj4-compressed.js
+ delete mode 100644 libs/leaflet-binding/plugins/Proj4Leaflet/proj4leaflet.js
+ delete mode 100644 libs/leaflet-binding/plugins/leaflet-locationfilter/img/filter-icon.png
+ delete mode 100644 libs/leaflet-binding/plugins/leaflet-locationfilter/img/move-handle.png
+ delete mode 100644 libs/leaflet-binding/plugins/leaflet-locationfilter/img/resize-handle.png
+ delete mode 100644 libs/leaflet-binding/plugins/leaflet-locationfilter/locationfilter-bindings.js
+ delete mode 100644 libs/leaflet-binding/plugins/leaflet-locationfilter/locationfilter.css
+ delete mode 100644 libs/leaflet-binding/plugins/leaflet-locationfilter/locationfilter.js
+ delete mode 100644 libs/leaflet-binding/plugins/leaflet-providers-plugin/leaflet-providers-plugin.js
+ delete mode 100644 libs/leaflet/images/layers-2x.png
+ delete mode 100644 libs/leaflet/images/layers.png
+ delete mode 100644 libs/leaflet/images/marker-icon-2x.png
+ delete mode 100644 libs/leaflet/images/marker-icon.png
+ delete mode 100644 libs/leaflet/images/marker-shadow.png
+ delete mode 100644 libs/leaflet/leaflet.css
+ delete mode 100644 libs/leaflet/leaflet.js
+ delete mode 100644 libs/leafletfix/leafletfix.css
+ delete mode 100644 libs/remark-css/default-fonts.css
+ delete mode 100644 libs/remark-css/default.css
+ delete mode 100644 libs/rstudio_leaflet/images/1px.png
+ delete mode 100644 libs/rstudio_leaflet/rstudio_leaflet.css
+ create mode 100644 newrepopage.png
+ create mode 100644 repopage_.png
+ delete mode 100644 ~$github.pptx
+]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git remote add github https://github.com/darwinanddav is/Presentations.git/.gitE.gitm.gito.gitr.gity.git/.gitg.giti.gitt.gith.gitu.gitb.git
+]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git remote -v
+github	https://github.com/darwinanddavis/Presentations/Emory/github.git (fetch)
+github	https://github.com/darwinanddavis/Presentations/Emory/github.git (push)
+origin	git@github.com:darwinanddavis/newtest.git (fetch)
+origin	git@github.com:darwinanddavis/newtest.git (push)
+]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git push -u github master
+remote: Not Found
+fatal: repository 'https://github.com/darwinanddavis/Presentations/Emory/github.git/' not found
+]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/ABE7B653/console06/587CA191[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git log
+[?1h=[33mcommit 3a173a7f459f756d6ad6281daed6f4446e8738e7[m[m
+Author: darwinanddavis <matthew.malishev@gmail.com>[m
+Date:   Wed Nov 14 17:06:56 2018 -0500[m
+[m
+    init pres[m
+[m
+:[K[K[K:[K[K [KESCESC[K^?^?[K:[K[K[33mcommit 939e7ed7cda4708e7192a96f379c6da7616c64c7[m[m
+:[K[KAuthor: darwinanddavis <matthew.malishev@gmail.com>[m
+:[K[KDate:   Tue Nov 13 17:56:38 2018 -0500[m
+:[K[K[m
+:[K[K    init[m
+:[K[K[m
+:[K[K[33mcommit e26e80cdfdea4569c7a6053c4580f68381de843e[m[m
+:[K[KAuthor: darwinanddavis <matthew.malishev@gmail.com>[m
+:[K[KDate:   Tue Nov 13 17:33:45 2018 -0500[m
+:[K[K[m
+:[K[K    init[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K+[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K+[K[K[7m(END)[27m[K[K [K::[K^J^J[K[7m(END)[27m[K[K [K::[Kww[K[7m(END)[27m[K[K[?1l>]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ 
+]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ 

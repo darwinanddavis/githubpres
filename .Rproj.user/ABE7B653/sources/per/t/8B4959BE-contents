@@ -419,7 +419,6 @@ git pull --allow-unrelated-histories origin master
 ```
 
 Delete files from a Github repo
-
 ```{bash eval=T, echo=T}
 # ensure you are in the default branch:
 git checkout master

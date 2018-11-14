@@ -201,3 +201,33 @@ installing_git.Rmd
 ]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ pwd
 /Users/malishev/Documents/Presentations/github
 ]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git add .
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git commit -,[Km ''t'r'o'i'b'l'[1P'[1P'[1P'[1P'b'l' 's'h'o'o't'i'n'g'[1Pshooting'[C[C[C[C[C[C[C g'sg'tg'eg'pg'sg'[1Pg'[1Pg'[1Pg'[1Pg'[1Pg'[1Pg'[C 's't'e'p's'
+[master 66b1dc4] trblshooting steps
+ 5 files changed, 85 insertions(+), 30 deletions(-)
+ rewrite .Rproj.user/ABE7B653/console06/INDEX001 (86%)
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git remote -v
+github	https://github.com/darwinanddavis/Presentations/Emory/github.git (fetch)
+github	https://github.com/darwinanddavis/Presentations/Emory/github.git (push)
+origin	https://github.com/darwinanddavis/githubpres.git (fetch)
+origin	https://github.com/darwinanddavis/githubpres.git (push)
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git push-[K -u origina[K master
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 2.03 KiB | 0 bytes/s, done.
+Total 10 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
+To https://github.com/darwinanddavis/githubpres.git
+   e81fbee..66b1dc4  master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ ls
+billnye.gif			installing_git.html
+filepage.png			installing_git.pdf
+github.Rproj			installing_git.tex
+github_presentation.Rmd		loadingpage.png
+github_presentation.html	newrepopage.png
+github_presentation.pdf		readme.png
+githublogo.png			repopage.png
+highlight.html			repopage_.png
+installing_git.Rmd
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git add .

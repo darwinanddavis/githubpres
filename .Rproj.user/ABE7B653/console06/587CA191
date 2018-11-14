@@ -188,4 +188,16 @@ Date:   Wed Nov 14 17:06:56 2018 -0500[m
 :[K[K[m
 :[K[K    init[m
 :[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K+[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K+[K[K[7m(END)[27m[K[K [K::[K^J^J[K[7m(END)[27m[K[K [K::[Kww[K[7m(END)[27m[K[K[?1l>]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ 
-]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ 
+ls
+billnye.gif			installing_git.html
+filepage.png			installing_git.pdf
+github.Rproj			installing_git.tex
+github_presentation.Rmd		loadingpage.png
+github_presentation.html	newrepopage.png
+github_presentation.pdf		readme.png
+githublogo.png			repopage.png
+highlight.html			repopage_.png
+installing_git.Rmd
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ pwd
+/Users/malishev/Documents/Presentations/github
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git add .

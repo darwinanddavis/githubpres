@@ -19,7 +19,7 @@ output:
   slidy_presentation:
     incremental: yes
 params: 
-  dir: "/Users/malishev/Documents/Emory/research/presentations/github"  
+  dir: "/Users/malishev/Documents/Presentations/github/"  
 ---
 
 ```{r, set-options, echo = FALSE, cache = FALSE}
@@ -325,10 +325,10 @@ git pull origin master # fetches any updates to online repo and merges them
 **fatal: refusing to merge unrelated histories**
 Usually associated with a README file on the Github repo  
 ```{bash eval=F, echo=T}  
-git pull origin master --allow-unrelated-histories # unnecessary parallel history merged to your project, 
-# usually associated with a README.md file
+git pull origin master --allow-unrelated-histories # unnecessary parallel history 
+# merged to your project. usually associated with a README.md file
 ```
-If VIM opens, type 'SHIFT + :'  
+If VIM opens, type 'SHIFT + :', then press ENTER  
 
 <!-- _____________________________ break ________________________________ -->
 # Cloning an existing repo {.flexbox .vcenter}   
@@ -365,10 +365,10 @@ git commit -m 'redo intro' # '-m' = message
 ### remote git (version control on your github)  
 ```{bash eval=F, echo=T}
 # after the above steps ^ 
-# see what remote repo you have. if a github one exists, you can push
+# see what remote repo you have. if a github one exists, you can just push
 git remote -v  
-# set the new remote repo if necessary  
-git remote add github "your github repo"  # if remote branch doesn't exist
+# set the new remote repo (if necessary)  
+git remote add origin "your github repo"  # if remote branch doesn't exist
 git remote set-url origin "your github repo"  # if already exists
 # push changes from local repo to remote repo 
 git push -u origin master
@@ -390,15 +390,23 @@ git reset --soft HEAD~1
 
 Alternative push option 
 ```{bash eval=F, echo=T}
-git remote set-url origin "link to existing github repo" # talk to github   
+# option 1
+git remote set-url origin "link to existing github repo" # talk to github 
+git push -u origin master
+# option 2
+git remote add github "your github repo"  # if remote branch doesn't exist
+git push -u github master
 ```
+
+<!-- _____________________________ break ________________________________ -->
+## Staging and pushing files (cont ...) {.build} 
 
 After pushing to your remote repo and this error appears:  
 ` ! [rejected] master -> master (fetch first)`
 ```{bash eval=F, echo=T}   
 git fetch origin master # match the local repo commit status to the push destination     
-git merge master #    
-git push -u origin master  
+git merge master # merge the recent commits    
+git push -u origin master # push to remote repo  
 
 # for non-fast-forward error  
 git fetch origin master:tmp

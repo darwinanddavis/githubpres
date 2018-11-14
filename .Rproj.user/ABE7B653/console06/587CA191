@@ -1,0 +1,25 @@
+]0;~/Documents/Emory/research/presentations/github[?1034h6300L-127771-M:github malishev$ [K6300L-127771-M:github malishev$ ls
+billnye.gif			installing_git.Rmd
+filepage.png			installing_git.html
+github.Rproj			installing_git.pdf
+github.pptx			installing_git.tex
+github_presentation.Rmd		loadingpage.png
+github_presentation.html	newrepopage.png
+github_presentation.pdf		readme.png
+githublogo.png			repopage.png
+highlight.html			repopage_.png
+]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git granch[K[K[K[K[K[Kbranch
+* [32mmaster[m
+]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ ls
+billnye.gif			installing_git.Rmd
+filepage.png			installing_git.html
+github.Rproj			installing_git.pdf
+github.pptx			installing_git.tex
+github_presentation.Rmd		loadingpage.png
+github_presentation.html	newrepopage.png
+github_presentation.pdf		readme.png
+githublogo.png			repopage.png
+highlight.html			repopage_.png
+]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git in;10D[K[K[K[K[Knit
+Reinitialized existing Git repository in /Users/malishev/Documents/Emory/research/presentations/github/.git/
+]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git add .

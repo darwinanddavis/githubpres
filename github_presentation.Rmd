@@ -358,6 +358,7 @@ git clone "github url" "new repo name (optional)"
 
 ### local git (version control on your comp)  
 ```{bash eval=F, echo=T}
+git init # initialise your local git  
 git add . # adds all files to git. replace '.' with filename for individ files
 git commit -m 'redo intro' # '-m' = message 
 ```
@@ -510,7 +511,11 @@ I'd rather you move towards open-access and reproducible research than be deterr
 
 ## Notes for improvement    
 
-
+- Make glossary of git notes and terms  
+- Make Windows specfic commands  
+- Highlight there are spaces between words in terminal  
+- Use gitbash   
+- start with github not local repo  
 
 <!-- _____________________________ BODY ________________________________ -->
 <!-- ____________________________________________________________________ -->

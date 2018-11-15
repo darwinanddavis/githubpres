@@ -244,3 +244,33 @@ remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4) 
 To https://github.com/darwinanddavis/githubpres.git
    66b1dc4..16393a0  master -> master
 ]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git SS[K[KA[Kadd . 
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git comit[K[Kmit -m ;;[K[K''g'e'n'e'r'a't'e' 'h'r'm'l'[1P'[1P'[1P't'm'l'
+[master 843bd35] generate html
+ 2 files changed, 26 insertions(+), 10 deletions(-)
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git oush[K[K[K[Kpush ;10D[K[K[K[K[K[K[K[K[Kremove [K[K[Kte -v
+github	https://github.com/darwinanddavis/Presentations/Emory/github.git (fetch)
+github	https://github.com/darwinanddavis/Presentations/Emory/github.git (push)
+origin	https://github.com/darwinanddavis/githubpres.git (fetch)
+origin	https://github.com/darwinanddavis/githubpres.git (push)
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git pish [K[K[K[Kush oi[Krifin[K[K[Kgin master
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 1.48 KiB | 0 bytes/s, done.
+Total 7 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To https://github.com/darwinanddavis/githubpres.git
+   16393a0..843bd35  master -> master
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ pwd
+/Users/malishev/Documents/Presentations/github
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ ls
+billnye.gif			installing_git.html
+filepage.png			installing_git.pdf
+github.Rproj			installing_git.tex
+github_presentation.Rmd		loadingpage.png
+github_presentation.html	newrepopage.png
+github_presentation.pdf		readme.png
+githublogo.png			repopage.png
+highlight.html			repopage_.png
+installing_git.Rmd
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git add .

@@ -47,7 +47,7 @@ tags:
 - nothing
 - nothingness
 params: 
-  dir: "/Users/malishev/Documents/Emory/research/presentations/github"
+  dir: "/Users/malishev/Documents/Presentations/github"
   date: !r Sys.Date()
   session: !r sessionInfo()  
   version: !r getRversion()
@@ -148,41 +148,150 @@ We'll be using the command line to talk with git.
 
 \  
 
+### Commmon `git` syntax     
+**Note: commands require spaces between terms.**  
+
+Common `git` phrases       
+```{bash eval=F, echo=T}
+init # initialise your git  
+push # push your changes to a remote repository  
+pull # pull changes made remotely to match local git changes  
+fetch # re-align git changes from origin (remote) to master (local) branch  
+```
+
+initialise a new git (local)     
+```{bash eval=F, echo=T}
+git init  
+```
+
+add all files in directory to git (local)     
+```{bash eval=F, echo=T}
+git add .
+```
+
+add individual file (local)     
+```{bash eval=F, echo=T}
+git add abstract.txt
+```
+
+check git activity  (local)  
+```{bash eval=F, echo=T}
+git status 
+``` 
+
+add remote origin source to push git (remote)
+```{bash eval=F, echo=T}
+# two options  
+get remote set-url origin https://github.com/darwinanddavis/newtest.git  
+git remote add origin https://github.com/darwinanddavis/newtest.git
+```
+
+push git changes to origin (your remote location) from your master (local) branch         
+```{bash eval=F, echo=T}
+git push origin master 
+```
+
+check latest git activity (local) 
+```{bash eval=F, echo=T}
+git log
+```
+
+check what remote locations you have available to push your gits  
+```{bash eval=F, echo=T}
+git remote -v # v = verbose    
+```
+
+add another remote destination (on github) called 'github' (remote) and push your staged git (file changes) to that remote location from your master (local) branch      
+```{bash eval=F, echo=T}
+git remote add github https://github.com/darwinanddavis/newtest.git 
+git push github master 
+```
+
 See these references for a brief intro to using the command line in [Mac](https://macpaw.com/how-to/use-terminal-on-mac) and [Windows](https://www.computerhope.com/issues/chusedos.htm).    
 
 \  
 
 Here is a brief intro. At least familiarise yourself with these before the workshop.  
 
-**Useful command line syntax**  
+### Useful command line syntax  
+**Note: commands require spaces between terms.**    
+
+`cd ~/Documents` change working dir to 'Documents'. `cd ..` move one level up
+
+`pwd` print current working dir    
+
+`ls` list files in working dir    
+
+`mkdir newfolder` make new working dir  
+
+`touch text.txt` create new file  
+
+### More useful syntax  
+**Note: commands require spaces between terms.**  
+
+copy files from _source_ to _destination_. e.g. cp /Users/mydir/README.txt ~/Documents    
+`cp source destination`      
+
+copy all folders, subfolders, and files from _source_ to _destination_    
+`cp -R source destination`    
+
+move files or folders from _source_ to _destination_ (no need for `-R`)    
+`mv source destination`    
+
+move multiple files with the * wildcard, which copies all .rtf files. The tilde (~) symbol is a shortcut for your Home folder, which contains '/Desktop'.      
+`cp ~/Desktop/*.rtf ~/Documents`    
+
+rename files      
+`mv ~/Desktop/MyFile.rtf ~/Desktop/MyFile-old.rtf`    
+`cp ~/Desktop/MyFile.rtf ~/Documents/MyFile-old.rtf`   
+
+### Example of command line workflow  
+**Install 'gitbash' to use Linux/Mac capabilities if not already**     
+
+
+Open _Terminal/cmd_       
 ```{bash eval=F, echo=T}
-cd # set working dir  
-pwd # print current working dir  
-ls # list files in working dir  
-mkdir newfolder # make new working dir
-touch text.txt # create new file 
+cd ~/Documents/ # change working dir
+ls # list dir contents      
+``` 
+
+Open _Finder/Windows_. Make a new project on your local comp.  
+```{bash eval=F, echo=T}
+# create new project  
+### <b> 
+cd ~/Documents
+### </b>
+# create new file 
+### <b> 
+touch test.txt  
+open test.txt  
+### </b> 
+# make a new folder  
+### <b> 
+mkdir newgit  
+### </b>
+# navigate to that folder  
+### <b>
+cd newgit
+ls -a  
+### </b>   
 ```
 
-**More useful syntax**        
+Create a new file in the command line       
 ```{bash eval=F, echo=T}
-#copy files from _source_ to _destination_. e.g. cp /Users/mydir/README.txt ~/Documents  
-cp source destination   
+# navigate to your new git repo  
+### <b>
+pwd  
+cd ~/Documents/newgit
+### </b> 
 
-# copy all folders, subfolders, and files from _source_ to _destination_  
-cp -R source destination  
-
-# move files or folders from _source_ to _destination_ (no need for `-R`)  
-mv source destination  
-
-#move multiple files with the * wildcard, which copies all .rtf files. The tilde (~) symbol is a shortcut for your Home folder, which contains '/Desktop'.
-cp ~/Desktop/*.rtf ~/Documents  
-
-# rename files 
-mv ~/Desktop/MyFile.rtf ~/Desktop/MyFile-old.rtf  
-cp ~/Desktop/MyFile.rtf ~/Documents/MyFile-old.rtf  
-
+# move the new file into the git repo      
+### <b> 
+mv ~/Documents/test.txt ~/Documents/newgit
+ls  
+### </b> 
 ```
-
+  
 ## References  
 [Installing git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)  
 

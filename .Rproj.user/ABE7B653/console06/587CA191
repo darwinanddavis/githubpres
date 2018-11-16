@@ -274,3 +274,45 @@ githublogo.png			repopage.png
 highlight.html			repopage_.png
 installing_git.Rmd
 ]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git add .
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git commit -m ''a'd'd' 'n'o't'e's'e notes'd notes'
+[master 18cf821] added notes
+ 3 files changed, 48 insertions(+), 2 deletions(-)
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git remote -v
+github	https://github.com/darwinanddavis/Presentations/Emory/github.git (fetch)
+github	https://github.com/darwinanddavis/Presentations/Emory/github.git (push)
+origin	https://github.com/darwinanddavis/githubpres.git (fetch)
+origin	https://github.com/darwinanddavis/githubpres.git (push)
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git push -u remote origin
+error: src refspec origin does not match any.
+error: failed to push some refs to 'remote'
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git push -u remote origin[K[K[K[K[K[K[K[K[K[K[K[K[K[K orgin[K[K[Kigin master
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 1.49 KiB | 0 bytes/s, done.
+Total 8 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+To https://github.com/darwinanddavis/githubpres.git
+   843bd35..18cf821  master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ w[Kpwd
+/Users/malishev/Documents/Presentations/github
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ pwdgit push -u origin masterremote origin[12Premote -vcommit -m 'added notes'add .[Kls[Kpwdgit push origin master[9Premote -vcommit -m 'generate html'add . [Kpush origin master[2Pcommit -m 'refs'add .[Kls[Kgit push -u origin master[12Premote -vcommit -m 'trblshooting steps'add .[K[6Ppwd[1Plsgit logstatus[3Plogls[Kpwdgit add .commit -m 'trblshooting steps'remote -v[Kpush -u origin masterls[Kgit add .commit -m 'refs'push origin master[12Padd . commit -m 'generate html'[16Premote -vpush origin masterpwd[K[1Plsgit add .commit -m 'added notes'[14Premote -vpush -u remote originorigin masterpwd[K[Kpwdgit push -u origin masterremote origin[12Premote -vcommit -m 'added notes'add .[Kls[Kpwd[1Plsgit add .commit -m 'added notes'[14Premote -vpush -u remote originorigin masterpwd[K[Kpwdgit push -u origin masterremote origin[12Premote -v
+github	https://github.com/darwinanddavis/Presentations/Emory/github.git (fetch)
+github	https://github.com/darwinanddavis/Presentations/Emory/github.git (push)
+origin	https://github.com/darwinanddavis/githubpres.git (fetch)
+origin	https://github.com/darwinanddavis/githubpres.git (push)
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ ls
+R_is_dope.Rmd			github_presentation_part2.html
+R_is_dope.html			githublogo.png
+R_is_dope.pdf			highlight.html
+R_is_dope.tex			installing_git.Rmd
+billnye.gif			installing_git.html
+billnye.png			installing_git.pdf
+filepage.png			installing_git.tex
+github.Rproj			loadingpage.png
+github_presentation.Rmd		newrepopage.png
+github_presentation.html	readme.png
+github_presentation.pdf		repopage.png
+github_presentation_part2.Rmd	repopage_.png
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git add .

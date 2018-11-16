@@ -126,7 +126,7 @@ GA, USA, 30322}}
 }
 \newpage   
 
-Date: 2018-11-14\\
+Date: 2018-11-16\\
 R version: 3.5.0\\
 *Corresponding author:
 \href{mailto:matthew.malishev@gmail.com}{\nolinkurl{matthew.malishev@gmail.com}}\\
@@ -230,6 +230,100 @@ We'll be using the command line to talk with git.
 
 ~
 
+\subsubsection{\texorpdfstring{Commmon \texttt{git}
+syntax}{Commmon git syntax}}\label{commmon-git-syntax}
+
+\textbf{Note: commands require spaces between terms.}
+
+Common \texttt{git} phrases
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{init} \CommentTok{# initialise your git  }
+\ExtensionTok{push} \CommentTok{# push your changes to a remote repository  }
+\ExtensionTok{pull} \CommentTok{# pull changes made remotely to match local git changes  }
+\ExtensionTok{fetch} \CommentTok{# re-align git changes from origin (remote) to master (local) branch  }
+\end{Highlighting}
+\end{Shaded}
+
+initialise a new git (local)
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{git}\NormalTok{ init  }
+\end{Highlighting}
+\end{Shaded}
+
+add all files in directory to git (local)
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{git}\NormalTok{ add .}
+\end{Highlighting}
+\end{Shaded}
+
+add individual file (local)
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{git}\NormalTok{ add abstract.txt}
+\end{Highlighting}
+\end{Shaded}
+
+check git activity (local)
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{git}\NormalTok{ status }
+\end{Highlighting}
+\end{Shaded}
+
+add remote origin source to push git (remote)
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# two options  }
+\ExtensionTok{get}\NormalTok{ remote set-url origin https://github.com/darwinanddavis/newtest.git  }
+\FunctionTok{git}\NormalTok{ remote add origin https://github.com/darwinanddavis/newtest.git}
+\end{Highlighting}
+\end{Shaded}
+
+push git changes to origin (your remote location) from your master
+(local) branch
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{git}\NormalTok{ push origin master }
+\end{Highlighting}
+\end{Shaded}
+
+check latest git activity (local)
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{git}\NormalTok{ log}
+\end{Highlighting}
+\end{Shaded}
+
+check what remote locations you have available to push your gits
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{git}\NormalTok{ remote -v }\CommentTok{# v = verbose    }
+\end{Highlighting}
+\end{Shaded}
+
+add another remote destination (on github) called `github' (remote) and
+push your staged git (file changes) to that remote location from your
+master (local) branch
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{git}\NormalTok{ remote add github https://github.com/darwinanddavis/newtest.git }
+\FunctionTok{git}\NormalTok{ push github master }
+\end{Highlighting}
+\end{Shaded}
+
 See these references for a brief intro to using the command line in
 \href{https://macpaw.com/how-to/use-terminal-on-mac}{Mac} and
 \href{https://www.computerhope.com/issues/chusedos.htm}{Windows}.
@@ -239,37 +333,101 @@ See these references for a brief intro to using the command line in
 Here is a brief intro. At least familiarise yourself with these before
 the workshop.
 
-\textbf{Useful command line syntax}
+\subsubsection{Useful command line
+syntax}\label{useful-command-line-syntax}
+
+\textbf{Note: commands require spaces between terms.}
+
+\texttt{cd\ \textasciitilde{}/Documents} change working dir to
+`Documents'. \texttt{cd\ ..} move one level up
+
+\texttt{pwd} print current working dir
+
+\texttt{ls} list files in working dir
+
+\texttt{mkdir\ newfolder} make new working dir
+
+\texttt{touch\ text.txt} create new file
+
+\subsubsection{More useful syntax}\label{more-useful-syntax}
+
+\textbf{Note: commands require spaces between terms.}
+
+copy files from \emph{source} to \emph{destination}. e.g.~cp
+/Users/mydir/README.txt \textasciitilde{}/Documents\\
+\texttt{cp\ source\ destination}
+
+copy all folders, subfolders, and files from \emph{source} to
+\emph{destination}\\
+\texttt{cp\ -R\ source\ destination}
+
+move files or folders from \emph{source} to \emph{destination} (no need
+for \texttt{-R})\\
+\texttt{mv\ source\ destination}
+
+move multiple files with the * wildcard, which copies all .rtf files.
+The tilde (\textasciitilde{}) symbol is a shortcut for your Home folder,
+which contains `/Desktop'.\\
+\texttt{cp\ \textasciitilde{}/Desktop/*.rtf\ \textasciitilde{}/Documents}
+
+rename files\\
+\texttt{mv\ \textasciitilde{}/Desktop/MyFile.rtf\ \textasciitilde{}/Desktop/MyFile-old.rtf}\\
+\texttt{cp\ \textasciitilde{}/Desktop/MyFile.rtf\ \textasciitilde{}/Documents/MyFile-old.rtf}
+
+\subsubsection{Example of command line
+workflow}\label{example-of-command-line-workflow}
+
+\textbf{Install `gitbash' to use Linux/Mac capabilities if not already}
+
+Open \emph{Terminal/cmd}
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\BuiltInTok{cd} \CommentTok{# set working dir  }
-\BuiltInTok{pwd} \CommentTok{# print current working dir  }
-\FunctionTok{ls} \CommentTok{# list files in working dir  }
-\FunctionTok{mkdir}\NormalTok{ newfolder }\CommentTok{# make new working dir}
-\FunctionTok{touch}\NormalTok{ text.txt }\CommentTok{# create new file }
+\BuiltInTok{cd}\NormalTok{ ~/Documents/ }\CommentTok{# change working dir}
+\FunctionTok{ls} \CommentTok{# list dir contents      }
 \end{Highlighting}
 \end{Shaded}
 
-\textbf{More useful syntax}
+Open \emph{Finder/Windows}. Make a new project on your local comp.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{#copy files from _source_ to _destination_. e.g. cp /Users/mydir/README.txt ~/Documents  }
-\FunctionTok{cp}\NormalTok{ source destination   }
+\CommentTok{# create new project  }
+\CommentTok{### <b> }
+\BuiltInTok{cd}\NormalTok{ ~/Documents}
+\CommentTok{### </b>}
+\CommentTok{# create new file }
+\CommentTok{### <b> }
+\FunctionTok{touch}\NormalTok{ test.txt  }
+\ExtensionTok{open}\NormalTok{ test.txt  }
+\CommentTok{### </b> }
+\CommentTok{# make a new folder  }
+\CommentTok{### <b> }
+\FunctionTok{mkdir}\NormalTok{ newgit  }
+\CommentTok{### </b>}
+\CommentTok{# navigate to that folder  }
+\CommentTok{### <b>}
+\BuiltInTok{cd}\NormalTok{ newgit}
+\FunctionTok{ls}\NormalTok{ -a  }
+\CommentTok{### </b>   }
+\end{Highlighting}
+\end{Shaded}
 
-\CommentTok{# copy all folders, subfolders, and files from _source_ to _destination_  }
-\FunctionTok{cp}\NormalTok{ -R source destination  }
+Create a new file in the command line
 
-\CommentTok{# move files or folders from _source_ to _destination_ (no need for `-R`)  }
-\FunctionTok{mv}\NormalTok{ source destination  }
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# navigate to your new git repo  }
+\CommentTok{### <b>}
+\BuiltInTok{pwd}  
+\BuiltInTok{cd}\NormalTok{ ~/Documents/newgit}
+\CommentTok{### </b> }
 
-\CommentTok{#move multiple files with the * wildcard, which copies all .rtf files. The tilde (~) symbol is a shortcut for your Home folder, which contains '/Desktop'.}
-\FunctionTok{cp}\NormalTok{ ~/Desktop/*.rtf ~/Documents  }
-
-\CommentTok{# rename files }
-\FunctionTok{mv}\NormalTok{ ~/Desktop/MyFile.rtf ~/Desktop/MyFile-old.rtf  }
-\FunctionTok{cp}\NormalTok{ ~/Desktop/MyFile.rtf ~/Documents/MyFile-old.rtf  }
+\CommentTok{# move the new file into the git repo      }
+\CommentTok{### <b> }
+\FunctionTok{mv}\NormalTok{ ~/Documents/test.txt ~/Documents/newgit}
+\FunctionTok{ls}  
+\CommentTok{### </b> }
 \end{Highlighting}
 \end{Shaded}
 

@@ -276,7 +276,7 @@ div.tocify {
   MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
 </script>
 
-<p>Date: 2018-11-13<br />
+<p>Date: 2018-11-16<br />
 R version: 3.5.0<br />
 *Corresponding author: <a href="mailto:matthew.malishev@gmail.com">matthew.malishev@gmail.com</a><br />
 This document can be found at <a href="https://github.com/darwinanddavis" class="uri">https://github.com/darwinanddavis</a><br />
@@ -334,31 +334,101 @@ This document can be found at <a href="https://github.com/darwinanddavis" class=
 <li>In Windows, it’s under <em>Start</em>, then in the Search line type <em>“cmd”</em>.</li>
 </ul>
 <p> </p>
+<div id="commmon-git-syntax" class="section level3">
+<h3>Commmon <code>git</code> syntax</h3>
+<p><strong>Note: commands require spaces between terms.</strong></p>
+<p>Common <code>git</code> phrases</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">init</span> <span class="co"># initialise your git  </span>
+<span class="ex">push</span> <span class="co"># push your changes to a remote repository  </span>
+<span class="ex">pull</span> <span class="co"># pull changes made remotely to match local git changes  </span>
+<span class="ex">fetch</span> <span class="co"># re-align git changes from origin (remote) to master (local) branch  </span></code></pre></div>
+<p>initialise a new git (local)</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> init  </code></pre></div>
+<p>add all files in directory to git (local)</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> add .</code></pre></div>
+<p>add individual file (local)</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> add abstract.txt</code></pre></div>
+<p>check git activity (local)</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> status </code></pre></div>
+<p>add remote origin source to push git (remote)</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="co"># two options  </span>
+<span class="ex">get</span> remote set-url origin https://github.com/darwinanddavis/newtest.git  
+<span class="fu">git</span> remote add origin https://github.com/darwinanddavis/newtest.git</code></pre></div>
+<p>push git changes to origin (your remote location) from your master (local) branch</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> push origin master </code></pre></div>
+<p>check latest git activity (local)</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> log</code></pre></div>
+<p>check what remote locations you have available to push your gits</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> remote -v <span class="co"># v = verbose    </span></code></pre></div>
+<p>add another remote destination (on github) called ‘github’ (remote) and push your staged git (file changes) to that remote location from your master (local) branch</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> remote add github https://github.com/darwinanddavis/newtest.git 
+<span class="fu">git</span> push github master </code></pre></div>
 <p>See these references for a brief intro to using the command line in <a href="https://macpaw.com/how-to/use-terminal-on-mac">Mac</a> and <a href="https://www.computerhope.com/issues/chusedos.htm">Windows</a>.</p>
 <p> </p>
 <p>Here is a brief intro. At least familiarise yourself with these before the workshop.</p>
-<p><strong>Useful command line syntax</strong></p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="bu">cd</span> <span class="co"># set working dir  </span>
-<span class="bu">pwd</span> <span class="co"># print current working dir  </span>
-<span class="fu">ls</span> <span class="co"># list files in working dir  </span>
-<span class="fu">mkdir</span> newfolder <span class="co"># make new working dir</span>
-<span class="fu">touch</span> text.txt <span class="co"># create new file </span></code></pre></div>
-<p><strong>More useful syntax</strong></p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="co">#copy files from _source_ to _destination_. e.g. cp /Users/mydir/README.txt ~/Documents  </span>
-<span class="fu">cp</span> source destination   
+</div>
+<div id="useful-command-line-syntax" class="section level3">
+<h3>Useful command line syntax</h3>
+<p><strong>Note: commands require spaces between terms.</strong></p>
+<p><code>cd ~/Documents</code> change working dir to ‘Documents’. <code>cd ..</code> move one level up</p>
+<p><code>pwd</code> print current working dir</p>
+<p><code>ls</code> list files in working dir</p>
+<p><code>mkdir newfolder</code> make new working dir</p>
+<p><code>touch text.txt</code> create new file</p>
+</div>
+<div id="more-useful-syntax" class="section level3">
+<h3>More useful syntax</h3>
+<p><strong>Note: commands require spaces between terms.</strong></p>
+<p>copy files from <em>source</em> to <em>destination</em>. e.g. cp /Users/mydir/README.txt ~/Documents<br />
+<code>cp source destination</code></p>
+<p>copy all folders, subfolders, and files from <em>source</em> to <em>destination</em><br />
+<code>cp -R source destination</code></p>
+<p>move files or folders from <em>source</em> to <em>destination</em> (no need for <code>-R</code>)<br />
+<code>mv source destination</code></p>
+<p>move multiple files with the * wildcard, which copies all .rtf files. The tilde (~) symbol is a shortcut for your Home folder, which contains ‘/Desktop’.<br />
+<code>cp ~/Desktop/*.rtf ~/Documents</code></p>
+<p>rename files<br />
+<code>mv ~/Desktop/MyFile.rtf ~/Desktop/MyFile-old.rtf</code><br />
+<code>cp ~/Desktop/MyFile.rtf ~/Documents/MyFile-old.rtf</code></p>
+</div>
+<div id="example-of-command-line-workflow" class="section level3">
+<h3>Example of command line workflow</h3>
+<p><strong>Install ‘gitbash’ to use Linux/Mac capabilities if not already</strong></p>
+<p>Open <em>Terminal/cmd</em></p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="bu">cd</span> ~/Documents/ <span class="co"># change working dir</span>
+<span class="fu">ls</span> <span class="co"># list dir contents      </span></code></pre></div>
+<p>Open <em>Finder/Windows</em>. Make a new project on your local comp.</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="co"># create new project  </span>
+<span class="co">### &lt;b&gt; </span>
+<span class="bu">cd</span> ~/Documents
+<span class="co">### &lt;/b&gt;</span>
+<span class="co"># create new file </span>
+<span class="co">### &lt;b&gt; </span>
+<span class="fu">touch</span> test.txt  
+<span class="ex">open</span> test.txt  
+<span class="co">### &lt;/b&gt; </span>
+<span class="co"># make a new folder  </span>
+<span class="co">### &lt;b&gt; </span>
+<span class="fu">mkdir</span> newgit  
+<span class="co">### &lt;/b&gt;</span>
+<span class="co"># navigate to that folder  </span>
+<span class="co">### &lt;b&gt;</span>
+<span class="bu">cd</span> newgit
+<span class="fu">ls</span> -a  
+<span class="co">### &lt;/b&gt;   </span></code></pre></div>
+<p>Create a new file in the command line</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="co"># navigate to your new git repo  </span>
+<span class="co">### &lt;b&gt;</span>
+<span class="bu">pwd</span>  
+<span class="bu">cd</span> ~/Documents/newgit
+<span class="co">### &lt;/b&gt; </span>
 
-<span class="co"># copy all folders, subfolders, and files from _source_ to _destination_  </span>
-<span class="fu">cp</span> -R source destination  
-
-<span class="co"># move files or folders from _source_ to _destination_ (no need for `-R`)  </span>
-<span class="fu">mv</span> source destination  
-
-<span class="co">#move multiple files with the * wildcard, which copies all .rtf files. The tilde (~) symbol is a shortcut for your Home folder, which contains '/Desktop'.</span>
-<span class="fu">cp</span> ~/Desktop/*.rtf ~/Documents  
-
-<span class="co"># rename files </span>
-<span class="fu">mv</span> ~/Desktop/MyFile.rtf ~/Desktop/MyFile-old.rtf  
-<span class="fu">cp</span> ~/Desktop/MyFile.rtf ~/Documents/MyFile-old.rtf  </code></pre></div>
+<span class="co"># move the new file into the git repo      </span>
+<span class="co">### &lt;b&gt; </span>
+<span class="fu">mv</span> ~/Documents/test.txt ~/Documents/newgit
+<span class="fu">ls</span>  
+<span class="co">### &lt;/b&gt; </span></code></pre></div>
+</div>
 </div>
 <div id="references" class="section level2">
 <h2>References</h2>

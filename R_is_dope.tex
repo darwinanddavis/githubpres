@@ -1,0 +1,318 @@
+\documentclass[10,portrait]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true]{hyperref}
+\PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
+\hypersetup{
+            pdftitle={R is dope AF},
+            colorlinks=true,
+            linkcolor=blue,
+            citecolor=red,
+            urlcolor=blue,
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[margin=1in]{geometry}
+\usepackage[]{biblatex}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\title{R is dope AF}
+\author{Matthew
+Malishev\textsuperscript{1}*\\[2\baselineskip]\emph{\textsuperscript{1}
+Department of Biology, Emory University, 1510 Clifton Road NE, Atlanta,
+GA, USA, 30322}}
+\date{}
+
+\begin{document}
+\maketitle
+
+{
+\hypersetup{linkcolor=black}
+\setcounter{tocdepth}{4}
+\tableofcontents
+}
+\newpage   
+
+Date: 2018-11-16\\
+R version: 3.5.0\\
+*Corresponding author:
+\href{mailto:matthew.malishev@gmail.com}{\nolinkurl{matthew.malishev@gmail.com}}\\
+This document can be found at
+\url{https://github.com/darwinanddavis/SchistoIBM/tree/master/mac}
+
+~
+
+R session info
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{params}\OperatorTok{$}\NormalTok{session}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+R version 3.5.0 (2018-04-23)
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+Running under: OS X El Capitan 10.11.6
+
+Matrix products: default
+BLAS: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRblas.0.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+ [1] compiler_3.5.0  backports_1.1.2 magrittr_1.5    rprojroot_1.3-2 tools_3.5.0     htmltools_0.3.6
+ [7] pillar_1.2.3    tibble_1.4.2    yaml_2.2.0      Rcpp_0.12.19    stringi_1.2.3   rmarkdown_1.10 
+[13] knitr_1.20      stringr_1.3.1   digest_0.6.15   rlang_0.3.0.1   evaluate_0.10.1
+\end{verbatim}
+
+\newpage  
+
+\subsection{Overview}\label{overview}
+
+This document showcases why \texttt{R} is \textbf{dope}.
+
+You can write in-line \texttt{code}, equations like this \(E = mc^{2}\),
+create links to your \href{https://github.com/darwinanddavis}{website}.
+
+\subsubsection{\texorpdfstring{Just like LateX, but \emph{more
+versatile}.}{Just like LateX, but more versatile.}}\label{just-like-latex-but-more-versatile.}
+
+Create quoted text
+
+\begin{quote}
+Pump the bass in the trunk //\\
+It rattled like a baby hand //\\
+Except this toy cost 80 grand //\\
+And I'm crazy tan, from all the places that I've been //\\
+Just from writing words with a pen //
+\end{quote}
+
+Define equations\\
+\[
+t'=
+\frac
+{1}
+{
+\sqrt{1 - \frac
+{v^{2}}
+{c^{2}}
+}
+}
+\]
+
+Embed images/gifs:
+
+\includegraphics{billnye.png}.
+
+\newpage  
+
+Embed code from different languages.
+
+This is \texttt{R} code
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ControlFlowTok{if}\NormalTok{(pck}\OperatorTok{==}\DecValTok{1}\NormalTok{)\{}
+\NormalTok{  p<-}\KeywordTok{c}\NormalTok{(}\StringTok{"rJava"}\NormalTok{, }\StringTok{"RNetLogo"}\NormalTok{); }\KeywordTok{remove.packages}\NormalTok{(p)}
+  \CommentTok{# then install rJava and RNetLogo from source}
+  \KeywordTok{install.packages}\NormalTok{(}\StringTok{"rJava"}\NormalTok{, }\DataTypeTok{repos =} \StringTok{"https://cran.r-project.org/"}\NormalTok{, }\DataTypeTok{type=}\StringTok{"source"}\NormalTok{); }\KeywordTok{library}\NormalTok{(rJava)}
+  \KeywordTok{install.packages}\NormalTok{(}\StringTok{"RNetLogo"}\NormalTok{, }\DataTypeTok{repos =} \StringTok{"https://cran.r-project.org/"}\NormalTok{, }\DataTypeTok{type=}\StringTok{"source"}\NormalTok{); }\KeywordTok{library}\NormalTok{(RNetLogo)}
+\NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\texttt{shell/bash}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\BuiltInTok{echo} \StringTok{"Hello Bash!"}  
+\BuiltInTok{pwd} \CommentTok{# check working dir}
+\FunctionTok{git}\NormalTok{ init }\CommentTok{# initialise git}
+\end{Highlighting}
+\end{Shaded}
+
+Octave (and MATLAB from the \texttt{RMatlab} package).\\
+\href{https://cran.r-project.org/web/packages/R.matlab/index.html}{\texttt{RMatlab\ documentation}}.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{b = [}\FloatTok{4}\NormalTok{; }\FloatTok{9}\NormalTok{; }\FloatTok{2}\NormalTok{] }\CommentTok{# Column vector}
+\NormalTok{A = [ }\FloatTok{3} \FloatTok{4} \FloatTok{5}\NormalTok{;}
+      \FloatTok{1} \FloatTok{3} \FloatTok{1}\NormalTok{;}
+      \FloatTok{3} \FloatTok{5} \FloatTok{9}\NormalTok{ ]}
+\NormalTok{x = A \textbackslash{} b     }\CommentTok{# Solve the system Ax = b}
+\end{Highlighting}
+\end{Shaded}
+
+HTML
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{<!-- links-->}
+        \KeywordTok{<div}\OtherTok{ class=}\StringTok{"footer"}\KeywordTok{>}
+            \KeywordTok{<a}\OtherTok{ href=}\StringTok{"dd_feed.html"} 
+\OtherTok{            class=}\StringTok{"transition fade_in"}\KeywordTok{>}
+\NormalTok{                Latest post}
+            \KeywordTok{</a>}
+            \DecValTok{&nbsp;} \DecValTok{&nbsp;} \DecValTok{&nbsp;}
+            \KeywordTok{<a}\OtherTok{ href=}\StringTok{"dd_contact.html"} 
+\OtherTok{            class=}\StringTok{"transition fade_in"}\KeywordTok{>}
+\NormalTok{                Contact}
+            \KeywordTok{</a>}
+            \DecValTok{&nbsp;} \DecValTok{&nbsp;} \DecValTok{&nbsp;}
+            \KeywordTok{<a}\OtherTok{ href=}\StringTok{"dd_subscribe.html"}
+\OtherTok{            class=}\StringTok{"transition fade_in"}\KeywordTok{>}
+\NormalTok{                Subscribe}
+            \KeywordTok{</a>}
+        \KeywordTok{</div>}
+\end{Highlighting}
+\end{Shaded}
+
+CSS
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{body }\KeywordTok{\{}
+  \KeywordTok{color:} \DataTypeTok{red}\KeywordTok{;}
+\KeywordTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+Javascript to access \texttt{html} and \texttt{css}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\AttributeTok{$}\NormalTok{(}\StringTok{'.title'}\NormalTok{).}\AttributeTok{css}\NormalTok{(}\StringTok{'color'}\OperatorTok{,} \StringTok{'red'}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+Python
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{x }\OperatorTok{=} \StringTok{'hello, python world!'}
+\BuiltInTok{print}\NormalTok{(x.split(}\StringTok{' '}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+Here's a complete list of available languages
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{names}\NormalTok{(knitr}\OperatorTok{::}\NormalTok{knit_engines}\OperatorTok{$}\KeywordTok{get}\NormalTok{())}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+ [1] "awk"       "bash"      "coffee"    "gawk"      "groovy"    "haskell"   "lein"      "mysql"    
+ [9] "node"      "octave"    "perl"      "psql"      "Rscript"   "ruby"      "sas"       "scala"    
+[17] "sed"       "sh"        "stata"     "zsh"       "highlight" "Rcpp"      "tikz"      "dot"      
+[25] "c"         "fortran"   "fortran95" "asy"       "cat"       "asis"      "stan"      "block"    
+[33] "block2"    "js"        "css"       "sql"       "go"        "python"    "julia"    
+\end{verbatim}
+
+\subsubsection{\texorpdfstring{All from
+\texttt{R}!}{All from R!}}\label{all-from-r}
+
+\printbibliography
+
+\end{document}

@@ -209,6 +209,14 @@ You can dump the contents of any public repo, including its complete version his
 ### - A steeper learning curve, **but worth the investment**     
 
 <!-- _____________________________ break ________________________________ -->
+## Workflow example {.build}   
+
+### Open an '.Rproj' with self-contained files  
+### Use the `R Studio` in-built command line connected to your Github    
+### Backup straight from `R`    
+### _Cake!_        
+
+<!-- _____________________________ break ________________________________ -->
 ## Notes for improvement    
 
 - Make Windows specfic commands    

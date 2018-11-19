@@ -368,3 +368,31 @@ Changes not staged for commit:
 
 no changes added to commit
 ]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ add [K[K[K[Kgit add .
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ g[Kgit add .commit -m 'create automated commits/push'
+[master 070d2db] create automated commits/push
+ 6 files changed, 616 insertions(+), 523 deletions(-)
+ rewrite R_is_dope.html (94%)
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git pish oro[K[K[K[K[K[K[Kush oriign[K[K[Kgin master
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects:   9% (1/11)   Compressing objects:  18% (2/11)   Compressing objects:  27% (3/11)   Compressing objects:  36% (4/11)   Compressing objects:  45% (5/11)   Compressing objects:  54% (6/11)   Compressing objects:  63% (7/11)   Compressing objects:  72% (8/11)   Compressing objects:  81% (9/11)   Compressing objects:  90% (10/11)   Compressing objects: 100% (11/11)   Compressing objects: 100% (11/11), done.
+Writing objects:   9% (1/11)   Writing objects:  18% (2/11)   Writing objects:  27% (3/11)   Writing objects:  36% (4/11)   Writing objects:  45% (5/11)   Writing objects:  54% (6/11)   Writing objects:  63% (7/11)   Writing objects:  72% (8/11)   Writing objects:  81% (9/11)   Writing objects:  90% (10/11)   Writing objects: 100% (11/11)   Writing objects: 100% (11/11), 53.54 KiB | 0 bytes/s, done.
+Total 11 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  12% (1/8)   [Kremote: Resolving deltas:  25% (2/8)   [Kremote: Resolving deltas:  37% (3/8)   [Kremote: Resolving deltas:  50% (4/8)   [Kremote: Resolving deltas:  62% (5/8)   [Kremote: Resolving deltas:  75% (6/8)   [Kremote: Resolving deltas:  87% (7/8)   [Kremote: Resolving deltas: 100% (8/8)   [Kremote: Resolving deltas: 100% (8/8), completed with 8 local objects.[K
+To https://github.com/darwinanddavis/githubpres.git
+   9fe09b3..070d2db  master -> master
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ ls
+R_is_dope.Rmd			githublogo.png
+R_is_dope.html			highlight.html
+R_is_dope.pdf			installing_git.Rmd
+R_is_dope.tex			installing_git.html
+billnye.gif			installing_git.pdf
+billnye.png			installing_git.tex
+filepage.png			loadingpage.png
+github.Rproj			newgit.R
+github_presentation.Rmd		newrepopage.png
+github_presentation.html	readme.png
+github_presentation.pdf		repopage.png
+github_presentation_part2.Rmd	repopage_.png
+github_presentation_part2.html
+]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git add .

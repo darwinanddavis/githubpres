@@ -95,7 +95,7 @@ $(document).ready(function() {
 ## Workflow example {.build}   
 
 ### Open an '.Rproj' with self-contained files  
-### Use the `R Studio` in-built terminal connected to your Github    
+### Use the `R Studio` in-built command line connected to your Github    
 ### Backup straight from `R`    
 ### _Cake!_        
 
@@ -113,7 +113,7 @@ R workflow example with git
 ### Annotation    
 ```{r}
 N <- 20 # set rep number  
-p <- rep(rnorm(100),N) # repeat a random normal dist of 100 integers N times  
+p <- rep(rnorm(100),N) # repeat a random normal dist N times  
 ```
 ### _Tab_ is your friend  
 
@@ -173,7 +173,7 @@ rename files
 ## 1. Create a repo {.build}     
 
 **Initialise your new local repo**
-```{bash eval=F, echo=T}
+```{shell eval=F, echo=T}
 # initialise your local git
 ### <b> 
 git init  
@@ -184,14 +184,14 @@ git init
 ## 2. Create and stage your files {.build}    
 
 Add the files in your folder to the local git repo    
-```{bash eval=F, echo=T}  
+```{shell eval=F, echo=T}  
 ### <b> 
 git add . # the '.' adds everything 
 ### </b>
 ```
 
 Stage the files for the commit   
-```{bash eval=F, echo=T}  
+```{shell eval=F, echo=T}  
 ### <b> 
 git commit -m 'init commit' # -m adds a message  
 ### </b> 
@@ -200,11 +200,10 @@ git commit -m 'init commit' # -m adds a message
 ### We've now added and staged files to a local repo. **Version control!**    
 
 Let's check the changes    
-```{bash eval=F, echo=T}
+```{shell eval=F, echo=T}
 ### <b> 
 git log # recent git activity
 ### </b> 
-
 git add test.txt # adds individual files  
 git status # check what git is doing 
 ```
@@ -216,7 +215,7 @@ Now we push the changes we made from our local repo to our Github cloud.
 
 1. Create a new Github repo. Name is using best practice, e.g. no spaces   
 2. Don't create a README. Yet.  
-  - **Uncheck the box 'Initialise this Github with a README'**
+- **Uncheck the box 'Initialise this Github with a README'.**
 
 <!-- ----------------------- image --------------------------- -->
 <div align="right">
@@ -239,7 +238,7 @@ First, copy the Github repo link you want to push to. Select either **https** or
 ## 3. Push to a remote github repo (cont ...) {.build}  
 
 Then push your staged (`commit`) files from your local repo to the remote repo  
-```{bash eval=F, echo=T}  
+```{shell eval=F, echo=T}  
 # set the new remote repo
 ### <b>
 git remote set-url origin "your github repo"  
@@ -266,7 +265,7 @@ git push origin master
 This creates a git repository on your local machine complete with version control.  
 
 Every version of every file for the history of the project is grabbed by default when you run `git clone`.  
-```{bash echo=T, eval=F}
+```{shell echo=T, eval=F}
 git clone "github url" "new repo name (optional)"
 # e.g. git clone https://github.com/darwinanddavis/UsefulCode mynewrepo 
 ```
@@ -284,14 +283,14 @@ git clone "github url" "new repo name (optional)"
 ## The short version {.build}    
 
 ### local git (version control on your comp)  
-```{bash eval=F, echo=T}
+```{shell eval=F, echo=T}
 git init # initialise your local git  
 git add . # adds all files to git. replace '.' with filename for individ files
 git commit -m 'redo intro' # '-m' = message 
 ```
 
 ### remote git (version control on your github)  
-```{bash eval=F, echo=T}
+```{shell eval=F, echo=T}
 # after the above steps ^ 
 # see what remote repo you have. if a github one exists, you can just push
 git remote -v  
@@ -312,7 +311,7 @@ git push -u origin master
 
 **fatal: remote origin already exists**  
 The remote origin already exists, so you can't add it again
-```{bash eval=F, echo=T}  
+```{shell eval=F, echo=T}  
 git remote rm origin # if origin already exists, remove it
 git remote add origin "your github repo" # then re-add 
 git push origin master # then push again  
@@ -320,7 +319,7 @@ git push origin master # then push again
 
 **! [rejected] master -> master (non-fast-forward)**
 Someone else has made changes since your latest ones and git refuses to lose the commit, so won't push your new changes  
-```{bash eval=F, echo=T}  
+```{shell eval=F, echo=T}  
 git pull origin master # fetches any updates to online repo and merges them    
 ```
 
@@ -329,7 +328,7 @@ git pull origin master # fetches any updates to online repo and merges them
 
 **fatal: refusing to merge unrelated histories**
 Usually associated with a README file on the Github repo  
-```{bash eval=F, echo=T}  
+```{shell eval=F, echo=T}  
 git pull origin master --allow-unrelated-histories # unnecessary parallel history 
 # merged to your project. usually associated with a README.md file
 ```
@@ -339,12 +338,12 @@ If VIM opens, type 'SHIFT + :', then press ENTER
 ## Staging and pushing files {.build} 
 
 Re-do a commit    
-```{bash eval=F, echo=T}
+```{shell eval=F, echo=T}
 git reset --soft HEAD~1
 ```
 
 Alternative push option 
-```{bash eval=F, echo=T}
+```{shell eval=F, echo=T}
 # option 1
 git remote set-url origin "link to existing github repo" # talk to github 
 git push -u origin master
@@ -358,7 +357,7 @@ git push -u github master
 
 After pushing to your remote repo and this error appears:  
 ` ! [rejected] master -> master (fetch first)`
-```{bash eval=F, echo=T}   
+```{shell eval=F, echo=T}   
 git fetch origin master # match the local repo commit status to the push destination     
 git merge master # merge the recent commits    
 git push -u origin master # push to remote repo  
@@ -376,7 +375,7 @@ git push -u origin master # finalise the changes
 ## Staging and pushing files (cont ...) {.build} 
 
 For `fatal: refusing to merge unrelated histories` error  
-```{bash eval=F, echo=T}   
+```{shell eval=F, echo=T}   
 git checkout master
 git merge origin/master --allow-unrelated-histories
 # or run this before your 'git pull origin master' command  
@@ -384,7 +383,7 @@ git pull --allow-unrelated-histories origin master
 ```
 
 Delete files from a Github repo
-```{bash eval=T, echo=T}
+```{shell eval=T, echo=T}
 # ensure you are in the default branch:
 git checkout master
 # the rm -r command will recursively remove your folder:
@@ -395,27 +394,36 @@ git commit -m "Remove duplicated directory"
 git push origin master
 ```
 
-<!-- _____________________________ break ________________________________ -->
+<!-- __________________________ break _______________________________ -->
 ## Accessibility  {.build}  
 
 If Github questions your user credentials.      
-```{bash eval=F, echo=T}
+```{shell eval=F, echo=T}
 git config --global user.email "<your email>" 
 git config --global user.name "<your github user name>" 
 ```
+
+Cache your user credentials to avoid being asked everytime  
+```{shell eval=F, echo=T}
+# once in git directory   
+git config credential.helper store  
+```
+
+<!-- __________________________ break _______________________________ -->
+## Accessibility (cont ...)  {.build}  
 
 When using SSH for your github remote repo, e.g. `git@github.com:username/reponame.git` 
 
 [Generating a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)  
 
 Accessing your SSH key:  
-- In Mac, in _Terminal_, type 
-```{bash eval=F, echo=T}
+
+- In Mac, in _Terminal_, type   
+```{shell eval=F, echo=T}
 cat ~/.ssh/id_rsa.pub  
 ```
-
-- In Windows, in _cmd_, type 
-```{bash eval=F, echo=T}
+- In Windows, in _cmd_, type   
+```{shell eval=F, echo=T}
 ls ~/.ssh/*.pub   
 ```
 
@@ -426,11 +434,37 @@ ls ~/.ssh/*.pub
 
 [How to access recent commits to your local repo](https://stackoverflow.com/questions/4114095/how-to-revert-a-git-repository-to-a-previous-commit)  
 
-```{bash eval=F, echo=T}
+```{shell eval=F, echo=T}
 git log # check recent activity and select commit e.g. 0df4g3 ...  
-git checkout "your commit"  
+git checkout "enter your commit tag"  
 git checkout master  # return to current branch 
 ```
+
+<!-- _____________________________ break ________________________________ -->
+## Creating automatic commits/push commands {.build} 
+
+1. Install `fswatch` https://github.com/emcrisostomo/fswatch (requires [Homebrew package manager](https://brew.sh/) for Max OSX).  
+
+2. Create a script for the commit and push (auto_commit_push.sh)  
+
+```{shell eval=F, echo=T}  
+#!/bin/bash
+# <<branch>> = branch you are pushing to
+git commit -m "auto commit" $1 
+git push origin <<branch>> 
+```
+
+<!-- _____________________________ break ________________________________ -->
+## Creating automatic commits/push commands (cont ...) {.build} 
+
+3. In Terminal, navigate to your folder with the git  
+```{shell eval=F, echo=T}  
+# <<file>> = file you want to monitor
+# <<path/to/auto_commit_push.sh>> = path to the script created above
+fswatch -0 <<file>> | xargs -0 -n 1 bash <<path/to/auto_commit_push.sh>>
+```
+
+4. Keep the `fswatch` command still active in a separate shell, do whatever you want and when monitored file is updated, it will automatically be committed and pushed.      
 
 <!-- _____________________________ break ________________________________ -->
 ## References  
@@ -443,7 +477,9 @@ git checkout master  # return to current branch
 
 [Origin master - rejected (fetch first), no file in GitHub repository](https://stackoverflow.com/questions/46619527/gitbash-origin-master-rejected-fetch-first-no-file-in-github-repository)    
 
-[Intro to git: Branches, pull requests, and other useful stuff](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)  
+[Intro to git: Branches, pull requests, and other useful stuff](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)   
+
+[Automatically push an updated file whenever it is changed](https://gist.github.com/darencard/5d42319abcb6ec32bebf6a00ecf99e86)     
 
 <!-- _____________________________ BODY ________________________________ -->
 <!-- ____________________________________________________________________ -->

@@ -139,7 +139,7 @@ $$
 
 Embed images/gifs:  
 
-![Science](billnye.png).    
+![Science](githublogo.png).    
 
 \newpage  
 

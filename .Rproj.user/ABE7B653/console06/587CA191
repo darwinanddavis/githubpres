@@ -396,3 +396,59 @@ github_presentation.pdf		repopage.png
 github_presentation_part2.Rmd	repopage_.png
 github_presentation_part2.html
 ]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git add .
+[K6300L-127771-M:githubpres malishev$ ls
+R_is_dope.Rmd			githublogo.png
+R_is_dope.html			highlight.html
+R_is_dope.pdf			installing_git.Rmd
+R_is_dope.tex			installing_git.html
+billnye.gif			installing_git.pdf
+billnye.png			installing_git.tex
+filepage.png			loadingpage.png
+github.Rproj			newgit.R
+github_presentation.Rmd		newrepopage.png
+github_presentation.html	readme.png
+github_presentation.pdf		repopage.png
+github_presentation_part2.Rmd	repopage_.png
+github_presentation_part2.html
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ ls-a[K[K[Ks -a
+.				github_presentation.pdf
+..				github_presentation_part2.Rmd
+.Rhistory			github_presentation_part2.html
+.Rproj.user			githublogo.png
+.git				highlight.html
+.gitignore			installing_git.Rmd
+R_is_dope.Rmd			installing_git.html
+R_is_dope.html			installing_git.pdf
+R_is_dope.pdf			installing_git.tex
+R_is_dope.tex			loadingpage.png
+billnye.gif			newgit.R
+billnye.png			newrepopage.png
+filepage.png			readme.png
+github.Rproj			repopage.png
+github_presentation.Rmd		repopage_.png
+github_presentation.html
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/ABE7B653/console06/587CA191[m
+	[31mmodified:   .Rproj.user/ABE7B653/console06/587CA191.env[m
+	[31mmodified:   .Rproj.user/ABE7B653/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/ABE7B653/pcs/source-pane.pper[m
+	[31mmodified:   .Rproj.user/ABE7B653/pcs/windowlayoutstate.pper[m
+	[31mmodified:   .Rproj.user/ABE7B653/rmd-outputs[m
+	[31mmodified:   .Rproj.user/ABE7B653/sources/prop/INDEX[m
+	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
+	[31mmodified:   R_is_dope.Rmd[m
+	[31mmodified:   R_is_dope.html[m
+	[31mmodified:   R_is_dope.pdf[m
+	[31mmodified:   R_is_dope.tex[m
+	[31mmodified:   github_presentation.Rmd[m
+	[31mmodified:   github_presentation.html[m
+	[31mmodified:   github_presentation_part2.Rmd[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .

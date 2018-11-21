@@ -19,7 +19,7 @@ output:
   slidy_presentation:
     incremental: yes
 params: 
-  dir: "/Users/malishev/Documents/Presentations/github"  
+  dir: "/Users/malishev/Documents/Presentations/githubpres"
 ---
 
 ```{r, set-options, echo = FALSE, cache = FALSE}

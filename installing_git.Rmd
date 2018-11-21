@@ -47,7 +47,7 @@ tags:
 - nothing
 - nothingness
 params: 
-  dir: "/Users/malishev/Documents/Presentations/github"
+  dir: "/Users/malishev/Documents/Presentations/githubpres" 
   date: !r Sys.Date()
   session: !r sessionInfo()  
   version: !r getRversion()

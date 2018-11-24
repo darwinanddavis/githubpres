@@ -146,15 +146,21 @@ p <- rep(rnorm(100),N) # repeat a random normal dist of 100 integers N times
 ### 3. Upload changes to a remote Github repo  
 
 <!-- _____________________________ break ________________________________ -->
-## 1. Create a local repo {.build}     
+## 1. Create a local repo {.build}  
+
+- _Initialise_ a local repository (repo) in your folder [`git init`]    
+- Repos are directory-specific and log info for that directory  
 
 <!-- _____________________________ break ________________________________ -->
-## 2. Add your files{.build}     
+## 2. Add your files {.build}     
+
+- Stage (_add_) your files [`git add`]         
+- _Commit_ your files to a git (backup) [`git commit`]      
 
 <!-- _____________________________ break ________________________________ -->
 ## 3. Upload changes to a remote Github repo {.build}        
 
-Now we push the changes we made from our local repo to our Github cloud.  
+Now we _push_ [`git push`] the changes we made from our local repo to our Github cloud.    
 
 1. Create a new Github repo. Name is using best practice, e.g. no spaces   
 2. Don't create a README

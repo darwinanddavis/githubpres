@@ -89,7 +89,16 @@ $(document).ready(function() {
 ### Complete control and ease of workflow  
 ### Automate your commands, e.g. schedule an automatic daily backup  
 ### Transparent history  
-### A steeper learning curve, **but worth the investment**       
+### A steeper learning curve, **but worth the investment**  
+
+<!-- _____________________________ break ________________________________ -->
+## Why use the command line (cont ...)? {.build}  
+\  
+\  
+\  
+```{bash}
+telnet towel.blinkenlights.nl # watch movie in ascii  
+```
 
 <!-- _____________________________ break ________________________________ -->
 ## Workflow example {.build}   

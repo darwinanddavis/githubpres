@@ -126,7 +126,7 @@ GA, USA, 30322}}
 }
 \newpage   
 
-Date: 2018-11-21\\
+Date: 2018-11-27\\
 R version: 3.5.0\\
 *Corresponding author:
 \href{mailto:matthew.malishev@gmail.com}{\nolinkurl{matthew.malishev@gmail.com}}\\
@@ -202,6 +202,30 @@ t'=
 Embed images/gifs:
 
 \includegraphics{githublogo.png}.
+
+\newpage    
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{set.seed}\NormalTok{(}\DecValTok{12}\NormalTok{)}
+\NormalTok{rr <-}\StringTok{ }\KeywordTok{rnorm}\NormalTok{(}\DecValTok{500}\NormalTok{)}
+\KeywordTok{plot}\NormalTok{(rr,}\DataTypeTok{col=}\KeywordTok{rainbow}\NormalTok{(}\DecValTok{200}\NormalTok{),}\DataTypeTok{pch=}\DecValTok{20}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{R_is_dope_files/figure-latex/unnamed-chunk-3-1.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{require}\NormalTok{(viridis)}
+\KeywordTok{set.seed}\NormalTok{(}\DecValTok{12}\NormalTok{)}
+\NormalTok{rr <-}\StringTok{ }\KeywordTok{rnorm}\NormalTok{(}\DecValTok{500}\NormalTok{)}
+\KeywordTok{plot}\NormalTok{(rr,}\DataTypeTok{las=}\DecValTok{1}\NormalTok{,}\DataTypeTok{bty=}\StringTok{"n"}\NormalTok{,}\DataTypeTok{col=}\KeywordTok{adjustcolor}\NormalTok{(}\KeywordTok{magma}\NormalTok{(}\DecValTok{50}\NormalTok{),}\FloatTok{0.5}\NormalTok{),}\DataTypeTok{pch=}\DecValTok{20}\NormalTok{,}\DataTypeTok{cex=}\KeywordTok{runif}\NormalTok{(}\DecValTok{10}\NormalTok{, }\DecValTok{1}\NormalTok{, }\DecValTok{5}\NormalTok{),}
+     \DataTypeTok{main=}\StringTok{"Some randomly distributed data, }\CharTok{\textbackslash{}n}\StringTok{but plot better"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{R_is_dope_files/figure-latex/unnamed-chunk-4-1.pdf}
 
 \newpage  
 

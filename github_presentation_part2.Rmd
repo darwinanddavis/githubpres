@@ -301,16 +301,25 @@ git commit -m 'redo intro' # '-m' = message
 ### remote git (version control on your github)  
 ```{shell eval=F, echo=T}
 # after the above steps ^ 
-# see what remote repo you have. if a github one exists, you can just push
+# see what remote repo you have. if a github exists, you can push
 git remote -v  
 # set the new remote repo (if necessary)  
 git remote add origin "your github repo"  # if remote branch doesn't exist
 git remote set-url origin "your github repo"  # if already exists
 # push changes from local repo to remote repo 
-git push -u origin master
+git push
 ```
 
 ### **If in doubt, ask the internet**    
+
+<!-- _____________________________ break ________________________________ -->
+## One more option {.build}   
+
+1. Go to GIT menu in `RStudio`  
+
+<div align="center">
+  <img src="git_menu.jpeg" width=600 height=400>
+</div>
 
 <!-- _____________________________ break ________________________________ -->
 # Troubleshooting  

@@ -53,7 +53,10 @@ git push
 
 [Intro to git: Branches, pull requests, and other useful stuff](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)   
 
-[Automatically push an updated file whenever it is changed](https://gist.github.com/darencard/5d42319abcb6ec32bebf6a00ecf99e86)         
+[Automatically push an updated file whenever it is changed](https://gist.github.com/darencard/5d42319abcb6ec32bebf6a00ecf99e86) 
+
+Using git and Github with R: [Happy Git and Github for the useR](http://happygitwithr.com/)  
+    
 
 ## Maintainer    
 **Matt Malishev**     

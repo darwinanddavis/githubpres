@@ -616,3 +616,32 @@ remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  25% (2/8) 
 To github.com:darwinanddavis/githubpres.git
    32c2114..d958be4  master -> master
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''g'i't' 'm'e'n'u' 'o'p't'i'o'n'
+[master 846c4da] git menu option
+ 4 files changed, 39 insertions(+), 4 deletions(-)
+ create mode 100644 git_menu.jpeg
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pish[K[K[Kush
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
+Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 1.21 MiB | 0 bytes/s, done.
+Total 9 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   d958be4..846c4da  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ ls 
+README.md			github_presentation_part2.Rmd
+R_is_dope.Rmd			github_presentation_part2.html
+R_is_dope.html			githublogo.png
+R_is_dope.pdf			highlight.html
+R_is_dope.tex			installing_git.Rmd
+R_is_dope_files			installing_git.html
+billnye.gif			installing_git.pdf
+billnye.png			installing_git.tex
+filepage.png			loadingpage.png
+git_menu.jpeg			newgit.R
+github.Rproj			newrepopage.png
+github_presentation.Rmd		readme.png
+github_presentation.html	repopage.png
+github_presentation.pdf		repopage_.png
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ gt a[K[K[Kit add .

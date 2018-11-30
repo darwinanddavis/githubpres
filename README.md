@@ -19,8 +19,8 @@ File extensions:
 ******  
 
 ## Right click and select 'Save as', then open the HTML on your preferred browser:      
-### [Using Git with GUI (Part I)](http://htmlpreview.github.com/?https://github.com/darwinanddavis/githubpres/blob/master/github_presentation.html)  
-### [Using Git with Terminal (Part II)](https://raw.githubusercontent.com/darwinanddavis/githubpres/master/github_presentation_part2.html)        
+### [Using Git with GUI (Part I)](https://github.com/darwinanddavis/githubpres/raw/master/github_presentation.html)  
+### [Using Git with Terminal (Part II)](https://github.com/darwinanddavis/githubpres/raw/master/github_presentation_part2.html)        
 
 ## The short version (with Terminal)      
 

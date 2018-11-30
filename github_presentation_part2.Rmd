@@ -3,8 +3,6 @@ title: "Using Github for research and life | **Part II**"
 author: "Matt Malishev"  
 date: "@darwinanddavis"  
 output:
-  beamer_presentation:
-    incremental: yes
   ioslides_presentation:
     includes:
       fig_width: 1
@@ -16,6 +14,8 @@ output:
       transition: faster
       widescreen: yes
       self_contained: yes
+  beamer_presentation:
+    incremental: yes
   slidy_presentation:
     incremental: yes
 params: 
@@ -498,6 +498,11 @@ fswatch -0 <<file>> | xargs -0 -n 1 bash <<path/to/auto_commit_push.sh>>
 [Intro to git: Branches, pull requests, and other useful stuff](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)   
 
 [Automatically push an updated file whenever it is changed](https://gist.github.com/darencard/5d42319abcb6ec32bebf6a00ecf99e86)     
+
+<!-- _____________________________ break ________________________________ -->
+## References (cont ...)  
+
+[Using Github pages](https://stackoverflow.com/questions/15563685/can-i-create-more-than-one-repository-for-github-pages)  
 
 <!-- _____________________________ BODY ________________________________ -->
 <!-- ____________________________________________________________________ -->

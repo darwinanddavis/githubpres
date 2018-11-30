@@ -236,7 +236,9 @@ You can dump the contents of any public repo, including its complete version his
 <!-- _____________________________ break ________________________________ -->
 ## References      
 
-[Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)
+[Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)  
+
+[Switching between terminal and GUI](https://pages.github.com/)    
 
 <!-- _____________________________ break ________________________________ -->
 ## Notes for improvement    

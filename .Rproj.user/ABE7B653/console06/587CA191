@@ -710,3 +710,18 @@ The file /Users/malishev/Documents/Presentations/githubpres/github_presentation_
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open github_presentation_part2..pdf [1P
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open githuu[Kb_presentation.t[Khtml 
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''i'm'g'[1P'[1P'[1P'a'p'l'i'[1P'[1P'p'l'i'c'a't'i'o'n's' 'r'e'f's'
+[master 4620214] applications refs
+ 6 files changed, 109 insertions(+), 9 deletions(-)
+ create mode 100644 git_process.png
+ create mode 100644 github_presentation_part2.pdf
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects:   9% (1/11)   Compressing objects:  18% (2/11)   Compressing objects:  27% (3/11)   Compressing objects:  36% (4/11)   Compressing objects:  45% (5/11)   Compressing objects:  54% (6/11)   Compressing objects:  63% (7/11)   Compressing objects:  72% (8/11)   Compressing objects:  81% (9/11)   Compressing objects:  90% (10/11)   Compressing objects: 100% (11/11)   Compressing objects: 100% (11/11), done.
+Writing objects:   9% (1/11)   Writing objects:  18% (2/11)   Writing objects:  27% (3/11)   Writing objects:  36% (4/11)   Writing objects:  45% (5/11)   Writing objects:  54% (6/11)   Writing objects:  63% (7/11)   Writing objects:  72% (8/11)   Writing objects:  81% (9/11)   Writing objects:  90% (10/11)   Writing objects: 100% (11/11)   Writing objects: 100% (11/11), 424.43 KiB | 0 bytes/s, done.
+Total 11 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6)   [Kremote: Resolving deltas:  33% (2/6)   [Kremote: Resolving deltas:  50% (3/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas:  83% (5/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   1f81aab..4620214  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .

@@ -18,9 +18,9 @@ File extensions:
 
 ******  
 
-## Overview  
+## See the presentations here: [Using Git with GUI (Part I)](http://htmlpreview.github.io/?https://github.com/darwinanddavis/githubpres/blob/master/github_presentation.html) or [Using Git with Terminal (Part II)](http://htmlpreview.github.io/?https://github.com/darwinanddavis/githubpres/blob/master/github_presentation_part2.html).    
 
-### The short version    
+## The short version (with Terminal)      
 
 Local git (version control on your computer)    
 ```{shell eval=F, echo=T}

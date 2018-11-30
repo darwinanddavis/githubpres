@@ -645,3 +645,68 @@ github_presentation.Rmd		readme.png
 github_presentation.html	repopage.png
 github_presentation.pdf		repopage_.png
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ gt a[K[K[Kit add .
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r'e'a'd'm'e'
+[master d8a5e66] readme
+ 2 files changed, 54 insertions(+)
+ create mode 100644 README.md
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pish[K[K[Kush
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 1.40 KiB | 0 bytes/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   846c4da..d8a5e66  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add . [K[KREADME.md 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r'e'a'd'm'e'
+[master fcebf16] readme
+ 1 file changed, 38 insertions(+), 1 deletion(-)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pi[Kush
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 1.39 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:darwinanddavis/githubpres.git
+   d8a5e66..fcebf16  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add README.md 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'ref[K[Keadme'
+[master 1f81aab] readme
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git oiush[K[K[K[K[Kpush
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 372 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   fcebf16..1f81aab  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ ls 
+README.md			github_presentation_part2.html
+R_is_dope.Rmd			github_presentation_part2.pdf
+R_is_dope.html			githublogo.png
+R_is_dope.pdf			highlight.html
+R_is_dope.tex			installing_git.Rmd
+R_is_dope_files			installing_git.html
+billnye.gif			installing_git.pdf
+billnye.png			installing_git.tex
+filepage.png			loadingpage.png
+git_menu.jpeg			newgit.R
+github.Rproj			newrepopage.png
+github_presentation.Rmd		readme.png
+github_presentation.html	repopage.png
+github_presentation.pdf		repopage_.png
+github_presentation_part2.Rmd
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ opn [K[Ken *.pdf
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ ls *.pdf
+R_is_dope.pdf			github_presentation_part2.pdf
+github_presentation.pdf		installing_git.pdf
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ poe[K[K[Kopen github_presentation.d[Kpdf 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open github_presentation.pdf [1@_[1P[C[1@_[6@part2.
+The file /Users/malishev/Documents/Presentations/githubpres/github_presentation_part2..pdf does not exist.
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open github_presentation_part2..pdf [1P
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open githuu[Kb_presentation.t[Khtml 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .

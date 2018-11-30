@@ -82,10 +82,21 @@ $(document).ready(function() {
 ### Logs commits of file changes retrievable at any time  
 
 <!-- ----------------------- image --------------------------- -->
-<div align="right">
+<div align="center">
   <img src="githublogo.png" width=500 height=200>
 </div>
 <!-- ----------------------- image --------------------------- -->
+  
+<!-- _____________________________ break ________________________________ -->
+## What the hell is Github? (cont ...) | And git   
+
+<!-- ----------------------- image --------------------------- -->
+<div align="center">
+  <img src="git_process.png" width=700 height=400>
+</div>
+<!-- ----------------------- image --------------------------- -->
+
+<footnote> [Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/) </footnote>
 
 <!-- _____________________________ break ________________________________ -->
 ## Applications {.build}  
@@ -131,7 +142,7 @@ p <- rep(rnorm(100),N) # repeat a random normal dist of 100 integers N times
 \  
 \  
 
-### I'd rather you move towards open-access and reproducible research than be deterred by the git user experience. 
+### I'd rather you move towards open-access and reproducible research than be deterred by the `git` user experience. 
 
 \    
 \    
@@ -162,7 +173,7 @@ p <- rep(rnorm(100),N) # repeat a random normal dist of 100 integers N times
 
 Now we _push_ [`git push`] the changes we made from our local repo to our Github cloud.    
 
-1. Create a new Github repo. Name is using best practice, e.g. no spaces   
+1. Create a new Github repo. Name it using best practice, e.g. no spaces   
 2. Don't create a README
   - **Uncheck the box 'Initialise this Github with a README'**
 
@@ -221,6 +232,11 @@ You can dump the contents of any public repo, including its complete version his
 ### Use the `R Studio` in-built command line connected to your Github    
 ### Backup straight from `R`    
 ### _Cake!_        
+
+<!-- _____________________________ break ________________________________ -->
+## References      
+
+[Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)
 
 <!-- _____________________________ break ________________________________ -->
 ## Notes for improvement    

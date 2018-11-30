@@ -19,8 +19,8 @@ File extensions:
 ******  
 
 ## See the presentations here:  
-[Using Git with GUI (Part I)](http://htmlpreview.github.com/?https://github.com/darwinanddavis/githubpres/blob/master/github_presentation.html)  
-[Using Git with Terminal (Part II)](http://htmlpreview.github.com/?https://github.com/darwinanddavis/githubpres/blob/master/github_presentation_part2.html)      
+### [Using Git with GUI (Part I)](http://htmlpreview.github.com/?https://github.com/darwinanddavis/githubpres/blob/master/github_presentation.html)  
+### [Using Git with Terminal (Part II)](https://github.com/darwinanddavis/githubpres/raw/master/github_presentation_part2.html)        
 
 ## The short version (with Terminal)      
 

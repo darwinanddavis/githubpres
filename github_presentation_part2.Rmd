@@ -195,7 +195,7 @@ git init
 Add the files in your folder to the local git repo    
 ```{shell eval=F, echo=T}  
 ### <b> 
-git add . # the '.' adds everything 
+git add . # the '.' adds all files in your current directory  
 ### </b>
 ```
 
@@ -284,8 +284,52 @@ git clone "github url" "new repo name (optional)"
 
 ### You can dump the contents of any public repo, including its complete version history, onto your own computer, then upload it onto the cloud.
 
-<div align="right">
+<div align="center">
   <img src="billnye.gif" width=600 height=400>
+</div>
+
+<!-- _____________________________ break ________________________________ -->
+## Workflow example {.build}     
+
+### Open an '.Rproj' with self-contained files    
+### Use the `R Studio` in-built command line connected to your Github      
+### Backup straight from `R`      
+### _Cake!_          
+
+<!-- _____________________________ break ________________________________ -->
+## Open an '.Rproj' with self-contained files {.build}  
+
+Open `RStudio`    
+  
+_File_ >   
+_New Project_ >   
+_New Directory_ >   
+_New Project_ >   
+_Create a git repository_    
+
+<!-- _____________________________ break ________________________________ -->
+## Use the `R Studio` in-built command line {.build}  
+
+Create your `R` file/s  
+_File_ >  
+_New file_  
+
+File options:   
+[Using RMarkdown](https://rmarkdown.rstudio.com/)    
+[Shiny web app](https://shiny.rstudio.com/)    
+[R Presentation](https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations)    
+
+<!-- _____________________________ break ________________________________ -->
+## Run your `git` commands from `R` terminal  {.build}  
+
+
+<!-- _____________________________ break ________________________________ -->
+## One more option {.build}   
+
+1. Go to GIT menu in `RStudio`  
+
+<div align="center">
+  <img src="git_menu.jpeg" width=600 height=400>
 </div>
 
 <!-- _____________________________ break ________________________________ -->
@@ -311,15 +355,6 @@ git push
 ```
 
 ### **If in doubt, ask the internet**    
-
-<!-- _____________________________ break ________________________________ -->
-## One more option {.build}   
-
-1. Go to GIT menu in `RStudio`  
-
-<div align="center">
-  <img src="git_menu.jpeg" width=600 height=400>
-</div>
 
 <!-- _____________________________ break ________________________________ -->
 # Troubleshooting  

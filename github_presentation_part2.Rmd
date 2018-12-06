@@ -320,8 +320,9 @@ File options:
 [R Presentation](https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations)    
 
 <!-- _____________________________ break ________________________________ -->
-## Run your `git` commands from `R` terminal  {.build}  
+## Run your `git` commands from `R` terminal  {.build}      
 
+INSERT R SCREENSHOT OF TERMINAL
 
 <!-- _____________________________ break ________________________________ -->
 ## One more option {.build}   
@@ -538,6 +539,12 @@ fswatch -0 <<file>> | xargs -0 -n 1 bash <<path/to/auto_commit_push.sh>>
 ## References (cont ...)  
 
 [Using Github pages](https://stackoverflow.com/questions/15563685/can-i-create-more-than-one-repository-for-github-pages)  
+
+[Using RMarkdown](https://rmarkdown.rstudio.com/)  
+
+[Shiny web app](https://shiny.rstudio.com/)  
+
+[Authoring R presentations](https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations)    
 
 <!-- _____________________________ BODY ________________________________ -->
 <!-- ____________________________________________________________________ -->

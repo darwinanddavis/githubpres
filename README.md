@@ -59,6 +59,18 @@ git push
 [Automatically push an updated file whenever it is changed](https://gist.github.com/darencard/5d42319abcb6ec32bebf6a00ecf99e86) 
 
 Using git and Github with R: [Happy Git and Github for the useR](http://happygitwithr.com/)  
+
+[Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)    
+
+[Switching between terminal and GUI](https://pages.github.com/)  
+
+[Using Github pages](https://stackoverflow.com/questions/15563685/can-i-create-more-than-one-repository-for-github-pages)    
+
+[Using RMarkdown](https://rmarkdown.rstudio.com/)    
+
+[Shiny web app](https://shiny.rstudio.com/)    
+
+[Authoring R presentations](https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations)        
     
 
 ## Maintainer    

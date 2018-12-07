@@ -388,6 +388,11 @@ git pull origin master --allow-unrelated-histories # unnecessary parallel histor
 ```
 If VIM opens, type 'SHIFT + :', then press ENTER  
 
+**fatal: The current branch master has no upstream branch**    
+```{shell eval=F, echo=T}  
+git push --set-upstream origin master
+```
+   
 <!-- _____________________________ break ________________________________ -->
 ## Staging and pushing files {.build} 
 

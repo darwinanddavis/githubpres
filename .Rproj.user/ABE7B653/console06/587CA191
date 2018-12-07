@@ -948,3 +948,19 @@ To github.com:darwinanddavis/githubpres.git
    0f43e66..bf95483  master -> master
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git [K[K[K[Kopen README.md 
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ GIT ADD ;10D[K[K[K[K[K[K[K[K[K[K[K[Kgit add . 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''p'r'e's'2' 'r'e'f'[1P'[1P'e'a'd'm'e' 'r'e'f's'
+[master f3c6c52] pres2 readme refs
+ 4 files changed, 56 insertions(+), 1 deletion(-)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
+Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 1.71 KiB | 0 bytes/s, done.
+Total 9 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6)   [Kremote: Resolving deltas:  33% (2/6)   [Kremote: Resolving deltas:  50% (3/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas:  83% (5/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   bf95483..f3c6c52  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git remote -v
+origin	git@github.com:darwinanddavis/githubpres.git (fetch)
+origin	git@github.com:darwinanddavis/githubpres.git (push)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .

@@ -74,6 +74,9 @@
 \newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
 \newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
 \newcommand{\NormalTok}[1]{#1}
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
 \usepackage{graphicx,grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -126,7 +129,7 @@ GA, USA, 30322}}
 }
 \newpage   
 
-Date: 2018-11-27\\
+Date: 2018-12-19\\
 R version: 3.5.0\\
 *Corresponding author:
 \href{mailto:matthew.malishev@gmail.com}{\nolinkurl{matthew.malishev@gmail.com}}\\
@@ -166,17 +169,19 @@ loaded via a namespace (and not attached):
 
 \newpage  
 
-\subsection{Overview}\label{overview}
+\section{Overview}\label{overview}
 
 This document showcases why \texttt{R} is \textbf{dope}.
 
 You can write in-line \texttt{code}, equations like this \(E = mc^{2}\),
 create links to your \href{https://github.com/darwinanddavis}{website}.
 
-\subsubsection{\texorpdfstring{Just like LateX, but \emph{more
+\section{\texorpdfstring{Just like LateX, but \emph{more
 versatile}.}{Just like LateX, but more versatile.}}\label{just-like-latex-but-more-versatile.}
 
-Create quoted text
+~ ~ ~ ~
+
+\subsection{Create quoted text}\label{create-quoted-text}
 
 \begin{quote}
 Pump the bass in the trunk //\\
@@ -186,7 +191,13 @@ And I'm crazy tan, from all the places that I've been //\\
 Just from writing words with a pen //
 \end{quote}
 
-Define equations\\
+~\\
+\hspace*{0.333em}\\
+\hspace*{0.333em}\\
+\hspace*{0.333em}
+
+\subsection{Define equations}\label{define-equations}
+
 \[
 t'=
 \frac
@@ -199,17 +210,45 @@ t'=
 }
 \]
 
-Embed images/gifs:
+Accordingly, we write the eigenfunction of a spinless particle as the
+superposition of plane wave states of momentum (\(\pi\)) and energy
+(\(Ej\)) having amplitudes \(a(\pi,Ej)\)
+
+\[
+\phi n(r,t) =
+\sum_{i, j} a(p_{i},E_{j})
+e^{
+\frac{i}
+{h}
+(p_{i} \cdot r - E_{j}t) 
+}
+\]
+
+where, for convenience, we have suppressed the eigenfunction indices in
+\(\phi n(r,t)\) and \(an(\pi,Ej)\). Using periodic boundary conditions,
+the normalization of \(\phi n(r,t)\) in (1) yields
+
+\[
+\frac
+{1}
+{V_{o}T_{o}h^{4}}
+\int \phi \cdot (r,t) \phi (r,t)d^{3}rdt = \sum a \cdot (p_{i},E_{j})a(p_{i},E_{j}) = 1  
+\] \newpage   
+
+\subsection{Embed images/gifs:}\label{embed-imagesgifs}
 
 \includegraphics{githublogo.png}.
 
-\newpage    
+\subsection{Create, alter, and imbed
+plots}\label{create-alter-and-imbed-plots}
+
+\subsubsection{(with associated code)}\label{with-associated-code}
 
 \begin{Shaded}
 \begin{Highlighting}[]
 \KeywordTok{set.seed}\NormalTok{(}\DecValTok{12}\NormalTok{)}
 \NormalTok{rr <-}\StringTok{ }\KeywordTok{rnorm}\NormalTok{(}\DecValTok{500}\NormalTok{)}
-\KeywordTok{plot}\NormalTok{(rr,}\DataTypeTok{col=}\KeywordTok{rainbow}\NormalTok{(}\DecValTok{200}\NormalTok{),}\DataTypeTok{pch=}\DecValTok{20}\NormalTok{)}
+\KeywordTok{plot}\NormalTok{(rr,}\DataTypeTok{pch=}\DecValTok{20}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
@@ -227,24 +266,45 @@ Embed images/gifs:
 
 \includegraphics{R_is_dope_files/figure-latex/unnamed-chunk-4-1.pdf}
 
+\subsection{And tables}\label{and-tables}
+
+Table 1. Definitions of model parameters for individual hosts and
+\textbf{parasites}. Dimensions and units: -, dimensionless; cm,
+centimetres; J, Joules; L, length.
+
+\begin{longtable}[]{@{}clc@{}}
+\toprule
+Parameter & Definition & Dimension(unit)\tabularnewline
+\midrule
+\endhead
+\emph{L} & structural length & cm\tabularnewline
+\emph{ee} & scaled reserve density & J
+(cm\textsuperscript{3})\tabularnewline
+\emph{D} & host development & ---\tabularnewline
+\emph{RH} & energy in reproduction buffer & J\tabularnewline
+\bottomrule
+\end{longtable}
+
 \newpage  
 
-Embed code from different languages.
+\subsection{Embed code from different
+languages}\label{embed-code-from-different-languages}
 
-This is \texttt{R} code
+\subsubsection{\texorpdfstring{This is \texttt{R}
+code}{This is R code}}\label{this-is-r-code}
 
 \begin{Shaded}
 \begin{Highlighting}[]
 \ControlFlowTok{if}\NormalTok{(pck}\OperatorTok{==}\DecValTok{1}\NormalTok{)\{}
 \NormalTok{  p<-}\KeywordTok{c}\NormalTok{(}\StringTok{"rJava"}\NormalTok{, }\StringTok{"RNetLogo"}\NormalTok{); }\KeywordTok{remove.packages}\NormalTok{(p)}
   \CommentTok{# then install rJava and RNetLogo from source}
-  \KeywordTok{install.packages}\NormalTok{(}\StringTok{"rJava"}\NormalTok{, }\DataTypeTok{repos =} \StringTok{"https://cran.r-project.org/"}\NormalTok{, }\DataTypeTok{type=}\StringTok{"source"}\NormalTok{); }\KeywordTok{library}\NormalTok{(rJava)}
-  \KeywordTok{install.packages}\NormalTok{(}\StringTok{"RNetLogo"}\NormalTok{, }\DataTypeTok{repos =} \StringTok{"https://cran.r-project.org/"}\NormalTok{, }\DataTypeTok{type=}\StringTok{"source"}\NormalTok{); }\KeywordTok{library}\NormalTok{(RNetLogo)}
+  \KeywordTok{install.packages}\NormalTok{(}\StringTok{"rJava"}\NormalTok{, }\DataTypeTok{repos =} \StringTok{"https://cran.r-project.org/"}\NormalTok{)}
+  \KeywordTok{install.packages}\NormalTok{(}\StringTok{"RNetLogo"}\NormalTok{, }\DataTypeTok{repos =} \StringTok{"https://cran.r-project.org/"}\NormalTok{)}
 \NormalTok{\}}
 \end{Highlighting}
 \end{Shaded}
 
-\texttt{shell/bash}
+\subsubsection{\texorpdfstring{\texttt{shell/bash}}{shell/bash}}\label{shellbash}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -254,7 +314,10 @@ This is \texttt{R} code
 \end{Highlighting}
 \end{Shaded}
 
-Octave (and MATLAB from the \texttt{RMatlab} package).\\
+\subsubsection{\texorpdfstring{Octave (and MATLAB from the
+\texttt{RMatlab}
+package).}{Octave (and MATLAB from the RMatlab package).}}\label{octave-and-matlab-from-the-rmatlab-package.}
+
 \href{https://cran.r-project.org/web/packages/R.matlab/index.html}{\texttt{RMatlab\ documentation}}.
 
 \begin{Shaded}
@@ -267,7 +330,7 @@ Octave (and MATLAB from the \texttt{RMatlab} package).\\
 \end{Highlighting}
 \end{Shaded}
 
-HTML
+\subsubsection{HTML}\label{html}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -291,7 +354,7 @@ HTML
 \end{Highlighting}
 \end{Shaded}
 
-CSS
+\subsubsection{CSS}\label{css}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -301,7 +364,8 @@ CSS
 \end{Highlighting}
 \end{Shaded}
 
-Javascript to access \texttt{html} and \texttt{css}
+\subsubsection{\texorpdfstring{Javascript to access \texttt{html} and
+\texttt{css}}{Javascript to access html and css}}\label{javascript-to-access-html-and-css}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -309,7 +373,7 @@ Javascript to access \texttt{html} and \texttt{css}
 \end{Highlighting}
 \end{Shaded}
 
-Python
+\subsubsection{Python}\label{python}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -318,7 +382,8 @@ Python
 \end{Highlighting}
 \end{Shaded}
 
-Here's a complete list of available languages
+\subsubsection{Here's a complete list of available
+languages}\label{heres-a-complete-list-of-available-languages}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -334,8 +399,25 @@ Here's a complete list of available languages
 [33] "block2"    "js"        "css"       "sql"       "go"        "python"    "julia"    
 \end{verbatim}
 
-\subsubsection{\texorpdfstring{All from
+\section{\texorpdfstring{All from
 \texttt{R}!}{All from R!}}\label{all-from-r}
+
+\newpage  
+
+\subsection{References}\label{references}
+
+Shaw, A. K., \& Couzin, I. D. (2013). Migration or residency? The
+evolution of movement behavior and information usage in seasonal
+environments. The American Naturalist, 181, 114--124.
+
+Shelly, T. E. (1982). Comparative foraging behavior of light- versus
+shade- seeking adult damselflies in a lowland Neotropical forest
+(Odonata: Zygoptera). Physiological Zoology, 55, 335--343.
+
+Sinervo, B., de Mendez-de-la-Cruz, F., Miles, D. B., Heulin, B.,
+Bastiaans, E., Villagran-Santa Cruz, M., \ldots{} Sites, J. W. (2010).
+Erosion of lizard diversity by climate change and altered thermal
+niches. Science, 328, 894--899.
 
 \printbibliography
 

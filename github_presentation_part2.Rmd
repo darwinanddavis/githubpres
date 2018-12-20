@@ -86,10 +86,10 @@ $(document).ready(function() {
 <!-- _____________________________ break ________________________________ -->
 ## Why use the command line? {.build}    
 
-### Complete control and ease of workflow  
-### Automate your commands, e.g. schedule an automatic daily backup  
-### Transparent history  
-### A steeper learning curve, **but worth the investment**  
+### - Complete control and ease of workflow    
+### - Transparent history    
+### - Automate your commands, e.g. schedule an automatic daily backup      
+### - A steeper learning curve, **but worth the investment**  
 
 <!-- _____________________________ break ________________________________ -->
 ## Why use the command line (cont ...)? {.build}  
@@ -106,11 +106,8 @@ telnet towel.blinkenlights.nl # watch movie in ascii
 ### Open an '.Rproj' with self-contained files  
 ### Use the `R Studio` in-built command line connected to your Github    
 ### Backup straight from `R`    
-### _Cake!_        
+### _Cake!_  
 
-<!-- _____________________________ break ________________________________ -->
-------  
-R workflow example with git      
 
 <!-- _____________________________ break ________________________________ -->
 ## Best practice for git prep {.build}  
@@ -210,9 +207,7 @@ git commit -m 'init commit' # -m adds a message
 
 Let's check the changes    
 ```{shell eval=F, echo=T}
-### <b> 
 git log # recent git activity
-### </b> 
 git add test.txt # adds individual files  
 git status # check what git is doing 
 ```
@@ -227,7 +222,7 @@ Now we push the changes we made from our local repo to our Github cloud.
 - **Uncheck the box 'Initialise this Github with a README'.**
 
 <!-- ----------------------- image --------------------------- -->
-<div align="right">
+<div align="center">
   <img src="newrepopage.png" width=700 height=300>
 </div>
 <!-- ----------------------- image --------------------------- -->
@@ -332,6 +327,44 @@ INSERT R SCREENSHOT OF TERMINAL
 <div align="center">
   <img src="git_menu.jpeg" width=600 height=400>
 </div>
+
+
+<!-- _____________________________ break ________________________________ -->  
+##  
+
+<!-- ----------------------- image --------------------------- -->
+<div align="center">
+  <img src="wf1.png" width=800 height=600>
+</div>
+<!-- --------------------------------------------------------- -->
+
+<!-- _____________________________ break ________________________________ -->
+##  
+
+<!-- ----------------------- image --------------------------- -->
+<div align="center">
+  <img src="wf2.png" width=800 height=600>
+</div>
+<!-- --------------------------------------------------------- -->
+
+<!-- _____________________________ break ________________________________ -->
+##  
+
+<!-- ----------------------- image --------------------------- -->
+<div align="center">
+  <img src="wf3.png" width=800 height=600>
+</div>
+<!-- --------------------------------------------------------- -->
+
+<!-- _____________________________ break ________________________________ -->
+##  
+
+<!-- ----------------------- image --------------------------- -->
+<div align="center">
+  <img src="wf4.png" width=800 height=600>
+</div>
+<!-- --------------------------------------------------------- -->  
+
 
 <!-- _____________________________ break ________________________________ -->
 ## The short version {.build}    

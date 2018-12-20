@@ -12,6 +12,13 @@ linkcolor: blue
 urlcolor: blue
 citecolor: red
 output:
+  html_document:
+    highlight: tango
+    code_folding: show
+    toc: yes
+    toc_depth: 4
+    number_sections: no
+    toc_float: yes
   pdf_document:
     includes:
       in_header: # add .tex file with header content
@@ -27,13 +34,6 @@ output:
     citation_package: biblatex # natbib
     latex_engine: xelatex #pdflatex # lualatex
     keep_tex: true # keep .tex file in dir 
-  html_document:
-    highlight: tango
-    code_folding: show
-    toc: yes
-    toc_depth: 4
-    number_sections: no
-    toc_float: yes
   word_document:
     highlight: tango
     keep_md: yes
@@ -110,15 +110,19 @@ params$session
 
 \newpage  
 
-## Overview
+# Overview
 
 This document showcases why `R` is **dope**.  
 
 You can write in-line `code`, equations like this $E = mc^{2}$, create links to your [website](https://github.com/darwinanddavis). 
 
-### Just like LateX, but _more versatile_.    
+# Just like LateX, but _more versatile_.    
+\  
+\  
+\  
+\  
 
-Create quoted text  
+## Create quoted text  
 
 > Pump the bass in the trunk //  
 > It rattled like a baby hand //  
@@ -126,32 +130,50 @@ Create quoted text
 > And I’m crazy tan, from all the places that I’ve been //  
 > Just from writing words with a pen //    
 
-Define equations    
+\    
+\    
+\    
+\    
+ 
+## Define equations      
+
+Accordingly, we write the eigenfunction of a spinless particle as the superposition of plane wave states of momentum ($\pi$) and energy ($Ej$) having amplitudes $a(\pi,Ej)$
+
 $$
-t'=
-\frac
-{1}
-{
-\sqrt{1 - \frac
-{v^{2}}
-{c^{2}}
-}
+\phi n(r,t) =
+\sum_{i, j} a(p_{i},E_{j})
+e^{
+\frac{i}
+{h}
+(p_{i} \cdot r - E_{j}t) 
 }
 $$
 
-Embed images/gifs:  
+where, for convenience, we have suppressed the eigenfunction indices in $\phi n(r,t)$ and $an(\pi,Ej)$. Using periodic boundary conditions, the normalization of $\phi n(r,t)$ in (1) yields
+
+$$
+\frac
+{1}
+{V_{o}T_{o}h^{4}}
+\int \phi \cdot (r,t) \phi (r,t)d^{3}rdt = \sum a \cdot (p_{i},E_{j})a(p_{i},E_{j}) = 1  
+$$
+\newpage   
+
+## Embed images/gifs:  
 
 ![Science](githublogo.png).    
 
-\newpage    
 
+## Create, alter, and imbed plots  
+### (with associated code)  
 ```{r,echo=T,eval=T}
 set.seed(12)
 rr <- rnorm(500)
-plot(rr,col=rainbow(200),pch=20)
+plot(rr,pch=20)
 ```
 
-```{r,echo=F}
+
+```{r,echo=T,eval=F}
 require(viridis)
 set.seed(12)
 rr <- rnorm(500)
@@ -159,29 +181,40 @@ plot(rr,las=1,bty="n",col=adjustcolor(magma(50),0.5),pch=20,cex=runif(10, 1, 5),
      main="Some randomly distributed data, \nbut plot better")
 ```
 
+## And tables  
+
+Table 1. Definitions of model parameters for individual hosts and **parasites**. Dimensions and units: -, dimensionless; cm, centimetres; J, Joules; L, length.    
+
+| Parameter | Definition | Dimension<br/>(unit) | 
+| :---: | :--- | :---: |    
+| _L_ | structural length | cm |
+| _ee_ | scaled reserve density | J (cm^3^) |
+| _D_ | host development | --- |
+| _RH_ | energy in reproduction buffer| J |
+
 \newpage  
 
 
-Embed code from different languages.  
+## Embed code from different languages  
 
-This is `R` code  
+### This is `R` code  
 ```{r, eval=F}
 if(pck==1){
   p<-c("rJava", "RNetLogo"); remove.packages(p)
   # then install rJava and RNetLogo from source
-  install.packages("rJava", repos = "https://cran.r-project.org/", type="source"); library(rJava)
-  install.packages("RNetLogo", repos = "https://cran.r-project.org/", type="source"); library(RNetLogo)
+  install.packages("rJava", repos = "https://cran.r-project.org/")
+  install.packages("RNetLogo", repos = "https://cran.r-project.org/")
 }
 ```
 
-`shell/bash`  
+### `shell/bash`  
 ```{bash, eval=F}
 echo "Hello Bash!"  
 pwd # check working dir
 git init # initialise git
 ```
 
-Octave (and MATLAB from the `RMatlab` package).  
+### Octave (and MATLAB from the `RMatlab` package).  
 [`RMatlab documentation`](https://cran.r-project.org/web/packages/R.matlab/index.html).  
 ```{octave, eval=F}
 b = [4; 9; 2] # Column vector
@@ -191,7 +224,7 @@ A = [ 3 4 5;
 x = A \ b     # Solve the system Ax = b
 ```
 
-HTML    
+### HTML    
 ```{html, eval=F}
 <!-- links-->
 		<div class="footer">
@@ -212,28 +245,39 @@ HTML
 		</div>
 ```
 
-CSS
+### CSS
 ```{css, eval=F}
 body {
   color: red;
 }
 ```
 
-Javascript to access `html` and `css`  
+### Javascript to access `html` and `css`  
 ```{js, eval=F}
 $('.title').css('color', 'red')
 ```
 
-Python  
+### Python  
 ```{python, eval=F}
 x = 'hello, python world!'
 print(x.split(' '))
 ```
 
-Here's a complete list of available languages  
+### Here's a complete list of available languages  
 ```{r eval=T}
 names(knitr::knit_engines$get())
 ```
 
 
-### All from `R`!  
+# All from `R`!  
+
+\newpage  
+
+## References  
+
+Shaw, A. K., & Couzin, I. D. (2013). Migration or residency? The evolution of movement behavior and information usage in seasonal environments. The American Naturalist, 181, 114–124.  
+
+Shelly, T. E. (1982). Comparative foraging behavior of light- versus shade- seeking adult damselflies in a lowland Neotropical forest (Odonata: Zygoptera). Physiological Zoology, 55, 335–343.  
+
+Sinervo, B., de Mendez-de-la-Cruz, F., Miles, D. B., Heulin, B., Bastiaans, E., Villagran-Santa Cruz, M., ... Sites, J. W. (2010). Erosion of lizard diversity by climate change and altered thermal niches. Science, 328, 894–899.  
+

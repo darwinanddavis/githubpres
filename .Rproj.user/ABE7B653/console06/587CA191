@@ -964,3 +964,16 @@ To github.com:darwinanddavis/githubpres.git
 origin	git@github.com:darwinanddavis/githubpres.git (fetch)
 origin	git@github.com:darwinanddavis/githubpres.git (push)
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ;[K''g'i't'p'r'e's'1'2'[1P'[1P'2' 't'r'o'u'b'[1P'[1P'[1P'[1P's'
+[master 3c4594c] gitpres2 ts
+ 2 files changed, 21 insertions(+)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 885 bytes | 0 bytes/s, done.
+Total 7 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   f3c6c52..3c4594c  master -> master
+git add .

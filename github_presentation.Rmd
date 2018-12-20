@@ -105,7 +105,7 @@ $(document).ready(function() {
 
 ### Collaborate  
 
-### Storage for every possible file type, e.g. Supp Material    
+### Centralised storage of every possible file type, e.g. Supp Material    
 
 ### Dynamic loading of stored links and programs  
 
@@ -210,7 +210,7 @@ This creates a git repository on your local machine complete with version contro
 
 You can dump the contents of any public repo, including its complete version history, onto your own computer, then upload it onto the cloud.
 
-<div align="right">
+<div align="center">
   <img src="billnye.gif" width=400 height=200>
 </div>
 
@@ -221,8 +221,8 @@ You can dump the contents of any public repo, including its complete version his
 ## Why use the command line? {.build}    
 
 ### - Complete control and ease of workflow  
-### - Automate your commands, e.g. schedule an automatic daily backup  
-### - Transparent history  
+### - Transparent history    
+### - Automate your commands, e.g. schedule an automatic daily backup      
 ### - A steeper learning curve, **but worth the investment**     
 
 <!-- _____________________________ break ________________________________ -->
@@ -232,6 +232,42 @@ You can dump the contents of any public repo, including its complete version his
 ### Use the `R Studio` in-built command line connected to your Github    
 ### Backup straight from `R`    
 ### _Cake!_        
+
+<!-- _____________________________ break ________________________________ -->  
+##  
+
+<!-- ----------------------- image --------------------------- -->
+<div align="center">
+  <img src="wf1.png" width=800 height=600>
+</div>
+<!-- --------------------------------------------------------- -->
+
+<!-- _____________________________ break ________________________________ -->
+##  
+
+<!-- ----------------------- image --------------------------- -->
+<div align="center">
+  <img src="wf2.png" width=800 height=600>
+</div>
+<!-- --------------------------------------------------------- -->
+
+<!-- _____________________________ break ________________________________ -->
+##  
+
+<!-- ----------------------- image --------------------------- -->
+<div align="center">
+  <img src="wf3.png" width=800 height=600>
+</div>
+<!-- --------------------------------------------------------- -->
+
+<!-- _____________________________ break ________________________________ -->
+##  
+
+<!-- ----------------------- image --------------------------- -->
+<div align="center">
+  <img src="wf4.png" width=800 height=600>
+</div>
+<!-- --------------------------------------------------------- -->  
 
 <!-- _____________________________ break ________________________________ -->
 ## References      

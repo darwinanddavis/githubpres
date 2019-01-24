@@ -109,7 +109,7 @@ eval(parse(text = script))
 ### - Transparent history    
 ### - Automate your commands, e.g. schedule an automatic daily backup      
 ### - A steeper learning curve, **but worth the investment**
-    --> commands are few for benefits a many 
+    -> commands are few for benefits a many 
 
 <!-- _____________________________ break ________________________________ -->
 ## Why use the command line (cont ...)? {.build}  
@@ -345,6 +345,14 @@ INSERT R SCREENSHOT OF TERMINAL
 </div>
 <!-- --------------------------------------------------------- -->  
 
+<!-- _____________________________ break ________________________________ -->  
+## The time `git` schooled me {.build}  
+
+1. Accidently uploaded my Google API to Github  
+2. Github emailed me with a warning  
+3. I deleted all the instances of the API, but git tracked it  
+4. Deleted the Github repo completely to remove evidence    
+5. Pushed the local files to the new repo ... _with all its current git history_      
 <!-- _____________________________ break ________________________________ -->
 ## `.gitignore` files {.build}  
 

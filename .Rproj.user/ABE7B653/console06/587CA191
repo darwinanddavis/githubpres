@@ -1,19 +1,4 @@
-]0;~/Documents/Emory/research/presentations/github[?1034h6300L-127771-M:github malishev$ [K6300L-127771-M:github malishev$ ls
-billnye.gif			installing_git.Rmd
-filepage.png			installing_git.html
-github.Rproj			installing_git.pdf
-github.pptx			installing_git.tex
-github_presentation.Rmd		loadingpage.png
-github_presentation.html	newrepopage.png
-github_presentation.pdf		readme.png
-githublogo.png			repopage.png
-highlight.html			repopage_.png
-]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git granch[K[K[K[K[K[Kbranch
-* [32mmaster[m
-]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ ls
-billnye.gif			installing_git.Rmd
-filepage.png			installing_git.html
-github.Rproj			installing_git.pdf
+
 github.pptx			installing_git.tex
 github_presentation.Rmd		loadingpage.png
 github_presentation.html	newrepopage.png
@@ -1014,4 +999,6 @@ Total 3 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
 To github.com:darwinanddavis/githubpres.git
    0ea7f5d..ff656a1  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ 
+[K6300L-127771-M:githubpres malishev$ open .gitn[Kignore 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open .gitignore 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .

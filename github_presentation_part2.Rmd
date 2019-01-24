@@ -3,8 +3,6 @@ title: "Using Github for research and life | **Part II**"
 author: "Matt Malishev"  
 date: "@darwinanddavis"  
 output:
-  beamer_presentation:
-    incremental: yes
   ioslides_presentation:
     includes:
       fig_width: 1
@@ -16,6 +14,8 @@ output:
       transition: faster
       widescreen: yes
       self_contained: yes
+  beamer_presentation:
+    incremental: yes
   slidy_presentation:
     incremental: yes
 params: 
@@ -74,7 +74,26 @@ $(document).ready(function() {
 
 <!-- ____________________________________________________________________ -->
 <!-- _____________________________ BODY ________________________________ -->
+  
+<!-- _____________________________ break ________________________________ -->
+## Applications {.build}  
 
+### **Version control**  
+
+### Collaborate  
+
+### Centralised storage of every possible file type, e.g. Supp Material    
+
+### Dynamic loading of stored links and programs  
+
+```{r echo=T, eval=F}
+require(RCurl)
+script <- getURL("https://raw.githubusercontent.com/darwinanddavis")
+eval(parse(text = script))
+```
+
+### **Fork and clone a plethora of public data, code, material**    
+  
 <!-- _____________________________ break ________________________________ -->
 ## But why? {.build}  
 
@@ -89,7 +108,8 @@ $(document).ready(function() {
 ### - Complete control and ease of workflow    
 ### - Transparent history    
 ### - Automate your commands, e.g. schedule an automatic daily backup      
-### - A steeper learning curve, **but worth the investment**  
+### - A steeper learning curve, **but worth the investment**
+    --> commands are few for benefits a many 
 
 <!-- _____________________________ break ________________________________ -->
 ## Why use the command line (cont ...)? {.build}  
@@ -121,47 +141,7 @@ telnet towel.blinkenlights.nl # watch movie in ascii
 N <- 20 # set rep number  
 p <- rep(rnorm(100),N) # repeat a random normal dist N times  
 ```
-### _Tab_ is your friend  
-
-<!-- _____________________________ break ________________________________ -->
-## Useful syntax {.build}     
-
-change working dir to 'Documents'  
-`cd ~/Documents`    
-
-move one level up    
-`cd ..`   
-
-print current working dir      
-`pwd`   
-
-list files in working dir      
-`ls`   
-
-make new working dir    
-`mkdir newfolder`   
-
-create new file   
-`touch text.txt`   
-
-<!-- _____________________________ break ________________________________ -->
-## More useful syntax {.build}    
-
-copy files from _source_ to _destination_. e.g. cp /Users/mydir/README.txt ~/Documents    
-`cp source destination`      
-
-copy all folders, subfolders, and files from _source_ to _destination_    
-`cp -R source destination`    
-
-move files or folders from _source_ to _destination_ (no need for `-R`)    
-`mv source destination`    
-
-move multiple files with the * wildcard, which copies all .rtf files. The tilde (~) symbol is a shortcut for your Home folder, which contains '/Desktop'.      
-`cp ~/Desktop/*.rtf ~/Documents`    
-
-rename files      
-`mv ~/Desktop/MyFile.rtf ~/Desktop/MyFile-old.rtf`    
-`cp ~/Desktop/MyFile.rtf ~/Documents/MyFile-old.rtf`    
+### _Tab_ is your friend    
 
 <!-- _____________________________ break ________________________________ -->
 # Let's git it    
@@ -245,7 +225,7 @@ Then push your staged (`commit`) files from your local repo to the remote repo
 ```{shell eval=F, echo=T}  
 # set the new remote repo
 ### <b>
-git remote set-url origin "your github repo"  
+git remote add origin "your github repo"  # if remote branch doesn't exist
 ### </b>
 # see what remote repositories you have  
 ### <b>
@@ -365,6 +345,21 @@ INSERT R SCREENSHOT OF TERMINAL
 </div>
 <!-- --------------------------------------------------------- -->  
 
+<!-- _____________________________ break ________________________________ -->
+## `.gitignore` files {.build}  
+
+<!-- ----------------------- image --------------------------- -->
+<div align="center">
+  <img src="gitignore.jpeg" width=500 height=300>
+</div>
+<!-- ----------------------- image --------------------------- -->
+  
+Type the following in Terminal/R  
+```{shell eval=F, echo=T}
+ls -a # lists current dir contents   
+touch .gitignore  # create a gitignore if not already
+open .gitignore # open the gitignore file     
+```
 
 <!-- _____________________________ break ________________________________ -->
 ## The short version {.build}    
@@ -392,6 +387,46 @@ git push
 
 <!-- _____________________________ break ________________________________ -->
 # Troubleshooting  
+
+<!-- _____________________________ break ________________________________ -->
+## Useful syntax {.build}     
+
+change working dir to 'Documents'  
+`cd ~/Documents`    
+
+move one level up    
+`cd ..`   
+
+print current working dir      
+`pwd`   
+
+list files in working dir      
+`ls`   
+
+make new working dir    
+`mkdir newfolder`   
+
+create new file   
+`touch text.txt`   
+
+<!-- _____________________________ break ________________________________ -->
+## More useful syntax {.build}    
+
+copy files from _source_ to _destination_. e.g. cp /Users/mydir/README.txt ~/Documents    
+`cp source destination`      
+
+copy all folders, subfolders, and files from _source_ to _destination_    
+`cp -R source destination`    
+
+move files or folders from _source_ to _destination_ (no need for `-R`)    
+`mv source destination`    
+
+move multiple files with the * wildcard, which copies all .rtf files. The tilde (~) symbol is a shortcut for your Home folder, which contains '/Desktop'.      
+`cp ~/Desktop/*.rtf ~/Documents`    
+
+rename files      
+`mv ~/Desktop/MyFile.rtf ~/Desktop/MyFile-old.rtf`    
+`cp ~/Desktop/MyFile.rtf ~/Documents/MyFile-old.rtf`    
 
 <!-- _____________________________ break ________________________________ -->
 ## Common errors {.build}     

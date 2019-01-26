@@ -517,7 +517,17 @@ git merge origin/master --allow-unrelated-histories
 git pull --allow-unrelated-histories origin master 
 ```
 
-Delete files from a Github repo
+Delete files from remote repo (option 1)   
+```{shell eval=F, echo=T}
+git rm --cached file1.txt
+git commit -m "remove file1.txt"
+git push
+```
+
+<!-- _____________________________ break ________________________________ -->
+## Staging and pushing files (cont ...) {.build}   
+
+Delete files from a Github repo (option 2)
 ```{shell eval=T, echo=T}
 # ensure you are in the default branch:
 git checkout master

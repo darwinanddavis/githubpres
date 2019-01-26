@@ -1,36 +1,4 @@
 
-github.pptx			installing_git.tex
-github_presentation.Rmd		loadingpage.png
-github_presentation.html	newrepopage.png
-github_presentation.pdf		readme.png
-githublogo.png			repopage.png
-highlight.html			repopage_.png
-]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git in;10D[K[K[K[K[Knit
-Reinitialized existing Git repository in /Users/malishev/Documents/Emory/research/presentations/github/.git/
-]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git add .
-]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git commit -m ''g'i'[1P'[1P'g'i't'b'[1P'h'u'b'p'r'e's'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'i'n'i't' 'p'r'e's'
-[master 3a173a7] init pres
- 137 files changed, 1230 insertions(+), 15785 deletions(-)
- create mode 100644 .Rproj.user/ABE7B653/console06/587CA191
- create mode 100644 .Rproj.user/ABE7B653/console06/587CA191.env
- create mode 100644 .Rproj.user/ABE7B653/console06/INDEX001
- create mode 100644 billnye.gif
- create mode 100644 github_presentation.pdf
- create mode 100644 githublogo.png
- delete mode 100644 libs/Proj4Leaflet/proj4-compressed.js
- delete mode 100644 libs/Proj4Leaflet/proj4leaflet.js
- delete mode 100644 libs/htmlwidgets/htmlwidgets.js
- delete mode 100644 libs/jquery/jquery.min.js
- delete mode 100644 libs/leaflet-binding/leaflet.js
- delete mode 100644 libs/leaflet-binding/leaflet.yaml
- delete mode 100644 libs/leaflet-binding/lib/jquery/jquery.min.js
- delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/cancel.png
- delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/cancel_@2X.png
- delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/check.png
- delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/check_@2X.png
- delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/focus.png
- delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/focus_@2X.png
- delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/rulers.png
  delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/rulers_@2X.png
  delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/start.png
  delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/start_@2X.png
@@ -1018,3 +986,17 @@ remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7) 
 To github.com:darwinanddavis/githubpres.git
    ce42ae2..1509a41  master -> master
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pushcommit -m 'added gitignore'add .[K
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .[1Ppushcommit -m 'added gitignore'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'g'i't' '[1P'[1P'[1P'[1P'g'i't' 's'c'h'o'o'l'i'n'g'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'l'o'[1P'[1P'h'i's't'o'r'y' 'e'x'a'm'p'l'e'
+[master dc9f70a] git history example
+ 3 files changed, 38 insertions(+), 2 deletions(-)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'git history example'add .[K[1Ppush
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 1.70 KiB | 0 bytes/s, done.
+Total 8 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   1509a41..dc9f70a  master -> master
+git pushcommit -m 'git history example'add .[K

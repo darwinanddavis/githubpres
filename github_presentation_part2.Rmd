@@ -308,6 +308,10 @@ INSERT R SCREENSHOT OF TERMINAL
   <img src="git_menu.jpeg" width=600 height=400>
 </div>
 
+<!-- _____________________________ break ________________________________ -->  
+## Examples of my workflow {.build}    
+
+- Useful Code repo and README.md file  
 
 <!-- _____________________________ break ________________________________ -->  
 ##  
@@ -346,15 +350,17 @@ INSERT R SCREENSHOT OF TERMINAL
 <!-- --------------------------------------------------------- -->  
 
 <!-- _____________________________ break ________________________________ -->  
-## The time `git` schooled me {.build}  
+## The time `git` schooled me {.build}    
 
 1. Accidently uploaded my Google API to Github  
 2. Github emailed me with a warning  
 3. I deleted all the instances of the API, but git tracked it  
 4. Deleted the Github repo completely to remove evidence    
-5. Pushed the local files to the new repo ... _with all its current git history_      
+5. Pushed the local files to the new repo ... _with all its current git history_  
+
+
 <!-- _____________________________ break ________________________________ -->
-## `.gitignore` files {.build}  
+## `gitignore` files {.build}  
 
 <!-- ----------------------- image --------------------------- -->
 <div align="center">

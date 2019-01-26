@@ -1,22 +1,4 @@
 
- delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/rulers_@2X.png
- delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/start.png
- delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/start_@2X.png
- delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/trash.png
- delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/images/trash_@2X.png
- delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/leaflet-measure.css
- delete mode 100644 libs/leaflet-binding/lib/leaflet-measure/leaflet-measure.min.js
- delete mode 100644 libs/leaflet-binding/lib/leaflet-omnivore/LICENSE
- delete mode 100644 libs/leaflet-binding/lib/leaflet-omnivore/index.js
- delete mode 100644 libs/leaflet-binding/lib/leaflet-omnivore/leaflet-omnivore.min.js
- delete mode 100644 libs/leaflet-binding/lib/leaflet-omnivore/package.json
- delete mode 100644 libs/leaflet-binding/lib/leaflet-providers/leaflet-providers.js
- delete mode 100644 libs/leaflet-binding/lib/leaflet-providers/package.json
- delete mode 100644 libs/leaflet-binding/lib/leaflet-providers/providers.json
- delete mode 100644 libs/leaflet-binding/lib/leaflet-providers/rstudio_install.md
- delete mode 100644 libs/leaflet-binding/lib/leaflet/images/layers-2x.png
- delete mode 100644 libs/leaflet-binding/lib/leaflet/images/layers.png
- delete mode 100644 libs/leaflet-binding/lib/leaflet/images/marker-icon-2x.png
  delete mode 100644 libs/leaflet-binding/lib/leaflet/images/marker-icon.png
  delete mode 100644 libs/leaflet-binding/lib/leaflet/images/marker-shadow.png
  delete mode 100644 libs/leaflet-binding/lib/leaflet/leaflet.css
@@ -1000,3 +982,21 @@ remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5) 
 To github.com:darwinanddavis/githubpres.git
    1509a41..dc9f70a  master -> master
 git pushcommit -m 'git history example'add .[K
+^[[A]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .[1Ppushcommit -m 'git history example'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'd'e'l'e't'e' 'f'i'l'e's' 'a'[1P'e'x'a'm'p'l'e'
+^[[A[master ebdab52] delete files example
+ 5 files changed, 40 insertions(+), 42 deletions(-)
+ rewrite .Rproj.user/ABE7B653/console06/INDEX001 (86%)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'delete files example'add .[K[1Ppush
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 1.63 KiB | 0 bytes/s, done.
+Total 10 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6)   [Kremote: Resolving deltas:  33% (2/6)   [Kremote: Resolving deltas:  50% (3/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas:  83% (5/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   dc9f70a..ebdab52  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git remote -v
+origin	git@github.com:darwinanddavis/githubpres.git (fetch)
+origin	git@github.com:darwinanddavis/githubpres.git (push)
+git pushcommit -m 'readme'add .[K

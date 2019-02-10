@@ -1,19 +1,4 @@
 
- delete mode 100644 libs/leaflet-binding/lib/leaflet/images/marker-icon.png
- delete mode 100644 libs/leaflet-binding/lib/leaflet/images/marker-shadow.png
- delete mode 100644 libs/leaflet-binding/lib/leaflet/leaflet.css
- delete mode 100644 libs/leaflet-binding/lib/leaflet/leaflet.js
- delete mode 100644 libs/leaflet-binding/lib/leafletfix/leafletfix.css
- delete mode 100644 libs/leaflet-binding/lib/rstudio_leaflet/images/1px.png
- delete mode 100644 libs/leaflet-binding/lib/rstudio_leaflet/rstudio_leaflet.css
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet-MiniMap/Control.MiniMap.css
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet-MiniMap/Control.MiniMap.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet-MiniMap/Control.MiniMap.min.css
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet-MiniMap/Control.MiniMap.min.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet-MiniMap/Minimap-binding.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet-MiniMap/images/toggle.png
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet-MiniMap/images/toggle.svg
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.EasyButton/EasyButton-binding.js
  delete mode 100644 libs/leaflet-binding/plugins/Leaflet.EasyButton/LICENSE
  delete mode 100644 libs/leaflet-binding/plugins/Leaflet.EasyButton/easy-button.css
  delete mode 100644 libs/leaflet-binding/plugins/Leaflet.EasyButton/easy-button.js
@@ -1000,3 +985,18 @@ To github.com:darwinanddavis/githubpres.git
 origin	git@github.com:darwinanddavis/githubpres.git (fetch)
 origin	git@github.com:darwinanddavis/githubpres.git (push)
 git pushcommit -m 'readme'add .[K
+^[[A]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .[1Ppushcommit -m 'readme'[1P'[1P'[1P'[1P'[1P'[1P'w'o'r'k'f'l'o'w' 'e'x'a'm'p'l'e'
+[master 64023db] workflow example
+ 5 files changed, 43 insertions(+), 25 deletions(-)
+ rewrite .Rproj.user/ABE7B653/console06/INDEX001 (86%)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'workflow example'add .[K[1Ppush
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 1.50 KiB | 0 bytes/s, done.
+Total 10 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   ebdab52..64023db  master -> master
+git add .

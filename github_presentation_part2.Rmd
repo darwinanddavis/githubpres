@@ -474,7 +474,17 @@ If VIM opens, type 'SHIFT + :', then press ENTER
 ```{shell eval=F, echo=T}  
 git push --set-upstream origin master
 ```
-   
+
+<!-- _____________________________ break ________________________________ -->
+## Weird technical errors {.build}  
+
+**invalid active developer path** (Mac OSX and XCode issue)    
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun    
+```{shell}
+xcode-select --install # install missing xcode developer tools
+xcode-select --reset # if above install doesn't work, reset xcode 
+```
+
 <!-- _____________________________ break ________________________________ -->
 ## Staging and pushing files {.build} 
 
@@ -641,7 +651,22 @@ fswatch -0 <<file>> | xargs -0 -n 1 bash <<path/to/auto_commit_push.sh>>
 
 [Shiny web app](https://shiny.rstudio.com/)  
 
-[Authoring R presentations](https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations)    
+[Authoring R presentations](https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations)  
+
+<!-- _____________________________ break ________________________________ -->
+## References (cont ...)  
+
+[invalid active developer path (xcrun: error: invalid active developer path)](https://apple.stackexchange.com/questions/254380/why-am-i-getting-an-invalid-active-developer-path-when-attempting-to-use-git-a)  
+
+<!-- _____________________________ break ________________________________ -->
+## Things to add after SWC workshop  
+
+```{bash, eval=F}
+git config --global user.name "Matt Malishev"
+git config --global user.email "mmlshv@gmail.com" 
+
+```
+
 
 <!-- _____________________________ BODY ________________________________ -->
 <!-- ____________________________________________________________________ -->

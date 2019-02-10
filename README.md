@@ -43,8 +43,10 @@ git remote set-url origin "your github repo"  # if already exists
 # push changes from local repo to remote repo 
 git push
 ```  
+
 <!-- _____________________________ break ________________________________ -->  
-## Common errors {.build}     
+# :pig: Troubleshooting  
+## Common errors     
 
 **fatal: remote origin already exists**  
 The remote origin already exists, so you can't add it again

@@ -374,7 +374,9 @@ Type the following in Terminal/R
 ```{shell eval=F, echo=T}
 ls -a # lists current dir contents   
 touch .gitignore  # create a gitignore if not already
-open .gitignore # open the gitignore file     
+open .gitignore # open the gitignore file  
+
+git status --ignored # list what is being ignored 
 ```
 
 <!-- _____________________________ break ________________________________ -->

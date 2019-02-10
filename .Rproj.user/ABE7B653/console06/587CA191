@@ -1178,3 +1178,25 @@ Other
     --show-origin         show origin of config (file, standard input, blob, command line)
 
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
+git ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git comi[Kmit -m ''g'i't' 's'c'r'e'e'n' 's'h'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'R' 't'e'r'm'i'n'a'l' 'e'x'a'm'p'l'e'
+[master dfb9019] R terminal example
+ 4 files changed, 94 insertions(+), 4 deletions(-)
+ create mode 100644 RStudio_terminal.jpeg
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pish[K[K[Kush
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
+Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 1.11 MiB | 0 bytes/s, done.
+Total 9 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   c1e76f6..dfb9019  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git log --oneline
+[?1h=[33mdfb9019[m R terminal example[m
+[33mc1e76f6[m added exit command editor[m
+[33m83f6b20[m readme[m
+[33m7aa1c06[m readme[m
+[33m75751c4[m added xcrun error ts[m
+[33m64023db[m workflow example[m
+:[K[K[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .

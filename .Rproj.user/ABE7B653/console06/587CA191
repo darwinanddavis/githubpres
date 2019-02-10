@@ -1000,3 +1000,94 @@ remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7) 
 To github.com:darwinanddavis/githubpres.git
    ebdab52..64023db  master -> master
 git add .
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''a'd'e'd'[1P'd'[1P'[1P'd'e'd' 'x'c'r'y'n' 'e'r'[1P'[1P'[1P'[1P'[1P'u'n' 't's' '[1P'[1P'[1P'e'r'r'o'r' 't's'
+[master 75751c4] added xcrun error ts
+ 8 files changed, 53 insertions(+), 42 deletions(-)
+ rewrite .Rproj.user/ABE7B653/console06/INDEX001 (86%)
+ create mode 100644 R_is_dope_files/figure-latex/unnamed-chunk-3-1.pdf
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 15, done.
+Delta compression using up to 4 threads.
+Compressing objects:   7% (1/13)   Compressing objects:  15% (2/13)   Compressing objects:  23% (3/13)   Compressing objects:  30% (4/13)   Compressing objects:  38% (5/13)   Compressing objects:  46% (6/13)   Compressing objects:  53% (7/13)   Compressing objects:  61% (8/13)   Compressing objects:  69% (9/13)   Compressing objects:  76% (10/13)   Compressing objects:  84% (11/13)   Compressing objects:  92% (12/13)   Compressing objects: 100% (13/13)   Compressing objects: 100% (13/13), done.
+Writing objects:   6% (1/15)   Writing objects:  13% (2/15)   Writing objects:  20% (3/15)   Writing objects:  26% (4/15)   Writing objects:  33% (5/15)   Writing objects:  40% (6/15)   Writing objects:  46% (7/15)   Writing objects:  53% (8/15)   Writing objects:  60% (9/15)   Writing objects:  66% (10/15)   Writing objects:  73% (11/15)   Writing objects:  80% (12/15)   Writing objects:  86% (13/15)   Writing objects:  93% (14/15)   Writing objects: 100% (15/15)   Writing objects: 100% (15/15), 67.04 KiB | 0 bytes/s, done.
+Total 15 (delta 10), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/10)   [Kremote: Resolving deltas:  10% (1/10)   [Kremote: Resolving deltas:  20% (2/10)   [Kremote: Resolving deltas:  30% (3/10)   [Kremote: Resolving deltas:  40% (4/10)   [Kremote: Resolving deltas:  50% (5/10)   [Kremote: Resolving deltas:  60% (6/10)   [Kremote: Resolving deltas:  80% (8/10)   [Kremote: Resolving deltas:  90% (9/10)   [Kremote: Resolving deltas: 100% (10/10)   [Kremote: Resolving deltas: 100% (10/10), completed with 9 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   64023db..75751c4  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open README.md 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add README.md 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit 0m [K[K[K-m ''r'e'a'd'm'e' 't'[1P'[1P'
+[master 7aa1c06] readme
+ 1 file changed, 175 insertions(+), 2 deletions(-)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git ish[K[K[Kpush
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 3.54 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:darwinanddavis/githubpres.git
+   75751c4..7aa1c06  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pushcommit -m 'readme'[4Padd README.md 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add README.md push[Kcommit -m 'readme'
+[master 83f6b20] readme
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'readme'[4Padd README.md push[K
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 345 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   7aa1c06..83f6b20  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git diff
+[?1h=[1mdiff --git a/.Rproj.user/ABE7B653/console06/587CA191 b/.Rproj.user/ABE7B653/console06/5[m [1m87CA191[m[m
+[1mindex ec07718..2f7527f 100644[m[m
+[1m--- a/.Rproj.user/ABE7B653/console06/587CA191[m[m
+[1m+++ b/.Rproj.user/ABE7B653/console06/587CA191[m[m
+[36m@@ -1000,3 +1000,48 @@[m [mremote: Resolving deltas:   0% (0/7)   [7m^M[27mremote: Resolving delta[m :[K[K[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/ABE7B653/console06/587CA191[m
+	[31mmodified:   .Rproj.user/ABE7B653/console06/587CA191.env[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git log --l[Koneline
+[?1h=[33m83f6b20[m readme[m
+[33m7aa1c06[m readme[m
+[33m75751c4[m added xcrun error ts[m
+[33m64023db[m workflow example[m
+[33mebdab52[m delete files example[m
+[33mdc9f70a[m git history example[m
+:[K[K[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git diff HEAD [K~[K README.md 
+[?1h=[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git diff HEAD README.md [1@~[1@1
+[?1h=[1mdiff --git a/README.md b/README.md[m[m
+[1mindex d869933..542599f 100644[m[m
+[1m--- a/README.md[m[m
+[1m+++ b/README.md[m[m
+[36m@@ -43,8 +43,10 @@[m [mgit remote set-url origin "your github repo"  # if already exists[m[m
+ # push changes from local repo to remote repo [m[m
+:[K[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git diff HEAD~1 README.md [1P[1@2
+[?1h=[1mdiff --git a/README.md b/README.md[m[m
+[1mindex 943b3fe..542599f 100644[m[m
+[1m--- a/README.md[m[m
+[1m+++ b/README.md[m[m
+[36m@@ -44,7 +44,179 @@[m [mgit remote set-url origin "your github repo"  # if already exists[m[m
+ git push[m[m
+:[K[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git diff HEAD~2 README.md [1P[1@5
+[?1h=[1mdiff --git a/README.md b/README.md[m[m
+[1mindex 943b3fe..542599f 100644[m[m
+[1m--- a/README.md[m[m
+[1m+++ b/README.md[m[m
+[36m@@ -44,7 +44,179 @@[m [mgit remote set-url origin "your github repo"  # if already exists[m[m
+ git push[m[m
+:[K[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open README.md 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ gt [K[Kit add .

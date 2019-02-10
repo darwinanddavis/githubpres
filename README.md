@@ -42,10 +42,19 @@ git remote add origin "your github repo"  # if remote branch doesn't exist
 git remote set-url origin "your github repo"  # if already exists
 # push changes from local repo to remote repo 
 git push
-```  
+```    
 
 <!-- _____________________________ break ________________________________ -->  
 # :pig: Troubleshooting  
+  
+**Exiting command editor**    
+Write your message at the top of the editor, then run the following:  
+    
+Hit ESC  
+`w` + ENTER = write (save)  
+`q` + ENTER = quit         
+`q!` + ENTER = quit w/o saving     
+
 ## Common errors     
 
 **fatal: remote origin already exists**  

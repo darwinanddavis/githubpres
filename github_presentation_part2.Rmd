@@ -443,7 +443,20 @@ rename files
 `cp ~/Desktop/MyFile.rtf ~/Documents/MyFile-old.rtf`    
 
 <!-- _____________________________ break ________________________________ -->
-## Common errors {.build}     
+## Exit the command editor {.build}    
+  
+**Exiting command editor**  
+Write your message at the top of the editor, then run the following:  
+  
+    
+      
+Hit ESC  
+`w` + ENTER = write (save)  
+`q` + ENTER = quit         
+`q!` + ENTER = quit w/o saving      
+
+<!-- _____________________________ break ________________________________ -->
+## Common errors {.build}       
 
 **fatal: remote origin already exists**  
 The remote origin already exists, so you can't add it again
@@ -661,12 +674,22 @@ fswatch -0 <<file>> | xargs -0 -n 1 bash <<path/to/auto_commit_push.sh>>
 <!-- _____________________________ break ________________________________ -->
 ## Things to add after SWC workshop  
 
-```{bash, eval=F}
+```{shell, eval=F}
 git config --global user.name "Matt Malishev"
 git config --global user.email "mmlshv@gmail.com" 
 
 ```
 
+`git diff`  
+```{shell, eval=F}
+git diff # print differences (changes) to files  
+git diff --stage # show changes in staged gits 
+```
+
+Extra flags for git commands  
+```{shell, eval=F}
+git log --online # condense log into one line summary  
+```
 
 <!-- _____________________________ BODY ________________________________ -->
 <!-- ____________________________________________________________________ -->

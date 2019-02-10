@@ -16,31 +16,7 @@ File extensions:
 .png  
 .gif     
 
-******  
-
-
-# Here’s your main title  
-
-### Matthew Malishev<sup>1*</sup>
-
-##### _<sup>1</sup> Department of Biology, Emory University, 1510 Clifton Road NE, Atlanta, GA, USA, 30322_    
-
-##### *Corresponding author: matthew.malishev [at] gmail.com  
-
-[This is a link to an external website](https://github.com/darwinanddavis)      
-
-******  
-
-## This is a second order heading  
-
-### This is a third order heading  
-
-This is normal text, _italic text_, and **bold text** 
-
-#### Emojis:  
-:octocat:  
-:pig:  
-:car:     
+******        
 
 ## Right click and select 'Save as', then open the HTML on your preferred browser:      
 ### [Using Git with GUI (Part I)](http://htmlpreview.github.io/?https://github.com/darwinanddavis/githubpres/blob/master/github_presentation.html)      

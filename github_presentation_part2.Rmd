@@ -297,7 +297,9 @@ File options:
 <!-- _____________________________ break ________________________________ -->
 ## Run your `git` commands from `R` terminal  {.build}      
 
-INSERT R SCREENSHOT OF TERMINAL
+<div align="center">
+  <img src="RStudio_terminal.jpeg" width=600 height=400>
+</div>
 
 <!-- _____________________________ break ________________________________ -->
 ## One more option {.build}   
@@ -445,7 +447,7 @@ rename files
 <!-- _____________________________ break ________________________________ -->
 ## Exit the command editor {.build}    
   
-**Exiting command editor**  
+**Exiting command editor**    
 Write your message at the top of the editor, then run the following:  
   
     

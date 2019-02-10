@@ -1091,3 +1091,90 @@ no changes added to commit (use "git add" and/or "git commit -a")
  git push[m[m
 :[K[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open README.md 
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ gt [K[Kit add .
+git]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git cm[Kommit -m ''a'd'd'e'd' 'e'x'i't' 'g'i't' 'c'o'[1P'[1P'[1P'[1P'[1P'[1P'c'o'm'm'a'n' 'e'[1P'[1P'd' 'e'd't'o'r'[1P'[1P'[1P'i't'o'r'
+[master c1e76f6] added exit command editor
+ 5 files changed, 168 insertions(+), 5 deletions(-)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 3.30 KiB | 0 bytes/s, done.
+Total 10 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
+gitTo github.com:darwinanddavis/githubpres.git
+   83f6b20..c1e76f6  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git status 
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/ABE7B653/console06/587CA191[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git status [K[K[K[K[K[K[Klog --online
+fatal: unrecognized argument: --online
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git log --onlineeline
+[?1h=[33mc1e76f6[m added exit command editor[m
+[33m83f6b20[m readme[m
+[33m7aa1c06[m readme[m
+[33m75751c4[m added xcrun error ts[m
+[33m64023db[m workflow example[m
+[33mebdab52[m delete files example[m
+:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git --global options
+Unknown option: --global
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git --global options[C[C[C[C[C[C[C[K[K[K[K[K[K[K
+Unknown option: --global
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git --global [K[K[K[K[K[K[K[K[Koptions
+git: 'options' is not a git command. See 'git --help'.
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git cong[Kfig -h
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .

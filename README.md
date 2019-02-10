@@ -35,10 +35,12 @@ File extensions:
 
 ### This is a third order heading  
 
-This is normal text, _italic text_, and **bold text* 
+This is normal text, _italic text_, and **bold text** 
 
-### :octocat: <— emojis  
-  
+#### Emojis:  
+:octocat:  
+:pig:  
+:car:     
 
 ## Right click and select 'Save as', then open the HTML on your preferred browser:      
 ### [Using Git with GUI (Part I)](http://htmlpreview.github.io/?https://github.com/darwinanddavis/githubpres/blob/master/github_presentation.html)      

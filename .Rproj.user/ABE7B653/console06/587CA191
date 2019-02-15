@@ -1,263 +1,4 @@
 
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.EasyButton/LICENSE
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.EasyButton/easy-button.css
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.EasyButton/easy-button.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.Graticule/Graticule-binding.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.Graticule/L.Graticule.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.Graticule/Leaflet.Graticule.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.SimpleGraticule/L.SimpleGraticule.css
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.SimpleGraticule/L.SimpleGraticule.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.SimpleGraticule/SimpleGraticule-binding.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.Terminator/L.Terminator.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.Terminator/Terminator-binding.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/bootstrap-theme.min.css
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/bootstrap.min.css
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/bootstrap.min.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/font-awesome.min.css
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/FontAwesome.otf
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/fontawesome-webfont.eot
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/fontawesome-webfont.svg
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/fontawesome-webfont.ttf
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/fontawesome-webfont.woff
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/glyphicons-halflings-regular.eot
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/glyphicons-halflings-regular.svg
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/glyphicons-halflings-regular.ttf
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/glyphicons-halflings-regular.woff
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/ionicons.eot
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/ionicons.svg
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/ionicons.ttf
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/ionicons.woff
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-matte.png
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-matte@2x.png
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-plain.png
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-shadow.png
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-shadow@2x.png
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-soft.png
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-soft@2x.png
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/ionicons.min.css
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/leaflet.awesome-markers.css
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/leaflet.awesome-markers.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.awesome-markers/leaflet.awesome-markers.min.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.markercluster/MIT-LICENCE.txt
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.markercluster/MarkerCluster.Default.css
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.markercluster/MarkerCluster.css
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.markercluster/leaflet.markercluster.freezable.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.markercluster/leaflet.markercluster.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.markercluster/leaflet.markercluster.layersupport.js
- delete mode 100644 libs/leaflet-binding/plugins/Leaflet.markercluster/package.json
- delete mode 100644 libs/leaflet-binding/plugins/Proj4Leaflet/proj4-compressed.js
- delete mode 100644 libs/leaflet-binding/plugins/Proj4Leaflet/proj4leaflet.js
- delete mode 100644 libs/leaflet-binding/plugins/leaflet-locationfilter/img/filter-icon.png
- delete mode 100644 libs/leaflet-binding/plugins/leaflet-locationfilter/img/move-handle.png
- delete mode 100644 libs/leaflet-binding/plugins/leaflet-locationfilter/img/resize-handle.png
- delete mode 100644 libs/leaflet-binding/plugins/leaflet-locationfilter/locationfilter-bindings.js
- delete mode 100644 libs/leaflet-binding/plugins/leaflet-locationfilter/locationfilter.css
- delete mode 100644 libs/leaflet-binding/plugins/leaflet-locationfilter/locationfilter.js
- delete mode 100644 libs/leaflet-binding/plugins/leaflet-providers-plugin/leaflet-providers-plugin.js
- delete mode 100644 libs/leaflet/images/layers-2x.png
- delete mode 100644 libs/leaflet/images/layers.png
- delete mode 100644 libs/leaflet/images/marker-icon-2x.png
- delete mode 100644 libs/leaflet/images/marker-icon.png
- delete mode 100644 libs/leaflet/images/marker-shadow.png
- delete mode 100644 libs/leaflet/leaflet.css
- delete mode 100644 libs/leaflet/leaflet.js
- delete mode 100644 libs/leafletfix/leafletfix.css
- delete mode 100644 libs/remark-css/default-fonts.css
- delete mode 100644 libs/remark-css/default.css
- delete mode 100644 libs/rstudio_leaflet/images/1px.png
- delete mode 100644 libs/rstudio_leaflet/rstudio_leaflet.css
- create mode 100644 newrepopage.png
- create mode 100644 repopage_.png
- delete mode 100644 ~$github.pptx
-]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git remote add github https://github.com/darwinanddav is/Presentations.git/.gitE.gitm.gito.gitr.gity.git/.gitg.giti.gitt.gith.gitu.gitb.git
-]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git remote -v
-github	https://github.com/darwinanddavis/Presentations/Emory/github.git (fetch)
-github	https://github.com/darwinanddavis/Presentations/Emory/github.git (push)
-origin	git@github.com:darwinanddavis/newtest.git (fetch)
-origin	git@github.com:darwinanddavis/newtest.git (push)
-]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git push -u github master
-remote: Not Found
-fatal: repository 'https://github.com/darwinanddavis/Presentations/Emory/github.git/' not found
-]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git status
-On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/ABE7B653/console06/587CA191[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ git log
-[?1h=[33mcommit 3a173a7f459f756d6ad6281daed6f4446e8738e7[m[m
-Author: darwinanddavis <matthew.malishev@gmail.com>[m
-Date:   Wed Nov 14 17:06:56 2018 -0500[m
-[m
-    init pres[m
-[m
-:[K[K[K:[K[K [KESCESC[K^?^?[K:[K[K[33mcommit 939e7ed7cda4708e7192a96f379c6da7616c64c7[m[m
-:[K[KAuthor: darwinanddavis <matthew.malishev@gmail.com>[m
-:[K[KDate:   Tue Nov 13 17:56:38 2018 -0500[m
-:[K[K[m
-:[K[K    init[m
-:[K[K[m
-:[K[K[33mcommit e26e80cdfdea4569c7a6053c4580f68381de843e[m[m
-:[K[KAuthor: darwinanddavis <matthew.malishev@gmail.com>[m
-:[K[KDate:   Tue Nov 13 17:33:45 2018 -0500[m
-:[K[K[m
-:[K[K    init[m
-:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K+[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K+[K[K[7m(END)[27m[K[K [K::[K^J^J[K[7m(END)[27m[K[K [K::[Kww[K[7m(END)[27m[K[K[?1l>]0;~/Documents/Emory/research/presentations/github6300L-127771-M:github malishev$ 
-ls
-billnye.gif			installing_git.html
-filepage.png			installing_git.pdf
-github.Rproj			installing_git.tex
-github_presentation.Rmd		loadingpage.png
-github_presentation.html	newrepopage.png
-github_presentation.pdf		readme.png
-githublogo.png			repopage.png
-highlight.html			repopage_.png
-installing_git.Rmd
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ pwd
-/Users/malishev/Documents/Presentations/github
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git add .
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git commit -,[Km ''t'r'o'i'b'l'[1P'[1P'[1P'[1P'b'l' 's'h'o'o't'i'n'g'[1Pshooting'[C[C[C[C[C[C[C g'sg'tg'eg'pg'sg'[1Pg'[1Pg'[1Pg'[1Pg'[1Pg'[1Pg'[C 's't'e'p's'
-[master 66b1dc4] trblshooting steps
- 5 files changed, 85 insertions(+), 30 deletions(-)
- rewrite .Rproj.user/ABE7B653/console06/INDEX001 (86%)
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git remote -v
-github	https://github.com/darwinanddavis/Presentations/Emory/github.git (fetch)
-github	https://github.com/darwinanddavis/Presentations/Emory/github.git (push)
-origin	https://github.com/darwinanddavis/githubpres.git (fetch)
-origin	https://github.com/darwinanddavis/githubpres.git (push)
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git push-[K -u origina[K master
-Counting objects: 10, done.
-Delta compression using up to 4 threads.
-Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
-Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 2.03 KiB | 0 bytes/s, done.
-Total 10 (delta 7), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
-To https://github.com/darwinanddavis/githubpres.git
-   e81fbee..66b1dc4  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ ls
-billnye.gif			installing_git.html
-filepage.png			installing_git.pdf
-github.Rproj			installing_git.tex
-github_presentation.Rmd		loadingpage.png
-github_presentation.html	newrepopage.png
-github_presentation.pdf		readme.png
-githublogo.png			repopage.png
-highlight.html			repopage_.png
-installing_git.Rmd
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git add .
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git comit [K[K[Kmit -m ''r'e'f's'
-[master 16393a0] refs
- 2 files changed, 34 insertions(+), 2 deletions(-)
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git pi[Kush oarig[K[K[K[Krigin master
-Counting objects: 7, done.
-Delta compression using up to 4 threads.
-Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
-Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 1.44 KiB | 0 bytes/s, done.
-Total 7 (delta 4), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
-To https://github.com/darwinanddavis/githubpres.git
-   66b1dc4..16393a0  master -> master
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git SS[K[KA[Kadd . 
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git comit[K[Kmit -m ;;[K[K''g'e'n'e'r'a't'e' 'h'r'm'l'[1P'[1P'[1P't'm'l'
-[master 843bd35] generate html
- 2 files changed, 26 insertions(+), 10 deletions(-)
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git oush[K[K[K[Kpush ;10D[K[K[K[K[K[K[K[K[Kremove [K[K[Kte -v
-github	https://github.com/darwinanddavis/Presentations/Emory/github.git (fetch)
-github	https://github.com/darwinanddavis/Presentations/Emory/github.git (push)
-origin	https://github.com/darwinanddavis/githubpres.git (fetch)
-origin	https://github.com/darwinanddavis/githubpres.git (push)
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git pish [K[K[K[Kush oi[Krifin[K[K[Kgin master
-Counting objects: 7, done.
-Delta compression using up to 4 threads.
-Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
-Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 1.48 KiB | 0 bytes/s, done.
-Total 7 (delta 4), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
-To https://github.com/darwinanddavis/githubpres.git
-   16393a0..843bd35  master -> master
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ pwd
-/Users/malishev/Documents/Presentations/github
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ ls
-billnye.gif			installing_git.html
-filepage.png			installing_git.pdf
-github.Rproj			installing_git.tex
-github_presentation.Rmd		loadingpage.png
-github_presentation.html	newrepopage.png
-github_presentation.pdf		readme.png
-githublogo.png			repopage.png
-highlight.html			repopage_.png
-installing_git.Rmd
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git add .
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git commit -m ''a'd'd' 'n'o't'e's'e notes'd notes'
-[master 18cf821] added notes
- 3 files changed, 48 insertions(+), 2 deletions(-)
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git remote -v
-github	https://github.com/darwinanddavis/Presentations/Emory/github.git (fetch)
-github	https://github.com/darwinanddavis/Presentations/Emory/github.git (push)
-origin	https://github.com/darwinanddavis/githubpres.git (fetch)
-origin	https://github.com/darwinanddavis/githubpres.git (push)
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git push -u remote origin
-error: src refspec origin does not match any.
-error: failed to push some refs to 'remote'
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git push -u remote origin[K[K[K[K[K[K[K[K[K[K[K[K[K[K orgin[K[K[Kigin master
-Counting objects: 8, done.
-Delta compression using up to 4 threads.
-Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
-Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 1.49 KiB | 0 bytes/s, done.
-Total 8 (delta 5), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
-To https://github.com/darwinanddavis/githubpres.git
-   843bd35..18cf821  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ w[Kpwd
-/Users/malishev/Documents/Presentations/github
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ pwdgit push -u origin masterremote origin[12Premote -vcommit -m 'added notes'add .[Kls[Kpwdgit push origin master[9Premote -vcommit -m 'generate html'add . [Kpush origin master[2Pcommit -m 'refs'add .[Kls[Kgit push -u origin master[12Premote -vcommit -m 'trblshooting steps'add .[K[6Ppwd[1Plsgit logstatus[3Plogls[Kpwdgit add .commit -m 'trblshooting steps'remote -v[Kpush -u origin masterls[Kgit add .commit -m 'refs'push origin master[12Padd . commit -m 'generate html'[16Premote -vpush origin masterpwd[K[1Plsgit add .commit -m 'added notes'[14Premote -vpush -u remote originorigin masterpwd[K[Kpwdgit push -u origin masterremote origin[12Premote -vcommit -m 'added notes'add .[Kls[Kpwd[1Plsgit add .commit -m 'added notes'[14Premote -vpush -u remote originorigin masterpwd[K[Kpwdgit push -u origin masterremote origin[12Premote -v
-github	https://github.com/darwinanddavis/Presentations/Emory/github.git (fetch)
-github	https://github.com/darwinanddavis/Presentations/Emory/github.git (push)
-origin	https://github.com/darwinanddavis/githubpres.git (fetch)
-origin	https://github.com/darwinanddavis/githubpres.git (push)
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ ls
-R_is_dope.Rmd			github_presentation_part2.html
-R_is_dope.html			githublogo.png
-R_is_dope.pdf			highlight.html
-R_is_dope.tex			installing_git.Rmd
-billnye.gif			installing_git.html
-billnye.png			installing_git.pdf
-filepage.png			installing_git.tex
-github.Rproj			loadingpage.png
-github_presentation.Rmd		newrepopage.png
-github_presentation.html	readme.png
-github_presentation.pdf		repopage.png
-github_presentation_part2.Rmd	repopage_.png
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git add .
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git commit - 'm '[C[Cr pres [K, [K[K1[K[K[K[K[K[K[Kpres and [K[K[K[K[K[K[K[K[K'f'[1P'p'r'e's' '1' 'a'n'd'[1P'[1P'[1P'[1P' 'a'n'd' '2',' 'r' 'i's' 'd'o'p'e' 'd'o'c'
-[master 9fe09b3] pres 1 and 2, r is dope doc
- 17 files changed, 2353 insertions(+), 1076 deletions(-)
- create mode 100644 R_is_dope.Rmd
- create mode 100644 R_is_dope.html
- create mode 100644 R_is_dope.pdf
- create mode 100644 R_is_dope.tex
- rewrite billnye.gif (60%)
- create mode 100644 billnye.png
- rewrite github_presentation.Rmd (67%)
- copy github_presentation.Rmd => github_presentation_part2.Rmd (78%)
- create mode 100644 github_presentation_part2.html
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git push remote origin[K[K[K[K[K[K[K[K[K[K[K[K[K[K origin master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K [Kremove[K[Kte -v
-github	https://github.com/darwinanddavis/Presentations/Emory/github.git (fetch)
-github	https://github.com/darwinanddavis/Presentations/Emory/github.git (push)
-origin	https://github.com/darwinanddavis/githubpres.git (fetch)
-origin	https://github.com/darwinanddavis/githubpres.git (push)
-]0;~/Documents/Presentations/github6300L-127771-M:github malishev$ git pish[K[K[Kush r[Korigin master
-Counting objects: 26, done.
-Delta compression using up to 4 threads.
-Compressing objects:   4% (1/24)   Compressing objects:   8% (2/24)   Compressing objects:  12% (3/24)   Compressing objects:  16% (4/24)   Compressing objects:  20% (5/24)   Compressing objects:  25% (6/24)   Compressing objects:  29% (7/24)   Compressing objects:  33% (8/24)   Compressing objects:  37% (9/24)   Compressing objects:  41% (10/24)   Compressing objects:  45% (11/24)   Compressing objects:  50% (12/24)   Compressing objects:  54% (13/24)   Compressing objects:  58% (14/24)   Compressing objects:  62% (15/24)   Compressing objects:  66% (16/24)   Compressing objects:  70% (17/24)   Compressing objects:  75% (18/24)   Compressing objects:  79% (19/24)   Compressing objects:  83% (20/24)   Compressing objects:  87% (21/24)   Compressing objects:  91% (22/24)   Compressing objects:  95% (23/24)   Compressing objects: 100% (24/24)   Compressing objects: 100% (24/24), done.
-Writing objects:   3% (1/26)   Writing objects:   7% (2/26)   Writing objects:  11% (3/26)   Writing objects:  15% (4/26)   Writing objects:  19% (5/26)   Writing objects:  23% (6/26)   Writing objects:  26% (7/26)   Writing objects:  30% (8/26)   Writing objects:  34% (9/26)   Writing objects:  38% (10/26)   Writing objects:  42% (11/26)   Writing objects:  46% (12/26)   Writing objects:  50% (13/26)   Writing objects:  50% (13/26), 1.07 MiB | 342.00 KiB/s   Writing objects:  50% (13/26), 1.50 MiB | 361.00 KiB/s   Writing objects:  50% (13/26), 2.13 MiB | 406.00 KiB/s   Writing objects:  50% (13/26), 2.75 MiB | 435.00 KiB/s   Writing objects:  50% (13/26), 3.06 MiB | 447.00 KiB/s   Writing objects:  50% (13/26), 3.69 MiB | 548.00 KiB/s   Writing objects:  50% (13/26), 4.31 MiB | 586.00 KiB/s   Writing objects:  50% (13/26), 4.94 MiB | 586.00 KiB/s   Writing objects:  50% (13/26), 5.50 MiB | 580.00 KiB/s   Writing objects:  50% (13/26), 6.25 MiB | 592.00 KiB/s   Writing objects:  50% (13/26), 6.63 MiB | 608.00 KiB/s   Writing objects:  50% (13/26), 7.25 MiB | 617.00 KiB/s   Writing objects:  50% (13/26), 8.00 MiB | 635.00 KiB/s   Writing objects:  50% (13/26), 8.63 MiB | 645.00 KiB/s   Writing objects:  50% (13/26), 9.38 MiB | 658.00 KiB/s   Writing objects:  50% (13/26), 9.75 MiB | 654.00 KiB/s   Writing objects:  50% (13/26), 10.44 MiB | 656.00 KiB/s   Writing objects:  50% (13/26), 11.13 MiB | 635.00 KiB/s   Writing objects:  50% (13/26), 11.96 MiB | 652.00 KiB/s   Writing objects:  50% (13/26), 12.27 MiB | 637.00 KiB/s   Writing objects:  50% (13/26), 13.02 MiB | 631.00 KiB/s   Writing objects:  53% (14/26), 13.33 MiB | 628.00 KiB/s   Writing objects:  53% (14/26), 14.25 MiB | 623.00 KiB/s   Writing objects:  57% (15/26), 14.25 MiB | 623.00 KiB/s   Writing objects:  61% (16/26), 14.25 MiB | 623.00 KiB/s   Writing objects:  61% (16/26), 14.92 MiB | 638.00 KiB/s   Writing objects:  61% (16/26), 15.67 MiB | 637.00 KiB/s   Writing objects:  61% (16/26), 15.98 MiB | 636.00 KiB/s   Writing objects:  61% (16/26), 16.73 MiB | 642.00 KiB/s   Writing objects:  61% (16/26), 17.42 MiB | 648.00 KiB/s   Writing objects:  61% (16/26), 18.08 MiB | 645.00 KiB/s   Writing objects:  61% (16/26), 18.45 MiB | 644.00 KiB/s   Writing objects:  65% (17/26), 18.45 MiB | 644.00 KiB/s   Writing objects:  65% (17/26), 19.04 MiB | 605.00 KiB/s   Writing objects:  65% (17/26), 19.91 MiB | 610.00 KiB/s   Writing objects:  65% (17/26), 20.29 MiB | 609.00 KiB/s   Writing objects:  65% (17/26), 21.04 MiB | 628.00 KiB/s   Writing objects:  65% (17/26), 21.79 MiB | 620.00 KiB/s   Writing objects:  65% (17/26), 22.16 MiB | 698.00 KiB/s   Writing objects:  65% (17/26), 22.91 MiB | 672.00 KiB/s   Writing objects:  65% (17/26), 23.54 MiB | 642.00 KiB/s   Writing objects:  65% (17/26), 24.29 MiB | 645.00 KiB/s   Writing objects:  65% (17/26), 24.66 MiB | 634.00 KiB/s   Writing objects:  65% (17/26), 25.41 MiB | 631.00 KiB/s   Writing objects:  65% (17/26), 26.16 MiB | 640.00 KiB/s   Writing objects:  65% (17/26), 26.79 MiB | 651.00 KiB/s   Writing objects:  65% (17/26), 27.16 MiB | 660.00 KiB/s   Writing objects:  65% (17/26), 27.79 MiB | 653.00 KiB/s   Writing objects:  65% (17/26), 28.41 MiB | 641.00 KiB/s   Writing objects:  65% (17/26), 29.04 MiB | 615.00 KiB/s   Writing objects:  65% (17/26), 29.66 MiB | 585.00 KiB/s   Writing objects:  65% (17/26), 29.98 MiB | 575.00 KiB/s   Writing objects:  65% (17/26), 30.80 MiB | 565.00 KiB/s   Writing objects:  65% (17/26), 30.92 MiB | 510.00 KiB/s   Writing objects:  65% (17/26), 31.48 MiB | 504.00 KiB/s   Writing objects:  65% (17/26), 32.11 MiB | 509.00 KiB/s   Writing objects:  69% (18/26), 32.11 MiB | 509.00 KiB/s   Writing objects:  73% (19/26), 32.11 MiB | 509.00 KiB/s   Writing objects:  73% (19/26), 32.72 MiB | 522.00 KiB/s   Writing objects:  73% (19/26), 33.34 MiB | 532.00 KiB/s   Writing objects:  73% (19/26), 33.97 MiB | 604.00 KiB/s   Writing objects:  73% (19/26), 34.28 MiB | 605.00 KiB/s   Writing objects:  73% (19/26), 34.91 MiB | 600.00 KiB/s   Writing objects:  73% (19/26), 35.75 MiB | 598.00 KiB/s   Writing objects:  73% (19/26), 36.19 MiB | 606.00 KiB/s   Writing objects:  73% (19/26), 36.74 MiB | 577.00 KiB/s   Writing objects:  76% (20/26), 36.74 MiB | 577.00 KiB/s   Writing objects:  80% (21/26), 36.74 MiB | 577.00 KiB/s   Writing objects:  80% (21/26), 36.90 MiB | 542.00 KiB/s   Writing objects:  84% (22/26), 37.12 MiB | 527.00 KiB/s   Writing objects:  88% (23/26), 37.12 MiB | 527.00 KiB/s   Writing objects:  92% (24/26), 37.12 MiB | 527.00 KiB/s   Writing objects:  96% (25/26), 37.12 MiB | 527.00 KiB/s   Writing objects: 100% (26/26), 37.12 MiB | 527.00 KiB/s   Writing objects: 100% (26/26), 37.18 MiB | 520.00 KiB/s, done.
 Total 26 (delta 14), reused 0 (delta 0)
 remote: Resolving deltas:   0% (0/14)   [Kremote: Resolving deltas:   7% (1/14)   [Kremote: Resolving deltas:  14% (2/14)   [Kremote: Resolving deltas:  21% (3/14)   [Kremote: Resolving deltas:  28% (4/14)   [Kremote: Resolving deltas:  35% (5/14)   [Kremote: Resolving deltas:  42% (6/14)   [Kremote: Resolving deltas:  57% (8/14)   [Kremote: Resolving deltas:  71% (10/14)   [Kremote: Resolving deltas:  85% (12/14)   [Kremote: Resolving deltas:  92% (13/14)   [Kremote: Resolving deltas: 100% (14/14)   [Kremote: Resolving deltas: 100% (14/14), completed with 10 local objects.[K
 To https://github.com/darwinanddavis/githubpres.git
@@ -1244,3 +985,18 @@ remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2) 
 To github.com:darwinanddavis/githubpres.git
    203a204..bc37b81  master -> master
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pushcommit -m 'readme test'[9Padd README.md [K[K[K[K[K[K[K[K[K[K.
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r'e'a'd'm'e'
+[master 3b5f403] readme
+ 3 files changed, 71 insertions(+), 25 deletions(-)
+ create mode 100644 readme_header_template.rtf
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git oish[K[K[K[Kpush
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 1.71 KiB | 0 bytes/s, done.
+Total 8 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   bc37b81..3b5f403  master -> master
+git add .

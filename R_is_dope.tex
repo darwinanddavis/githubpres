@@ -129,22 +129,16 @@ GA, USA, 30322}}
 }
 \newpage   
 
-Date: 2019-02-06\\
+Date: 2019-02-14\\
 R version: 3.5.0\\
 *Corresponding author:
 \href{mailto:matthew.malishev@gmail.com}{\nolinkurl{matthew.malishev@gmail.com}}\\
 This document can be found at
-\url{https://github.com/darwinanddavis/SchistoIBM/tree/master/mac}
+\url{https://github.com/darwinanddavis/githubpres}
 
 ~
 
 R session info
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{params}\OperatorTok{$}\NormalTok{session}
-\end{Highlighting}
-\end{Shaded}
 
 \begin{verbatim}
 R version 3.5.0 (2018-04-23)
@@ -163,7 +157,7 @@ attached base packages:
 
 loaded via a namespace (and not attached):
  [1] compiler_3.5.0  backports_1.1.2 magrittr_1.5    rprojroot_1.3-2 tools_3.5.0     htmltools_0.3.6
- [7] pillar_1.2.3    tibble_1.4.2    yaml_2.2.0      Rcpp_0.12.19    stringi_1.2.3   rmarkdown_1.10 
+ [7] pillar_1.2.3    tibble_1.4.2    yaml_2.2.0      Rcpp_1.0.0      stringi_1.2.3   rmarkdown_1.10 
 [13] knitr_1.20      stringr_1.3.1   digest_0.6.15   rlang_0.3.0.1   evaluate_0.10.1
 \end{verbatim}
 
@@ -173,15 +167,23 @@ loaded via a namespace (and not attached):
 
 This document showcases why \texttt{R} is \textbf{dope}.
 
-You can write in-line \texttt{code}, equations like this \(E = mc^{2}\),
-create links to your \href{https://github.com/darwinanddavis}{website}.
+You can write in-line \texttt{code} if you want to differentiate between
+when you are typing normally or highlighting \texttt{model\ parameters},
+for example.
 
-\section{\texorpdfstring{Just like LateX, but \emph{more
-versatile}.}{Just like LateX, but more versatile.}}\label{just-like-latex-but-more-versatile.}
+Equations like this \(t' = \gamma(t - vx/c^{2})\), to appear within text
+lines.
 
-~ ~ ~ ~
+Create links to your \href{https://github.com/darwinanddavis}{website}.
 
-\subsection{Create quoted text}\label{create-quoted-text}
+Make footnotes\footnote{Where the footnote goes here and it is
+  automatically formatted}.
+
+\subsection{Use different headings}\label{use-different-headings}
+
+\subsubsection{Like this subheading}\label{like-this-subheading}
+
+Create quoted text
 
 \begin{quote}
 Pump the bass in the trunk //\\
@@ -191,10 +193,10 @@ And I'm crazy tan, from all the places that I've been //\\
 Just from writing words with a pen //
 \end{quote}
 
-~\\
-\hspace*{0.333em}\\
-\hspace*{0.333em}\\
-\hspace*{0.333em}
+\section{\texorpdfstring{Just like \LaTeX{}, but \emph{more
+versatile}.}{Just like , but more versatile.}}\label{just-like-but-more-versatile.}
+
+\newpage     
 
 \subsection{Define equations}\label{define-equations}
 
@@ -202,8 +204,8 @@ Accordingly, we write the eigenfunction of a spinless particle as the
 superposition of plane wave states of momentum (\(\pi\)) and energy
 (\(Ej\)) having amplitudes \(a(\pi,Ej)\)
 
-\[
-\phi n(r,t) =
+\[  
+\phi n(r,t) =  
 \sum_{i, j} a(p_{i},E_{j})
 e^{
 \frac{i}
@@ -221,36 +223,49 @@ the normalization of \(\phi n(r,t)\) in (1) yields
 {1}
 {V_{o}T_{o}h^{4}}
 \int \phi \cdot (r,t) \phi (r,t)d^{3}rdt = \sum a \cdot (p_{i},E_{j})a(p_{i},E_{j}) = 1  
-\] \newpage   
+\] ~ ~ ~ ~ ~
 
 \subsection{Embed images/gifs:}\label{embed-imagesgifs}
 
 \includegraphics{githublogo.png}.
+
+\newpage  
 
 \subsection{Create, alter, and imbed
 plots}\label{create-alter-and-imbed-plots}
 
 \subsubsection{(with associated code)}\label{with-associated-code}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{set.seed}\NormalTok{(}\DecValTok{12}\NormalTok{)}
-\NormalTok{rr <-}\StringTok{ }\KeywordTok{rnorm}\NormalTok{(}\DecValTok{500}\NormalTok{)}
-\KeywordTok{plot}\NormalTok{(rr,}\DataTypeTok{pch=}\DecValTok{20}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
 \includegraphics{R_is_dope_files/figure-latex/unnamed-chunk-3-1.pdf}
+
+\newpage  
 
 \begin{Shaded}
 \begin{Highlighting}[]
 \KeywordTok{require}\NormalTok{(viridis)}
+\NormalTok{bm <-}\StringTok{ }\DecValTok{1}
+\KeywordTok{par}\NormalTok{(}\DataTypeTok{las=}\DecValTok{1}\NormalTok{,}\DataTypeTok{bty=}\StringTok{"n"}\NormalTok{); xlim <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\OperatorTok{-}\DecValTok{5}\NormalTok{,}\DecValTok{5}\NormalTok{);ylim <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\DecValTok{0}\NormalTok{,}\FloatTok{0.5}\NormalTok{)}
 \KeywordTok{set.seed}\NormalTok{(}\DecValTok{12}\NormalTok{)}
-\NormalTok{rr <-}\StringTok{ }\KeywordTok{rnorm}\NormalTok{(}\DecValTok{500}\NormalTok{)}
-\KeywordTok{plot}\NormalTok{(rr,}\DataTypeTok{las=}\DecValTok{1}\NormalTok{,}\DataTypeTok{bty=}\StringTok{"n"}\NormalTok{,}\DataTypeTok{col=}\KeywordTok{adjustcolor}\NormalTok{(}\KeywordTok{magma}\NormalTok{(}\DecValTok{50}\NormalTok{),}\FloatTok{0.5}\NormalTok{),}\DataTypeTok{pch=}\DecValTok{20}\NormalTok{,}\DataTypeTok{cex=}\KeywordTok{runif}\NormalTok{(}\DecValTok{10}\NormalTok{, }\DecValTok{1}\NormalTok{, }\DecValTok{5}\NormalTok{),}
-     \DataTypeTok{main=}\StringTok{"Some randomly distributed data, }\CharTok{\textbackslash{}n}\StringTok{but plot better"}\NormalTok{)}
+\NormalTok{N <-}\StringTok{ }\DecValTok{2000}
+\NormalTok{rr <-}\StringTok{ }\KeywordTok{rnorm}\NormalTok{(N); rr2 <-}\StringTok{ }\KeywordTok{rnorm}\NormalTok{(N}\OperatorTok{^}\DecValTok{2}\NormalTok{); rr3 <-}\StringTok{ }\KeywordTok{rnorm}\NormalTok{(N}\OperatorTok{+}\FloatTok{0.3}\NormalTok{)}
+\NormalTok{rrd <-}\StringTok{ }\KeywordTok{density}\NormalTok{(rr);rrd2 <-}\StringTok{ }\KeywordTok{density}\NormalTok{(rr2);rrd3 <-}\StringTok{ }\KeywordTok{density}\NormalTok{(rr3)}
+\NormalTok{main <-}\StringTok{ }\KeywordTok{paste0}\NormalTok{(N,}\StringTok{" points but plot better"}\NormalTok{);xlab <-}\StringTok{ "Points in space"}
+\ControlFlowTok{if}\NormalTok{(bm}\OperatorTok{==}\DecValTok{1}\NormalTok{)\{}
+  \KeywordTok{layout}\NormalTok{(}\KeywordTok{matrix}\NormalTok{(}\KeywordTok{c}\NormalTok{(}\KeywordTok{rep}\NormalTok{(}\DecValTok{1}\NormalTok{,}\DecValTok{3}\NormalTok{),}\DecValTok{2}\OperatorTok{:}\DecValTok{4}\NormalTok{), }\DecValTok{2}\NormalTok{, }\DecValTok{3}\NormalTok{, }\DataTypeTok{byrow =} \OtherTok{TRUE}\NormalTok{));sc <-}\StringTok{ }\DecValTok{1}
+  \KeywordTok{plot}\NormalTok{(rr,}\DataTypeTok{las=}\DecValTok{1}\NormalTok{,}\DataTypeTok{bty=}\StringTok{"n"}\NormalTok{,}\DataTypeTok{col=}\KeywordTok{adjustcolor}\NormalTok{(}\KeywordTok{viridis}\NormalTok{(N),}\FloatTok{0.5}\NormalTok{),}\DataTypeTok{pch=}\DecValTok{20}\NormalTok{,}\DataTypeTok{cex=}\KeywordTok{runif}\NormalTok{(}\DecValTok{10}\NormalTok{,}\DecValTok{1}\NormalTok{,}\DecValTok{5}\NormalTok{),}
+       \DataTypeTok{main=}\NormalTok{main,}\DataTypeTok{xlab=}\NormalTok{xlab)}
+\ControlFlowTok{for}\NormalTok{(r }\ControlFlowTok{in} \KeywordTok{list}\NormalTok{(rrd,rrd2,rrd3))\{}
+  \KeywordTok{plot}\NormalTok{(r,}\DataTypeTok{xlim=}\NormalTok{xlim,}\DataTypeTok{ylim=}\NormalTok{ylim,}\DataTypeTok{main=}\StringTok{""}\NormalTok{)}
+  \KeywordTok{polygon}\NormalTok{(r,}\DataTypeTok{col=}\KeywordTok{adjustcolor}\NormalTok{(}\KeywordTok{viridis}\NormalTok{(}\DecValTok{250}\NormalTok{)[sc],}\FloatTok{0.5}\NormalTok{),}\DataTypeTok{border=}\KeywordTok{viridis}\NormalTok{(}\DecValTok{250}\NormalTok{)[sc]);sc <-}\StringTok{ }\NormalTok{sc}\OperatorTok{+}\DecValTok{100}\NormalTok{\}}
+\NormalTok{\}}\ControlFlowTok{else}\NormalTok{\{}\KeywordTok{par}\NormalTok{(}\DataTypeTok{mfrow=}\KeywordTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{,}\DecValTok{1}\NormalTok{))}
+  \KeywordTok{plot}\NormalTok{(rr,}\DataTypeTok{las=}\DecValTok{1}\NormalTok{,}\DataTypeTok{bty=}\StringTok{"n"}\NormalTok{,}\DataTypeTok{col=}\KeywordTok{adjustcolor}\NormalTok{(}\KeywordTok{viridis}\NormalTok{(N),}\FloatTok{0.5}\NormalTok{),}\DataTypeTok{pch=}\DecValTok{20}\NormalTok{,}\DataTypeTok{cex=}\KeywordTok{runif}\NormalTok{(}\DecValTok{10}\NormalTok{,}\DecValTok{1}\NormalTok{,}\DecValTok{5}\NormalTok{),}
+       \DataTypeTok{main=}\NormalTok{main,}\DataTypeTok{xlab=}\NormalTok{xlab)\}}
 \end{Highlighting}
 \end{Shaded}
+
+\includegraphics{R_is_dope_files/figure-latex/unnamed-chunk-4-1.pdf}
+
+\newpage  
 
 \subsection{And tables}\label{and-tables}
 
@@ -392,18 +407,14 @@ languages}\label{heres-a-complete-list-of-available-languages}
 
 \subsection{References}\label{references}
 
-Shaw, A. K., \& Couzin, I. D. (2013). Migration or residency? The
-evolution of movement behavior and information usage in seasonal
-environments. The American Naturalist, 181, 114--124.
+Efthimiades, S., Physical meaning and derivation of Schrodinger and
+Dirac equations, Department of Natural Sciences, Fordham University.
+\href{https://arxiv.org/vc/quant-ph/papers/0607/0607001v1.pdf}{doi:
+d34464566}.
 
-Shelly, T. E. (1982). Comparative foraging behavior of light- versus
-shade- seeking adult damselflies in a lowland Neotropical forest
-(Odonata: Zygoptera). Physiological Zoology, 55, 335--343.
-
-Sinervo, B., de Mendez-de-la-Cruz, F., Miles, D. B., Heulin, B.,
-Bastiaans, E., Villagran-Santa Cruz, M., \ldots{} Sites, J. W. (2010).
-Erosion of lizard diversity by climate change and altered thermal
-niches. Science, 328, 894--899.
+Malishev, M., Bull, C. M., \& Kearney, M. R. (2018). An individual‐based
+model of ectotherm movement integrating metabolic and microclimatic
+constraints. Methods in Ecology and Evolution, 9(3), 472-489.
 
 \printbibliography
 

@@ -4,7 +4,7 @@ author: |
  | Matthew Malishev^1^*  
  |  
  | _^1^ Department of Biology, Emory University, 1510 Clifton Road NE, Atlanta, GA, USA, 30322_
-#bibliography:/Users/malishev/Documents/Melbourne Uni/Thesis_2016/library.bib
+#bibliography:/Users/library.bib
 fontsize: 10
 geometry: margin=1in
 documentclass: article
@@ -25,7 +25,7 @@ output:
     fig_caption: true
     df_print: tibble 
     citation_package: biblatex # natbib
-    latex_engine: xelatex #pdflatex # lualatex
+    latex_engine: xelatex # pdflatex # lualatex
     keep_tex: true # keep .tex file in dir 
   html_document:
     highlight: tango
@@ -52,11 +52,11 @@ params:
   session: !r sessionInfo()  
   version: !r getRversion()
   email: "matthew.malishev@gmail.com"
-  doi: https://github.com/darwinanddavis/SchistoIBM/tree/master/mac
+  doi: https://github.com/darwinanddavis/githubpres
 classoption: portrait
-# ^['https://github.com/darwinanddavis/SchistoIBM/tree/master/mac'] # footnote
+# ^['https://github.com/darwinanddavis/githubpres'] # uncomment to make a footnote
 vignette: >
-  %\VignetteIndexEntry{Useful R code}
+  %\VignetteIndexEntry{Github pres}
   %\VignetteEncoding{UTF-8}
   %\VignetteEngine{knitr::rmarkdown}
 ---
@@ -75,7 +75,7 @@ vignette: >
 ```{r, set-options, echo = FALSE, cache = FALSE}
 options(width=100)
 knitr::opts_chunk$set(
-  fig.height=5, 
+  fig.height=10, 
   fig.width=15,
  eval = T, # run all code
  # echo = FALSE, # show code chunks in output 
@@ -104,7 +104,7 @@ This document can be found at `r params$doi`
 
 R session info 
 
-```{r echo=T, eval=T}
+```{r echo=F, eval=T}
 params$session
 ```      
 
@@ -114,33 +114,36 @@ params$session
 
 This document showcases why `R` is **dope**.  
 
-You can write in-line `code`, equations like this $E = mc^{2}$, create links to your [website](https://github.com/darwinanddavis). 
+You can write in-line `code` if you want to differentiate between when you are typing normally or highlighting `model parameters`, for example.    
 
-# Just like LateX, but _more versatile_.    
-\  
-\  
-\  
-\  
+Equations like this $t' = \gamma(t - vx/c^{2})$, to appear within text lines.  
 
-## Create quoted text  
+Create links to your [website](https://github.com/darwinanddavis).  
+
+Make footnotes^[Where the footnote goes here and it is automatically formatted].    
+
+## Use different headings  
+
+### Like this subheading  
+
+Create quoted text  
 
 > Pump the bass in the trunk //  
 > It rattled like a baby hand //  
 > Except this toy cost 80 grand //  
 > And I’m crazy tan, from all the places that I’ve been //  
-> Just from writing words with a pen //    
+> Just from writing words with a pen //  
 
-\    
-\    
-\    
-\    
+# Just like \LaTeX{}, but _more versatile_.      
+
+\newpage     
  
 ## Define equations      
 
-Accordingly, we write the eigenfunction of a spinless particle as the superposition of plane wave states of momentum ($\pi$) and energy ($Ej$) having amplitudes $a(\pi,Ej)$
+Accordingly, we write the eigenfunction of a spinless particle as the superposition of plane wave states of momentum ($\pi$) and energy ($Ej$) having amplitudes $a(\pi,Ej)$  
 
-$$
-\phi n(r,t) =
+$$  
+\phi n(r,t) =  
 \sum_{i, j} a(p_{i},E_{j})
 e^{
 \frac{i}
@@ -157,29 +160,52 @@ $$
 {V_{o}T_{o}h^{4}}
 \int \phi \cdot (r,t) \phi (r,t)d^{3}rdt = \sum a \cdot (p_{i},E_{j})a(p_{i},E_{j}) = 1  
 $$
-\newpage   
+\  
+\  
+\  
+\  
+\    
 
 ## Embed images/gifs:  
 
-![Science](githublogo.png).    
+![Science](githublogo.png).      
 
+\newpage  
 
 ## Create, alter, and imbed plots  
 ### (with associated code)  
+```{r,echo=F,eval=T}
+set.seed(12)
+N <- 2000
+rr <- rnorm(N)
+plot(rr,pch=20,main="Some random data")
+```
+
+
+\newpage  
+
 ```{r,echo=T,eval=T}
-set.seed(12)
-rr <- rnorm(500)
-plot(rr,pch=20)
-```
-
-
-```{r,echo=T,eval=F}
 require(viridis)
+bm <- 1
+par(las=1,bty="n"); xlim <- c(-5,5);ylim <- c(0,0.5)
 set.seed(12)
-rr <- rnorm(500)
-plot(rr,las=1,bty="n",col=adjustcolor(magma(50),0.5),pch=20,cex=runif(10, 1, 5),
-     main="Some randomly distributed data, \nbut plot better")
+N <- 2000
+rr <- rnorm(N); rr2 <- rnorm(N^2); rr3 <- rnorm(N+0.3)
+rrd <- density(rr);rrd2 <- density(rr2);rrd3 <- density(rr3)
+main <- paste0(N," points but plot better");xlab <- "Points in space"
+if(bm==1){
+  layout(matrix(c(rep(1,3),2:4), 2, 3, byrow = TRUE));sc <- 1
+  plot(rr,las=1,bty="n",col=adjustcolor(viridis(N),0.5),pch=20,cex=runif(10,1,5),
+       main=main,xlab=xlab)
+for(r in list(rrd,rrd2,rrd3)){
+  plot(r,xlim=xlim,ylim=ylim,main="")
+  polygon(r,col=adjustcolor(viridis(250)[sc],0.5),border=viridis(250)[sc]);sc <- sc+100}
+}else{par(mfrow=c(1,1))
+  plot(rr,las=1,bty="n",col=adjustcolor(viridis(N),0.5),pch=20,cex=runif(10,1,5),
+       main=main,xlab=xlab)}
 ```
+
+\newpage  
 
 ## And tables  
 
@@ -275,9 +301,7 @@ names(knitr::knit_engines$get())
 
 ## References  
 
-Shaw, A. K., & Couzin, I. D. (2013). Migration or residency? The evolution of movement behavior and information usage in seasonal environments. The American Naturalist, 181, 114–124.  
+Efthimiades, S., Physical meaning and derivation of Schrodinger and Dirac equations, Department of Natural Sciences, Fordham University. [doi: d34464566](https://arxiv.org/vc/quant-ph/papers/0607/0607001v1.pdf).     
 
-Shelly, T. E. (1982). Comparative foraging behavior of light- versus shade- seeking adult damselflies in a lowland Neotropical forest (Odonata: Zygoptera). Physiological Zoology, 55, 335–343.  
-
-Sinervo, B., de Mendez-de-la-Cruz, F., Miles, D. B., Heulin, B., Bastiaans, E., Villagran-Santa Cruz, M., ... Sites, J. W. (2010). Erosion of lizard diversity by climate change and altered thermal niches. Science, 328, 894–899.  
+Malishev, M., Bull, C. M., & Kearney, M. R. (2018). An individual‐based model of ectotherm movement integrating metabolic and microclimatic constraints. Methods in Ecology and Evolution, 9(3), 472-489.  
 

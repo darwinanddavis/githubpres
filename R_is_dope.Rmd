@@ -172,8 +172,7 @@ $$
 
 \newpage  
 
-## Create, alter, and imbed plots  
-### (with associated code)  
+## Create, alter, and imbed plots    
 ```{r,echo=F,eval=T}
 set.seed(12)
 N <- 2000
@@ -184,9 +183,10 @@ plot(rr,pch=20,main="Some random data")
 
 \newpage  
 
+## Show plots with associated code  
 ```{r,echo=T,eval=T}
 require(viridis)
-bm <- 1
+bm <- 0
 par(las=1,bty="n"); xlim <- c(-5,5);ylim <- c(0,0.5)
 set.seed(12)
 N <- 2000

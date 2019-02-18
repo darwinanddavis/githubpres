@@ -101,13 +101,17 @@ This document can be found at `r params$doi`
 
 ## Install git  
 
-Install git on your computer following the instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).  
+**Mac users**  
+[Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).      
 
-Once git is on your computer, you can now access its features using either just your local computer for version control or your Github account.  
+**Windows users**  
+[Install git with Git Bash](https://www.sitereq.com/post/easiest-way-to-install-git-bash-commands-on-windows#git-bash-windows-installation). Git Bash is a text editor for running git commands.      
 
-## Create a Github account  
+Once git is on your computer, you can now access its features using either just your local computer for version control or your Github account for version control on the cloud.    
 
-Create your new Github account [here](https://github.com/). Some tips on creating an account:  
+## Create a Github account    
+
+[Create your new Github account](https://github.com/). Some tips on creating an account:  
 
 - Choose a username that you plan to keep. Something that represents your professional acumen, e.g. not "matt_loves_hiphop86"  
 \  
@@ -125,7 +129,9 @@ Some essential elements of your Github page:
 - Your gits. These are the digital footprints of your changes. We use this for [version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control).    
 \  
 - Your README.md file. This tells users what your repo contains, instructions for running code, troubleshooting, version control, links to external web sources, and other git specific elements, such as program/package versions.  
-\        
+\  
+
+\newpage  
 
 Here are some screenshots of what you'll see on your own github page.  
 
@@ -136,6 +142,8 @@ Here are some screenshots of what you'll see on your own github page.
 ![Inside of a file in a repository](filepage.png)  
 
 ![Example of a README file](readme.png)   
+\  
+**End installation instructions.** The following sections contain reference guides for using git and bash commands (talking to git). Familiarise yourself with these beforehand.    
 
 \newpage     
 
@@ -144,20 +152,25 @@ Here are some screenshots of what you'll see on your own github page.
 We'll be using the command line to talk with git. 
 
 - In Mac, this is found in _Applications > Terminal_.  
-- In Windows, it's under _Start_, then in the Search line type  _"cmd"_.    
+- In Windows, open the **Git Bash** application.  
 
-\  
-
-### Commmon `git` syntax     
+### Commmon `git` syntax       
 **Note: commands require spaces between terms.**  
 
 Common `git` phrases       
+
+*init* = initialise your git  
+*push* = push your changes to a remote repository  
+*pull* = pull changes made remotely to match local git changes  
+*fetch* = re-align git changes from origin (remote) to master (local) branch  
+
+
+Configure your credentials  
 ```{bash eval=F, echo=T}
-init # initialise your git  
-push # push your changes to a remote repository  
-pull # pull changes made remotely to match local git changes  
-fetch # re-align git changes from origin (remote) to master (local) branch  
+git config --global user.name "<your name>"
+git config --global user.email "<your email>"  
 ```
+
 
 initialise a new git (local)     
 ```{bash eval=F, echo=T}
@@ -211,8 +224,6 @@ See these references for a brief intro to using the command line in [Mac](https:
 
 \  
 
-Here is a brief intro. At least familiarise yourself with these before the workshop.  
-
 ### Useful command line syntax  
 **Note: commands require spaces between terms.**    
 
@@ -224,7 +235,7 @@ Here is a brief intro. At least familiarise yourself with these before the works
 
 `mkdir newfolder` make new working dir  
 
-`touch text.txt` create new file  
+`touch text.txt` create new file (called text.txt)  
 
 ### More useful syntax  
 **Note: commands require spaces between terms.**  
@@ -302,6 +313,8 @@ ls
 [Terminal in Mac](https://macpaw.com/how-to/use-terminal-on-mac)    
 
 [Command line in Windows](https://www.computerhope.com/issues/chusedos.htm)    
+
+[]() 
 
 ## Maintainer  
 Matt Malishev  

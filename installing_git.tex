@@ -126,7 +126,7 @@ GA, USA, 30322}}
 }
 \newpage   
 
-Date: 2018-11-23\\
+Date: 2019-02-18\\
 R version: 3.5.0\\
 *Corresponding author:
 \href{mailto:matthew.malishev@gmail.com}{\nolinkurl{matthew.malishev@gmail.com}}\\
@@ -135,17 +135,22 @@ This document can be found at \url{https://github.com/darwinanddavis}\\
 
 \subsection{Install git}\label{install-git}
 
-Install git on your computer following the instructions
-\href{https://git-scm.com/book/en/v2/Getting-Started-Installing-Git}{here}.
+\textbf{Mac users}\\
+\href{https://git-scm.com/book/en/v2/Getting-Started-Installing-Git}{Install
+git}.
+
+\textbf{Windows users}\\
+\href{https://www.sitereq.com/post/easiest-way-to-install-git-bash-commands-on-windows\#git-bash-windows-installation}{Install
+git with Git Bash}. Git Bash is a text editor for running git commands.
 
 Once git is on your computer, you can now access its features using
 either just your local computer for version control or your Github
-account.
+account for version control on the cloud.
 
 \subsection{Create a Github account}\label{create-a-github-account}
 
-Create your new Github account \href{https://github.com/}{here}. Some
-tips on creating an account:
+\href{https://github.com/}{Create your new Github account}. Some tips on
+creating an account:
 
 \begin{itemize}
 \tightlist
@@ -186,6 +191,8 @@ Some essential elements of your Github page:
   \hspace*{0.333em}
 \end{itemize}
 
+\newpage  
+
 Here are some screenshots of what you'll see on your own github page.
 
 \begin{figure}
@@ -206,11 +213,10 @@ Here are some screenshots of what you'll see on your own github page.
 \caption{Inside of a file in a repository}
 \end{figure}
 
-\begin{figure}
-\centering
-\includegraphics{readme.png}
-\caption{Example of a README file}
-\end{figure}
+\includegraphics{readme.png}\\
+\hspace*{0.333em} \textbf{End installation instructions.} The following
+sections contain reference guides for using git and bash commands
+(talking to git). Familiarise yourself with these beforehand.
 
 \newpage     
 
@@ -224,11 +230,8 @@ We'll be using the command line to talk with git.
   In Mac, this is found in \emph{Applications \textgreater{}
   Terminal}.\\
 \item
-  In Windows, it's under \emph{Start}, then in the Search line type
-  \emph{``cmd''}.
+  In Windows, open the \textbf{Git Bash} application.
 \end{itemize}
-
-~
 
 \subsubsection{\texorpdfstring{Commmon \texttt{git}
 syntax}{Commmon git syntax}}\label{commmon-git-syntax}
@@ -237,12 +240,18 @@ syntax}{Commmon git syntax}}\label{commmon-git-syntax}
 
 Common \texttt{git} phrases
 
+\emph{init} = initialise your git\\
+\emph{push} = push your changes to a remote repository\\
+\emph{pull} = pull changes made remotely to match local git changes\\
+\emph{fetch} = re-align git changes from origin (remote) to master
+(local) branch
+
+Configure your credentials
+
 \begin{Shaded}
 \begin{Highlighting}[]
-\ExtensionTok{init} \CommentTok{# initialise your git  }
-\ExtensionTok{push} \CommentTok{# push your changes to a remote repository  }
-\ExtensionTok{pull} \CommentTok{# pull changes made remotely to match local git changes  }
-\ExtensionTok{fetch} \CommentTok{# re-align git changes from origin (remote) to master (local) branch  }
+\FunctionTok{git}\NormalTok{ config --global user.name }\StringTok{"<your name>"}
+\FunctionTok{git}\NormalTok{ config --global user.email }\StringTok{"<your email>"}  
 \end{Highlighting}
 \end{Shaded}
 
@@ -330,9 +339,6 @@ See these references for a brief intro to using the command line in
 
 ~
 
-Here is a brief intro. At least familiarise yourself with these before
-the workshop.
-
 \subsubsection{Useful command line
 syntax}\label{useful-command-line-syntax}
 
@@ -347,7 +353,7 @@ syntax}\label{useful-command-line-syntax}
 
 \texttt{mkdir\ newfolder} make new working dir
 
-\texttt{touch\ text.txt} create new file
+\texttt{touch\ text.txt} create new file (called text.txt)
 
 \subsubsection{More useful syntax}\label{more-useful-syntax}
 
@@ -445,6 +451,8 @@ control with git}
 
 \href{https://www.computerhope.com/issues/chusedos.htm}{Command line in
 Windows}
+
+\href{}{}
 
 \subsection{Maintainer}\label{maintainer}
 

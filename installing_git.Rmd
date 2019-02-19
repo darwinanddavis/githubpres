@@ -145,11 +145,13 @@ Here are some screenshots of what you'll see on your own github page.
 \  
 **End installation instructions.** The following sections contain reference guides for using git and bash commands (talking to git). Familiarise yourself with these beforehand.    
 
+******  
+
 \newpage     
 
-## Using git and Github  
+## Resources and references  
 
-We'll be using the command line to talk with git. 
+This section contains useful syntax and references for using git. We'll be using the command line to talk with git.   
 
 - In Mac, this is found in _Applications > Terminal_.  
 - In Windows, open the **Git Bash** application.  

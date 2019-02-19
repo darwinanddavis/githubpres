@@ -1054,3 +1054,49 @@ To github.com:darwinanddavis/githubpres.git
    96e251b..4472a6c  master -> master
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open read[K[K[K[Kread[K[K[KRE[K[K[KE[KREADME.md 
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git ad[Kdd .
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit 0[K-m ''[C[K[K[K[K[K[K[K[K[K[K[K[Kog
+git: 'og' is not a git command. See 'git --help'.
+
+Did you mean this?
+	log
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git log
+[?1h=[33mcommit 4472a6ce575014cb46378afad7228a0643f0afcd[m[m
+Author: darwinanddavis <matthew.malishev@gmail.com>[m
+Date:   Mon Feb 18 17:01:06 2019 -0500[m
+[m
+    instructions[m
+[m
+[33mcommit 96e251b147e7a144ef5bfb86ff9f3963c5a9ff69[m[m
+Author: darwinanddavis <matthew.malishev@gmail.com>[m
+Date:   Sun Feb 17 12:42:57 2019 -0500[m
+[m
+:[K[K[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   .Rproj.user/ABE7B653/console06/587CA191[m
+	[32mmodified:   README.md[m
+	[32mmodified:   installing_git.Rmd[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/ABE7B653/console06/587CA191[m
+
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''i'n's'a'l'l'[1P'[1P'[1P't'a'l'l'[1P'[1P'[1P'[1P'[1P'[1P'[1P'u'p'd'a't'e' 'i'n's't'a'l'l'
+[master 3a333a6] update install
+ 3 files changed, 31 insertions(+), 4 deletions(-)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ ggi[K[Kit push
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 1.30 KiB | 0 bytes/s, done.
+Total 8 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   4472a6c..3a333a6  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pushcommit -m 'update install'status[K[3Plog[1Pogadd .

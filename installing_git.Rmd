@@ -97,7 +97,7 @@ Date: `r params$date`
 R version: `r params$version`  
 *Corresponding author: `r params$email`  
 This document can be found at `r params$doi`  
-\newpage  
+\newpage    
 
 ## Install git  
 

@@ -123,7 +123,7 @@ telnet towel.blinkenlights.nl # watch movie in ascii
 <!-- _____________________________ break ________________________________ -->
 ## Workflow example {.build}   
 
-### Open an '.Rproj' with self-contained files  
+### Open an `R` project with self-contained files    
 ### Use the `R Studio` in-built command line connected to your Github    
 ### Backup straight from `R`    
 ### _Cake!_  
@@ -351,6 +351,15 @@ File options:
 </div>
 <!-- --------------------------------------------------------- -->  
 
+<!-- _____________________________ break ________________________________ -->
+##  
+
+<!-- ----------------------- image --------------------------- -->
+<div align="center">
+  <img src="wf5.png" width=800 height=600>
+</div>
+<!-- --------------------------------------------------------- -->
+
 <!-- _____________________________ break ________________________________ -->  
 ## The time `git` schooled me {.build}    
 
@@ -407,7 +416,28 @@ git push
 # Troubleshooting  
 
 <!-- _____________________________ break ________________________________ -->
-## Useful syntax {.build}     
+## Useful `git` syntax {.build}  
+
+```{shell, eval=F}
+git config --global user.name "Matt Malishev"
+git config --global user.email "mmlshv@gmail.com" 
+
+```
+
+`git diff`  
+```{shell, eval=F}
+git diff # print differences (changes) to files  
+git diff --stage # show changes in staged gits 
+```
+
+Extra flags for git commands  
+```{shell, eval=F}
+git log --online # condense log into one line summary  
+```
+
+
+<!-- _____________________________ break ________________________________ -->
+## Useful `shell` syntax {.build}     
 
 change working dir to 'Documents'  
 `cd ~/Documents`    
@@ -674,26 +704,6 @@ fswatch -0 <<file>> | xargs -0 -n 1 bash <<path/to/auto_commit_push.sh>>
 ## References (cont ...)  
 
 [invalid active developer path (xcrun: error: invalid active developer path)](https://apple.stackexchange.com/questions/254380/why-am-i-getting-an-invalid-active-developer-path-when-attempting-to-use-git-a)  
-
-<!-- _____________________________ break ________________________________ -->
-## Things to add after SWC workshop  
-
-```{shell, eval=F}
-git config --global user.name "Matt Malishev"
-git config --global user.email "mmlshv@gmail.com" 
-
-```
-
-`git diff`  
-```{shell, eval=F}
-git diff # print differences (changes) to files  
-git diff --stage # show changes in staged gits 
-```
-
-Extra flags for git commands  
-```{shell, eval=F}
-git log --online # condense log into one line summary  
-```
 
 <!-- _____________________________ BODY ________________________________ -->
 <!-- ____________________________________________________________________ -->

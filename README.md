@@ -24,7 +24,8 @@ File extensions:
 
 ## Seminar slides  
 
-Right click and select 'Save as', then open the HTML on your preferred browser:      
+Right click and select 'Save as', then open the HTML on your preferred browser:  
+      
 [Using Git with GUI (Part I)](http://htmlpreview.github.io/?https://github.com/darwinanddavis/githubpres/blob/master/github_presentation.html)      
 
 [Using Git with Terminal (Part II)](http://htmlpreview.github.io/?https://github.com/darwinanddavis/githubpres/blob/master/github_presentation_part2.html)          

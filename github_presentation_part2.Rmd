@@ -407,7 +407,7 @@ git remote -v
 git remote add origin "your github repo"  # if remote branch doesn't exist
 git remote set-url origin "your github repo"  # if already exists
 # push changes from local repo to remote repo 
-git push
+git push 
 ```
 
 ### **If in doubt, ask the internet**    
@@ -685,7 +685,9 @@ fswatch -0 <<file>> | xargs -0 -n 1 bash <<path/to/auto_commit_push.sh>>
 
 [Origin master - rejected (fetch first), no file in GitHub repository](https://stackoverflow.com/questions/46619527/gitbash-origin-master-rejected-fetch-first-no-file-in-github-repository)    
 
-[Intro to git: Branches, pull requests, and other useful stuff](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)   
+[Intro to git: Branches, pull requests, and other useful stuff](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+
+[Git - the simple guide](http://rogerdudler.github.io/git-guide/)    
 
 [Automatically push an updated file whenever it is changed](https://gist.github.com/darencard/5d42319abcb6ec32bebf6a00ecf99e86)     
 

@@ -25,7 +25,7 @@
 \usepackage[unicode=true]{hyperref}
 \PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
 \hypersetup{
-            pdftitle={Using Github for research and life},
+            pdftitle={Using git and Github for research and life},
             colorlinks=true,
             linkcolor=blue,
             citecolor=red,
@@ -109,7 +109,7 @@
 \makeatother
 
 
-\title{Using Github for research and life}
+\title{Using git and Github for research and life}
 \author{Matthew
 Malishev\textsuperscript{1}*\\[2\baselineskip]\emph{\textsuperscript{1}
 Department of Biology, Emory University, 1510 Clifton Road NE, Atlanta,
@@ -121,33 +121,107 @@ GA, USA, 30322}}
 
 {
 \hypersetup{linkcolor=black}
-\setcounter{tocdepth}{4}
+\setcounter{tocdepth}{3}
 \tableofcontents
 }
 \newpage   
 
-Date: 2019-02-18\\
+Date: 2019-03-11\\
 R version: 3.5.0\\
 *Corresponding author:
 \href{mailto:matthew.malishev@gmail.com}{\nolinkurl{matthew.malishev@gmail.com}}\\
-This document can be found at \url{https://github.com/darwinanddavis}\\
-\newpage  
+This document can be found at
+\url{https://github.com/darwinanddavis/githubpres}
 
-\subsection{Install git}\label{install-git}
+\newpage    
 
-\textbf{Mac users}\\
+\subsection{1. Install git}\label{install-git}
+
+\emph{Mac users}\\
 \href{https://git-scm.com/book/en/v2/Getting-Started-Installing-Git}{Install
 git}.
 
-\textbf{Windows users}\\
+\emph{Windows users}\\
 \href{https://www.sitereq.com/post/easiest-way-to-install-git-bash-commands-on-windows\#git-bash-windows-installation}{Install
 git with Git Bash}. Git Bash is a text editor for running git commands.
 
-Once git is on your computer, you can now access its features using
-either just your local computer for version control or your Github
-account for version control on the cloud.
+~ ~ ~
 
-\subsection{Create a Github account}\label{create-a-github-account}
+\textbf{Check git is installed}
+
+\emph{Mac}
+
+Go to \emph{Applications} \textgreater{} \emph{Utilities} \textgreater{}
+\emph{Terminal}. In Terminal, type the following and press Enter:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+
+\FunctionTok{git}\NormalTok{ --version }
+\end{Highlighting}
+\end{Shaded}
+
+If you don't see anything like \texttt{git\ version\ 2.10.0}, try the
+reinstallation steps again.
+
+\emph{Windows}
+
+Open Git Bash and type in the following and press Enter:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+
+\FunctionTok{git}\NormalTok{ --version  }
+\end{Highlighting}
+\end{Shaded}
+
+If you don't see anything like \texttt{git\ version\ 2.20.1.windows.1},
+try the reinstallation steps again.
+
+~ ~ ~
+
+\textbf{If you can't get it working, email me before the workshop and
+I'll help you.}
+
+\newpage  
+
+\subsection{2. Configure your user name and
+email}\label{configure-your-user-name-and-email}
+
+Once \texttt{git} is installed, you then just need to configure your
+user credentials.
+
+Using either Terminal for Mac or Git Bash for Windows, type the
+following and press Enter:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+
+\FunctionTok{git}\NormalTok{ config --global user.name }\StringTok{"Your Name"} 
+\end{Highlighting}
+\end{Shaded}
+
+Then type this to configure your email and press Enter:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+
+\FunctionTok{git}\NormalTok{ config --global user.email }\StringTok{"your@email.com"} 
+\end{Highlighting}
+\end{Shaded}
+
+~ ~ ~
+
+\paragraph{You're set!}\label{youre-set}
+
+Once \texttt{git} is on your computer, you can now access its features
+using your local computer for version control.
+
+\newpage  
+
+\subsection{3. Create a Github account}\label{create-a-github-account}
+
+Create your Github account so you can push your documents to the cloud.
 
 \href{https://github.com/}{Create your new Github account}. Some tips on
 creating an account:
@@ -191,6 +265,13 @@ Some essential elements of your Github page:
   \hspace*{0.333em}
 \end{itemize}
 
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+~ ~ \textbf{End installation instructions.} The following sections
+contain reference guides for your Github page and using git and bash
+commands (talking to git). Just familiarise yourself with these
+beforehand.
+
 \newpage  
 
 Here are some screenshots of what you'll see on your own github page.
@@ -213,22 +294,24 @@ Here are some screenshots of what you'll see on your own github page.
 \caption{Inside of a file in a repository}
 \end{figure}
 
-\includegraphics{readme.png}\\
-\hspace*{0.333em} \textbf{End installation instructions.} The following
-sections contain reference guides for using git and bash commands
-(talking to git). Familiarise yourself with these beforehand.
+\begin{figure}
+\centering
+\includegraphics{readme.png}
+\caption{Example of a README file}
+\end{figure}
 
 \newpage     
 
-\subsection{Using git and Github}\label{using-git-and-github}
+\subsection{Resources and references}\label{resources-and-references}
 
-We'll be using the command line to talk with git.
+This section contains useful syntax and references for using git. We'll
+be using the command line to talk with git.
 
 \begin{itemize}
 \tightlist
 \item
-  In Mac, this is found in \emph{Applications \textgreater{}
-  Terminal}.\\
+  In Mac, this is found in \emph{Applications \textgreater{} Utilities
+  \textgreater{} Terminal}.\\
 \item
   In Windows, open the \textbf{Git Bash} application.
 \end{itemize}
@@ -382,8 +465,6 @@ rename files\\
 
 \subsubsection{Example of command line
 workflow}\label{example-of-command-line-workflow}
-
-\textbf{Install `gitbash' to use Linux/Mac capabilities if not already}
 
 Open \emph{Terminal/cmd}
 

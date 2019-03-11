@@ -1,14 +1,14 @@
 ---
-title: Using Github for research and life   
+title: Using git and Github for research and life   
 author: |
- | Matthew Malishev^1^* 
+ | Matthew Malishev^1^*  
  |  
  | _^1^ Department of Biology, Emory University, 1510 Clifton Road NE, Atlanta, GA, USA, 30322_
-#bibliography:/Users/malishev/Documents/Melbourne Uni/Thesis_2016/library.bib
+#bibliography:/Users/library.bib
 fontsize: 10
 geometry: margin=1in
 documentclass: article
-linkcolor: blue
+linkcolor: blue  
 urlcolor: blue
 citecolor: red
 output:
@@ -18,14 +18,14 @@ output:
     highlight: tango
     template: null
     toc: yes
-    toc_depth: 4
+    toc_depth: 3
     number_sections: false
     fig_width: 4
     fig_height: 5
     fig_caption: true
     df_print: tibble 
     citation_package: biblatex # natbib
-    latex_engine: xelatex #pdflatex # lualatex
+    latex_engine: xelatex # pdflatex # lualatex
     keep_tex: true # keep .tex file in dir 
   html_document:
     highlight: tango
@@ -47,16 +47,16 @@ tags:
 - nothing
 - nothingness
 params: 
-  dir: "/Users/malishev/Documents/Presentations/githubpres" 
+  dir: "/Users/malishev/Documents/Presentations/githubpres"
   date: !r Sys.Date()
   session: !r sessionInfo()  
   version: !r getRversion()
   email: "matthew.malishev@gmail.com"
-  doi: https://github.com/darwinanddavis
+  doi: https://github.com/darwinanddavis/githubpres
 classoption: portrait
-# ^['https://github.com/darwinanddavis/UsefulCode'] # footnote
+# ^['https://github.com/darwinanddavis/githubpres'] # uncomment to make a footnote
 vignette: >
-  %\VignetteIndexEntry{Useful R code}
+  %\VignetteIndexEntry{Github pres}
   %\VignetteEncoding{UTF-8}
   %\VignetteEngine{knitr::rmarkdown}
 ---
@@ -97,19 +97,88 @@ Date: `r params$date`
 R version: `r params$version`  
 *Corresponding author: `r params$email`  
 This document can be found at `r params$doi`  
+
 \newpage    
 
-## Install git  
+## 1. Install git  
 
-**Mac users**  
+_Mac users_  
 [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).      
 
-**Windows users**  
+_Windows users_  
 [Install git with Git Bash](https://www.sitereq.com/post/easiest-way-to-install-git-bash-commands-on-windows#git-bash-windows-installation). Git Bash is a text editor for running git commands.      
 
-Once git is on your computer, you can now access its features using either just your local computer for version control or your Github account for version control on the cloud.    
+\  
+\  
+\  
 
-## Create a Github account    
+**Check git is installed**    
+
+_Mac_  
+
+Go to _Applications_ > _Utilities_ > _Terminal_. In Terminal, type the following and press Enter:  
+
+```{bash, eval=F}
+
+git --version 
+
+```
+
+If you don't see anything like `git version 2.10.0`, try the reinstallation steps again.
+
+_Windows_  
+
+Open Git Bash and type in the following and press Enter:  
+
+```{bash, eval=F}
+
+git --version  
+
+```
+
+If you don't see anything like `git version 2.20.1.windows.1`, try the reinstallation steps again.
+
+\  
+\  
+\  
+
+**If you can't get it working, email me before the workshop and I'll help you.**      
+
+\newpage  
+
+## 2. Configure your user name and email  
+
+Once `git` is installed, you then just need to configure your user credentials.
+
+Using either Terminal for Mac or Git Bash for Windows, type the following and press Enter:  
+
+```{bash, eval=F}
+
+git config --global user.name "Your Name" 
+
+```
+
+Then type this to configure your email and press Enter:
+
+```{bash, eval=F}
+
+git config --global user.email "your@email.com" 
+
+```
+
+\  
+\  
+\  
+
+#### You're set!  
+
+Once `git` is on your computer, you can now access its features using your local computer for version control.  
+
+\newpage  
+
+## 3. Create a Github account    
+
+Create your Github account so you can push your documents to the cloud.  
 
 [Create your new Github account](https://github.com/). Some tips on creating an account:  
 
@@ -131,6 +200,11 @@ Some essential elements of your Github page:
 - Your README.md file. This tells users what your repo contains, instructions for running code, troubleshooting, version control, links to external web sources, and other git specific elements, such as program/package versions.  
 \  
 
+******  
+\  
+\  
+**End installation instructions.** The following sections contain reference guides for your Github page and using git and bash commands (talking to git). Just familiarise yourself with these beforehand.      
+
 \newpage  
 
 Here are some screenshots of what you'll see on your own github page.  
@@ -142,10 +216,6 @@ Here are some screenshots of what you'll see on your own github page.
 ![Inside of a file in a repository](filepage.png)  
 
 ![Example of a README file](readme.png)   
-\  
-**End installation instructions.** The following sections contain reference guides for using git and bash commands (talking to git). Familiarise yourself with these beforehand.    
-
-******  
 
 \newpage     
 
@@ -153,7 +223,7 @@ Here are some screenshots of what you'll see on your own github page.
 
 This section contains useful syntax and references for using git. We'll be using the command line to talk with git.   
 
-- In Mac, this is found in _Applications > Terminal_.  
+- In Mac, this is found in _Applications > Utilities > Terminal_.  
 - In Windows, open the **Git Bash** application.  
 
 ### Commmon `git` syntax       
@@ -168,56 +238,56 @@ Common `git` phrases
 
 
 Configure your credentials  
-```{bash eval=F, echo=T}
+```{bash, eval=F}
 git config --global user.name "<your name>"
 git config --global user.email "<your email>"  
 ```
 
 
 initialise a new git (local)     
-```{bash eval=F, echo=T}
+```{bash, eval=F}
 git init  
 ```
 
 add all files in directory to git (local)     
-```{bash eval=F, echo=T}
+```{bash, eval=F}
 git add .
 ```
 
 add individual file (local)     
-```{bash eval=F, echo=T}
+```{bash, eval=F}
 git add abstract.txt
 ```
 
 check git activity  (local)  
-```{bash eval=F, echo=T}
+```{bash, eval=F}
 git status 
 ``` 
 
 add remote origin source to push git (remote)
-```{bash eval=F, echo=T}
+```{bash, eval=F}
 # two options  
 get remote set-url origin https://github.com/darwinanddavis/newtest.git  
 git remote add origin https://github.com/darwinanddavis/newtest.git
 ```
 
 push git changes to origin (your remote location) from your master (local) branch         
-```{bash eval=F, echo=T}
+```{bash, eval=F}
 git push origin master 
 ```
 
 check latest git activity (local) 
-```{bash eval=F, echo=T}
+```{bash, eval=F}
 git log
 ```
 
 check what remote locations you have available to push your gits  
-```{bash eval=F, echo=T}
+```{bash, eval=F}
 git remote -v # v = verbose    
 ```
 
 add another remote destination (on github) called 'github' (remote) and push your staged git (file changes) to that remote location from your master (local) branch      
-```{bash eval=F, echo=T}
+```{bash, eval=F}
 git remote add github https://github.com/darwinanddavis/newtest.git 
 git push github master 
 ```
@@ -259,17 +329,15 @@ rename files
 `cp ~/Desktop/MyFile.rtf ~/Documents/MyFile-old.rtf`   
 
 ### Example of command line workflow  
-**Install 'gitbash' to use Linux/Mac capabilities if not already**     
-
 
 Open _Terminal/cmd_       
-```{bash eval=F, echo=T}
+```{bash, eval=F}
 cd ~/Documents/ # change working dir
 ls # list dir contents      
 ``` 
 
 Open _Finder/Windows_. Make a new project on your local comp.  
-```{bash eval=F, echo=T}
+```{bash, eval=F}
 # create new project  
 ### <b> 
 cd ~/Documents
@@ -291,7 +359,7 @@ ls -a
 ```
 
 Create a new file in the command line       
-```{bash eval=F, echo=T}
+```{bash, eval=F}
 # navigate to your new git repo  
 ### <b>
 pwd  

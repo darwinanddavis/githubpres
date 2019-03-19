@@ -74,6 +74,29 @@ $(document).ready(function() {
 
 <!-- ____________________________________________________________________ -->
 <!-- _____________________________ BODY ________________________________ -->
+
+## What the hell is Github? | And git {.build}       
+
+### Version control system for data  
+
+### Logs commits of file changes retrievable at any time  
+
+<!-- ----------------------- image --------------------------- -->
+<div align="center">
+  <img src="githublogo.png" width=550 height=200>
+</div>
+<!-- ----------------------- image --------------------------- -->
+  
+<!-- _____________________________ break ________________________________ -->
+## What the hell is Github? (cont ...) | And git   
+
+<!-- ----------------------- image --------------------------- -->
+<div align="center">
+  <img src="git_process.png" width=700 height=400>
+</div>
+<!-- ----------------------- image --------------------------- -->
+
+<footnote> [Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/) </footnote>  
   
 <!-- _____________________________ break ________________________________ -->
 ## Applications {.build}  
@@ -444,8 +467,7 @@ Type the following in Terminal/R
 ```{shell eval=F, echo=T}
 ls -a # lists current dir contents   
 touch .gitignore  # create a gitignore if not already
-open .gitignore # open the gitignore file  
-
+open .gitignore # open the gitignore file    
 git status --ignored # list what is being ignored 
 ```
 

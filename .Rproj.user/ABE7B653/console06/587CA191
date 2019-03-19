@@ -1086,3 +1086,19 @@ M	.Rproj.user/ABE7B653/console06/587CA191
 M	github_presentation_part2.Rmd
 M	github_presentation_part2.html
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
+re]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ re[K[Kgit commit -m ''g'i't'[1P'[1P'[1P'r'e'a'd'm'e' 'e'x'a'm'p'l'e's'
+g[master 5f07c9a] readme examples
+i 3 files changed, 133 insertions(+), 2 deletions(-)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pish[K[K[Kush
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 2.56 KiB | 0 bytes/s, done.
+Total 8 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   4b37722..5f07c9a  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git --version
+git version 2.10.0
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .

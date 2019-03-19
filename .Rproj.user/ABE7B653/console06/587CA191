@@ -1045,3 +1045,24 @@ github_presentation.html
 origin	git@github.com:darwinanddavis/githubpres.git (fetch)
 origin	git@github.com:darwinanddavis/githubpres.git (push)
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit.[K .[K-m ''[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit c[Kadd .
+git c]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r'e'v'e'r't' 'o' 'o'l'd'[1P'[1P'[1P'[1P'[1P'o'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'a'c'c'e's's' 'r'e'c'e'n't' 'g'i't's'[1P'[1P'[1P'[1P'c'o'm'm'i't's'
+[master 6c21fad] access recent commits
+ 10 files changed, 178 insertions(+), 55 deletions(-)
+ rewrite github_presentation_part2.pdf (77%)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 15, done.
+Delta compression using up to 4 threads.
+Compressing objects:   6% (1/15)   Compressing objects:  13% (2/15)   Compressing objects:  20% (3/15)   Compressing objects:  26% (4/15)   Compressing objects:  33% (5/15)   Compressing objects:  40% (6/15)   Compressing objects:  46% (7/15)   Compressing objects:  53% (8/15)   Compressing objects:  60% (9/15)   Compressing objects:  66% (10/15)   Compressing objects:  73% (11/15)   Compressing objects:  80% (12/15)   Compressing objects:  86% (13/15)   Compressing objects:  93% (14/15)   Compressing objects: 100% (15/15)   Compressing objects: 100% (15/15), done.
+Writing objects:   6% (1/15)   Writing objects:  13% (2/15)   Writing objects:  20% (3/15)   Writing objects:  26% (4/15)   Writing objects:  33% (5/15)   Writing objects:  40% (6/15)   Writing objects:  46% (7/15)   Writing objects:  53% (8/15)   Writing objects:  60% (9/15)   Writing objects:  66% (10/15)   Writing objects:  73% (11/15)   Writing objects:  80% (12/15)   Writing objects:  86% (13/15)   Writing objects:  93% (14/15)   Writing objects: 100% (15/15)   Writing objects: 100% (15/15), 487.54 KiB | 0 bytes/s, done.
+Total 15 (delta 11), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/11)   [Kremote: Resolving deltas:   9% (1/11)   [Kremote: Resolving deltas:  18% (2/11)   [Kremote: Resolving deltas:  27% (3/11)   [Kremote: Resolving deltas:  36% (4/11)   [Kremote: Resolving deltas:  45% (5/11)   [Kremote: Resolving deltas:  54% (6/11)   [Kremote: Resolving deltas:  63% (7/11)   [Kremote: Resolving deltas:  72% (8/11)   [Kremote: Resolving deltas:  81% (9/11)   [Kremote: Resolving deltas:  90% (10/11)   [Kremote: Resolving deltas: 100% (11/11)   [Kremote: Resolving deltas: 100% (11/11), completed with 11 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   4901cd8..6c21fad  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git reset
+Unstaged changes after reset:
+M	.Rproj.user/ABE7B653/console06/587CA191
+M	github_presentation_part2.Rmd
+M	github_presentation_part2.html
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git resetadd .

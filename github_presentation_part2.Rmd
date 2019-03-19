@@ -3,8 +3,6 @@ title: "Using Github for research and life | **Part II**"
 author: "Matt Malishev"  
 date: "@darwinanddavis"  
 output:
-  beamer_presentation:
-    incremental: yes
   ioslides_presentation:
     includes:
       fig_width: 1
@@ -16,6 +14,8 @@ output:
       transition: faster
       widescreen: yes
       self_contained: yes
+  beamer_presentation:
+    incremental: yes
   slidy_presentation:
     incremental: yes
 params: 
@@ -245,6 +245,15 @@ git push origin master
 
 <!-- _____________________________ break ________________________________ -->
 ## Clone a remote repo to your local computer {.build}
+
+<!-- ----------------------- image --------------------------- -->
+<div align="center">
+  <img src="repopage_.png" width=900 height=500>
+</div>
+<!-- ----------------------- image --------------------------- -->
+
+<!-- _____________________________ break ________________________________ -->
+## Clone a remote repo to your local computer (cont..) {.build}
 
 This creates a git repository on your local machine complete with version control.  
 
@@ -493,10 +502,27 @@ Write your message at the top of the editor, then run the following:
   
     
       
-Hit ESC  
+Hit ESC   
+`:` = opens editor    
 `w` + ENTER = write (save)  
-`q` + ENTER = quit         
-`q!` + ENTER = quit w/o saving      
+`q` + ENTER = quit  
+`q!` + ENTER = quit w/o saving  
+
+<!-- _____________________________ break ________________________________ -->
+## Exit the command editor (cont..) {.build}  
+
+Example  
+```{shell, eval=F, echo=T}
+readme # enter message
+```
+
+Type `:wq`, then press ENTER.    
+
+Nano:  
+Press Control+O (the letter, not 0 the number), then Enter to save the message. Then, press Control+X to exit.  
+
+Vim:  
+Press Escape and then type :wq and press Enter.  
 
 <!-- _____________________________ break ________________________________ -->
 ## Common errors {.build}       

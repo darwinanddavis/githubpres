@@ -1116,3 +1116,17 @@ remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5) 
 To github.com:darwinanddavis/githubpres.git
    5f07c9a..8954334  master -> master
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ git add .
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''o'r'e's' 'c'h'a'n'g'e'[C[1P[1@p[C[C[1@;[1@9[1@C[1P[1P[1P[C[C[C[C[C[C[C[C[C
+[master cc0af03] pres change
+ 2 files changed, 15 insertions(+), 1 deletion(-)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push[K6300L-127771-M:githubpres malishev$ git push[K6300L-127771-M:githubpres malishev$ git push[K6300L-127771-M:githubpres malishev$ git push[K6300L-127771-M:githubpres malishev$ git push[K6300L-127771-M:githubpres malishev$ git push[K6300L-127771-M:githubpres malishev$ git push
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 759 bytes | 0 bytes/s, done.
+Total 7 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   8954334..cc0af03  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pushcommit -m 'pres change'add .[Kcommit -m 'pres change'push[Kcommit -m 'pres change'add .[Kcommit -m 'pres change'push[K[K6300L-127771-M:githubpres malishev$ git push[K[K[K[K[K[K[K[K[K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ git add .

@@ -3,6 +3,8 @@ title: "Using Github for research and life | **Part II**"
 author: "Matt Malishev"  
 date: "@darwinanddavis"  
 output:
+  beamer_presentation:
+    incremental: yes
   ioslides_presentation:
     includes:
       fig_width: 1
@@ -14,8 +16,6 @@ output:
       transition: faster
       widescreen: yes
       self_contained: yes
-  beamer_presentation:
-    incremental: yes
   slidy_presentation:
     incremental: yes
 params: 
@@ -361,14 +361,23 @@ File options:
 <!-- --------------------------------------------------------- -->
 
 <!-- _____________________________ break ________________________________ -->  
-## The time `git` schooled me {.build}    
+## The time `git` schooled me {.build}        
 
-1. Accidently uploaded my Google API to Github  
+1. Accidently uploaded my Google API to Github    
+
 2. Github emailed me with a warning  
-3. I deleted all the instances of the API, but git tracked it  
-4. Deleted the Github repo completely to remove evidence    
-5. Pushed the local files to the new repo ... _with all its current git history_  
 
+3. I deleted all the instances of the API, but git tracked it  
+
+4. Deleted the Github repo completely to remove evidence    
+
+5. Pushed the local files to the new repo ... _with all its current git history_    
+
+<!-- ----------------------- image --------------------------- -->
+<div align="center">
+  <img src="gitguardian.jpeg" width=600 height=400>
+</div>
+<!-- --------------------------------------------------------- -->
 
 <!-- _____________________________ break ________________________________ -->
 ## `gitignore` files {.build}  
@@ -644,9 +653,20 @@ ls ~/.ssh/*.pub
 
 ```{shell eval=F, echo=T}
 git log # check recent activity and select commit e.g. 0df4g3 ...  
-git checkout "enter your commit tag"  
+git checkout "enter your commit tag" # e.g. 50577c90  
 git checkout master  # return to current branch 
 ```
+
+```{shell, eval=F, echo=T}  
+git revert HEAD~3 # revert back 3 commits 
+```
+
+To revert everything from the HEAD (current stage) back to the commit hash  
+```{shell eval=F, echo=T}
+git revert --no-commit 0766c053..HEAD # replace 0766c053 with your commit tag
+git commit
+```
+
 
 <!-- _____________________________ break ________________________________ -->
 ## Creating automatic commits/push commands {.build} 
@@ -705,7 +725,9 @@ fswatch -0 <<file>> | xargs -0 -n 1 bash <<path/to/auto_commit_push.sh>>
 <!-- _____________________________ break ________________________________ -->
 ## References (cont ...)  
 
-[invalid active developer path (xcrun: error: invalid active developer path)](https://apple.stackexchange.com/questions/254380/why-am-i-getting-an-invalid-active-developer-path-when-attempting-to-use-git-a)  
+[invalid active developer path (xcrun: error: invalid active developer path)](https://apple.stackexchange.com/questions/254380/why-am-i-getting-an-invalid-active-developer-path-when-attempting-to-use-git-a)    
+
+[How to revert a Git repository to a previous commit](https://stackoverflow.com/questions/4114095/how-to-revert-a-git-repository-to-a-previous-commit)    
 
 <!-- _____________________________ BODY ________________________________ -->
 <!-- ____________________________________________________________________ -->

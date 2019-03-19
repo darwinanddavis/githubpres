@@ -1002,3 +1002,46 @@ To github.com:darwinanddavis/githubpres.git
 git --version
 git version 2.10.0
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit 0m [K[K[K-m ''a'd'd' '[1P'[1P'[1P'[1P'i'n's't'a'l'l'a't'i'o'n' 'i'n's't'r'u'c't'i'o'n's'[1Pinstructions'[1Pinstructions'[1Pinstructions'[1Pnstructions'[1Pinstructions'[1Pinstructions'[1Pinstructions' instructions'[1Pinstructions'linstructions' instructions'
+[master 4901cd8] install instructions
+ 11 files changed, 243 insertions(+), 83 deletions(-)
+ rewrite .Rproj.user/ABE7B653/console06/INDEX001 (86%)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 18, done.
+Delta compression using up to 4 threads.
+Compressing objects:   5% (1/17)   Compressing objects:  11% (2/17)   Compressing objects:  17% (3/17)   Compressing objects:  23% (4/17)   Compressing objects:  29% (5/17)   Compressing objects:  35% (6/17)   Compressing objects:  41% (7/17)   Compressing objects:  47% (8/17)   Compressing objects:  52% (9/17)   Compressing objects:  58% (10/17)   Compressing objects:  64% (11/17)   Compressing objects:  70% (12/17)   Compressing objects:  76% (13/17)   Compressing objects:  82% (14/17)   Compressing objects:  88% (15/17)   Compressing objects:  94% (16/17)   Compressing objects: 100% (17/17)   Compressing objects: 100% (17/17), done.
+Writing objects:   5% (1/18)   Writing objects:  11% (2/18)   Writing objects:  16% (3/18)   Writing objects:  22% (4/18)   Writing objects:  27% (5/18)   Writing objects:  33% (6/18)   Writing objects:  38% (7/18)   Writing objects:  44% (8/18)   Writing objects:  50% (9/18)   Writing objects:  55% (10/18)   Writing objects:  61% (11/18)   Writing objects:  66% (12/18)   Writing objects:  72% (13/18)   Writing objects:  77% (14/18)   Writing objects:  83% (15/18)   Writing objects:  88% (16/18)   Writing objects:  94% (17/18)   Writing objects: 100% (18/18)   Writing objects: 100% (18/18), 117.02 KiB | 0 bytes/s, done.
+Total 18 (delta 13), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/13)   [Kremote: Resolving deltas:   7% (1/13)   [Kremote: Resolving deltas:  15% (2/13)   [Kremote: Resolving deltas:  23% (3/13)   [Kremote: Resolving deltas:  30% (4/13)   [Kremote: Resolving deltas:  38% (5/13)   [Kremote: Resolving deltas:  46% (6/13)   [Kremote: Resolving deltas:  53% (7/13)   [Kremote: Resolving deltas:  61% (8/13)   [Kremote: Resolving deltas:  69% (9/13)   [Kremote: Resolving deltas:  76% (10/13)   [Kremote: Resolving deltas:  84% (11/13)   [Kremote: Resolving deltas:  92% (12/13)   [Kremote: Resolving deltas: 100% (13/13)   [Kremote: Resolving deltas: 100% (13/13), completed with 13 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   4e8288a..4901cd8  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add[K[K[K[K[K[K[Kls -a
+.				github_presentation.pdf
+..				github_presentation_part2.Rmd
+.DS_Store			github_presentation_part2.html
+.Rhistory			github_presentation_part2.pdf
+.Rproj.user			githublogo.png
+.git				gitignore.jpeg
+.gitignore			highlight.html
+README.md			installing_git.Rmd
+RStudio_terminal.jpeg		installing_git.html
+R_is_dope.Rmd			installing_git.pdf
+R_is_dope.html			installing_git.tex
+R_is_dope.pdf			loadingpage.png
+R_is_dope.tex			myfile
+R_is_dope_files			newrepopage.png
+billnye.gif			readme.png
+billnye.png			readme_header_template.rtf
+filepage.png			repopage.png
+folder.png			repopage_.png
+git_menu.jpeg			wf1.png
+git_process.png			wf2.png
+gitguardian.jpeg		wf3.png
+github.Rproj			wf4.png
+github_presentation.Rmd		wf5.png
+github_presentation.html
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ git remote -v
+origin	git@github.com:darwinanddavis/githubpres.git (fetch)
+origin	git@github.com:darwinanddavis/githubpres.git (push)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit.[K .[K-m ''[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit c[Kadd .

@@ -112,7 +112,7 @@ _Windows users_
 \  
 \  
 
-**Check git is installed**    
+**Once installed, confirm git is on your computer**      
 
 _Mac_  
 
@@ -124,7 +124,7 @@ git --version
 
 ```
 
-If you don't see anything like `git version 2.10.0`, try the reinstallation steps again.
+If you don't see anything like `git version 2.10.0`, try the reinstallation steps again. Close the Terminal.    
 
 _Windows_  
 
@@ -136,7 +136,7 @@ git --version
 
 ```
 
-If you don't see anything like `git version 2.20.1.windows.1`, try the reinstallation steps again.
+If you don't see anything like `git version 2.20.1.windows.1`, try the reinstallation steps again. Close Git Bash.  
 
 \  
 \  

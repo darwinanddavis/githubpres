@@ -370,6 +370,49 @@ File options:
 <!-- --------------------------------------------------------- -->
 
 <!-- _____________________________ break ________________________________ -->  
+# Using the README file {.flexbox .build}  
+
+<!-- _____________________________ break ________________________________ -->  
+## README Option 1 {.build}  
+
+You **unchecked** the 'Initialise with a README' option on Github        
+
+Your active local repository    
+```{shell, eval=F, echo=T}  
+git init # initialise local repo  
+git remote add origin "your Github repo"  # add Github repo (remote = cloud)  
+```
+
+Create a README using a text editor, e.g. Sublime    
+```{shell, eval=F, echo=T}  
+git add README.md # stage the readme file 
+git commit -m 'readme' # commit the git  
+git push origin master # push the changes to your Github  
+```
+
+<!-- _____________________________ break ________________________________ -->  
+## README Option 2 {.build}  
+
+You **checked** the 'Initialise with a README' option on Github 
+
+Your active local repository    
+```{shell, eval=F, echo=T}  
+git init # initialise local repo  
+git remote add origin "your Github repo"  # add Github repo (remote = cloud)  
+```
+
+Pull the new change (a commit) that you made to the repo by initialising the README        
+```{shell, eval=F, echo=T}  
+git pull origin master # pull the readme file change from Github   
+git push --set-upstream origin master # push the changes to your Github  
+```
+  
+Check git status
+```{shell, eval=F, echo=T}  
+git status # check git status
+```
+
+<!-- _____________________________ break ________________________________ -->  
 ## The time `git` schooled me {.build}        
 
 1. Accidently uploaded my Google API to Github    
@@ -670,6 +713,19 @@ cat ~/.ssh/id_rsa.pub
 ls ~/.ssh/*.pub   
 ```
 
+<!-- __________________________ break _______________________________ -->
+## Accessibility (cont ...)  {.build}  
+
+Use a custom command line editor  
+  
+  
+[Use your own editor for running git commands](https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits/2596835#2596835)  
+
+Some examples:  
+Nano  
+Vim  
+Sublime  
+
 <!-- _____________________________ break ________________________________ -->
 ## Accessing commits {.build}    
 
@@ -753,7 +809,9 @@ fswatch -0 <<file>> | xargs -0 -n 1 bash <<path/to/auto_commit_push.sh>>
 
 [invalid active developer path (xcrun: error: invalid active developer path)](https://apple.stackexchange.com/questions/254380/why-am-i-getting-an-invalid-active-developer-path-when-attempting-to-use-git-a)    
 
-[How to revert a Git repository to a previous commit](https://stackoverflow.com/questions/4114095/how-to-revert-a-git-repository-to-a-previous-commit)    
+[How to revert a Git repository to a previous commit](https://stackoverflow.com/questions/4114095/how-to-revert-a-git-repository-to-a-previous-commit)  
+
+[Using the README file on Github](https://stackoverflow.com/questions/23304688/issue-pushing-to-a-github-repository-created-with-initialize-repo-with-a-readme)      
 
 <!-- _____________________________ BODY ________________________________ -->
 <!-- ____________________________________________________________________ -->

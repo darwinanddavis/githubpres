@@ -1066,3 +1066,23 @@ M	.Rproj.user/ABE7B653/console06/587CA191
 M	github_presentation_part2.Rmd
 M	github_presentation_part2.html
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git resetadd .
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ it[K[Kgit commit -m ''v'i'm' 'e'd'i't'o'r'
+[master 4b37722] vim editor
+ 3 files changed, 78 insertions(+), 6 deletions(-)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 1.85 KiB | 0 bytes/s, done.
+Total 8 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   6c21fad..4b37722  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git reset
+Unstaged changes after reset:
+M	.Rproj.user/ABE7B653/console06/587CA191
+M	github_presentation_part2.Rmd
+M	github_presentation_part2.html
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .

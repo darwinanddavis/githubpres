@@ -58,9 +58,17 @@ git push
 Write your message at the top of the editor, then run the following:  
     
 Hit ESC  
-`w` + ENTER = write (save)  
-`q` + ENTER = quit         
-`q!` + ENTER = quit w/o saving     
+`:w` + ENTER = write (save)  
+`:q` + ENTER = quit         
+`:q!` + ENTER = quit w/o saving  
+
+**For exiting editor on merge or pull**     
+
+press "i"  
+Write your merge message  
+Press "esc"  
+Write ":wq"  
+Then press enter       
 
 ## Common errors     
 

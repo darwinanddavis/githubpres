@@ -6,9 +6,9 @@
 
 ##### *Corresponding author: matthew.malishev [at] gmail.com  
 
-Workshop on using `git` and Github (this thing you're on now) for version control, project collaboration, and data sharing    
-Department of Biology, Emory University    
-March 19, 2019  
+Workshop on using `git` and Github (this thing you're on now) for version control, project collaboration, and data sharing      
+Department of Biology, Emory University      
+March 19, 2019    
 
 ******         
 
@@ -23,13 +23,13 @@ File extensions:
 
 ******   
 
-## Installation instructions  
+## :one: Installation instructions    
 
-[Download the instructions](https://github.com/darwinanddavis/githubpres/raw/master/installing_git.pdf) for installing `git` for both Mac OSX and Windows.  
+[Download the instructions](https://github.com/darwinanddavis/githubpres/raw/master/installing_git.pdf) for installing `git` for both Mac OSX and Windows.      
 
-## Seminar slides  
+## :two: Seminar slides      
 
-Right click and select 'Save as', then open the HTML on your preferred browser:  
+Right click and select 'Save as', then open the HTML on your preferred browser:      
 
 <img src="https://raw.githubusercontent.com/darwinanddavis/githubpres/master/gitpres1.jpg" alt=" " width=1000 height=600>  
 

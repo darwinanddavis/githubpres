@@ -407,7 +407,7 @@ git init # initialise local repo
 git remote add origin "your Github repo"  # add Github repo (remote = cloud)  
 ```
 
-Create a README using a text editor, e.g. Sublime    
+Create a README using a text editor, e.g. Sublime (md = Markdown)      
 ```{shell, eval=F, echo=T}  
 git add README.md # stage the readme file 
 git commit -m 'readme' # commit the git  

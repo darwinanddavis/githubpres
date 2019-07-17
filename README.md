@@ -1,5 +1,7 @@
 # Using Github for research and life  
-## Workshop on using `git` and Github (this thing you're on now) for version control, project collaboration, and data sharing    
+## Workshop on using `git` and Github (this thing you're on now) for version control, project collaboration, and data sharing  
+### Department of Biology, Emory University  
+### March 19, 2019        
 
 ### Matthew Malishev<sup>1*</sup>
 
@@ -25,10 +27,15 @@ File extensions:
 ## Seminar slides  
 
 Right click and select 'Save as', then open the HTML on your preferred browser:  
-      
-[Using Git with GUI (Part I)](http://htmlpreview.github.io/?https://github.com/darwinanddavis/githubpres/blob/master/github_presentation.html)      
 
-[Using Git with Terminal (Part II)](http://htmlpreview.github.io/?https://github.com/darwinanddavis/githubpres/blob/master/github_presentation_part2.html)          
+<img src="https://raw.githubusercontent.com/darwinanddavis/githubpres/master/gitpres1.jpg" alt=" " width=1000 height=600>  
+
+[Using Git with GUI (Part I)](http://htmlpreview.github.com/?https://github.com/darwinanddavis/githubpres/blob/master/github_presentation_part1.html)          
+
+<img src="https://raw.githubusercontent.com/darwinanddavis/githubpres/master/gitpres2.jpg" alt=" " width=1000 height=600>    
+
+[Using Git with Terminal (Part II)](http://htmlpreview.github.com/?https://github.com/darwinanddavis/githubpres/blob/master/github_presentation_part2.html)      
+
 
 ## The short version (with Terminal)      
 

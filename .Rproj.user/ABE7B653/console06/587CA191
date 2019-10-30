@@ -1,72 +1,4 @@
 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pish[K[K[Kush
-Counting objects: 7, done.
-Delta compression using up to 4 threads.
-Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
-Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 1.40 KiB | 0 bytes/s, done.
-Total 7 (delta 3), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   846c4da..d8a5e66  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add . [K[KREADME.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r'e'a'd'm'e'
-[master fcebf16] readme
- 1 file changed, 38 insertions(+), 1 deletion(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pi[Kush
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 1.39 KiB | 0 bytes/s, done.
-Total 3 (delta 1), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
-To github.com:darwinanddavis/githubpres.git
-   d8a5e66..fcebf16  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'ref[K[Keadme'
-[master 1f81aab] readme
- 1 file changed, 4 insertions(+), 1 deletion(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git oiush[K[K[K[K[Kpush
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 372 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   fcebf16..1f81aab  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ ls 
-README.md			github_presentation_part2.html
-R_is_dope.Rmd			github_presentation_part2.pdf
-R_is_dope.html			githublogo.png
-R_is_dope.pdf			highlight.html
-R_is_dope.tex			installing_git.Rmd
-R_is_dope_files			installing_git.html
-billnye.gif			installing_git.pdf
-billnye.png			installing_git.tex
-filepage.png			loadingpage.png
-git_menu.jpeg			newgit.R
-github.Rproj			newrepopage.png
-github_presentation.Rmd		readme.png
-github_presentation.html	repopage.png
-github_presentation.pdf		repopage_.png
-github_presentation_part2.Rmd
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ opn [K[Ken *.pdf
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ ls *.pdf
-R_is_dope.pdf			github_presentation_part2.pdf
-github_presentation.pdf		installing_git.pdf
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ poe[K[K[Kopen github_presentation.d[Kpdf 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open github_presentation.pdf [1@_[1P[C[1@_[6@part2.
-The file /Users/malishev/Documents/Presentations/githubpres/github_presentation_part2..pdf does not exist.
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open github_presentation_part2..pdf [1P
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open githuu[Kb_presentation.t[Khtml 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''i'm'g'[1P'[1P'[1P'a'p'l'i'[1P'[1P'p'l'i'c'a't'i'o'n's' 'r'e'f's'
-[master 4620214] applications refs
- 6 files changed, 109 insertions(+), 9 deletions(-)
- create mode 100644 git_process.png
- create mode 100644 github_presentation_part2.pdf
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Counting objects: 11, done.
 Delta compression using up to 4 threads.
 Compressing objects:   9% (1/11)   Compressing objects:  18% (2/11)   Compressing objects:  27% (3/11)   Compressing objects:  36% (4/11)   Compressing objects:  45% (5/11)   Compressing objects:  54% (6/11)   Compressing objects:  63% (7/11)   Compressing objects:  72% (8/11)   Compressing objects:  81% (9/11)   Compressing objects:  90% (10/11)   Compressing objects: 100% (11/11)   Compressing objects: 100% (11/11), done.
 Writing objects:   9% (1/11)   Writing objects:  18% (2/11)   Writing objects:  27% (3/11)   Writing objects:  36% (4/11)   Writing objects:  45% (5/11)   Writing objects:  54% (6/11)   Writing objects:  63% (7/11)   Writing objects:  72% (8/11)   Writing objects:  81% (9/11)   Writing objects:  90% (10/11)   Writing objects: 100% (11/11)   Writing objects: 100% (11/11), 424.43 KiB | 0 bytes/s, done.
@@ -1032,3 +964,41 @@ remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2) 
 To github.com:darwinanddavis/githubpres.git
    d0ccebb..a86e36c  master -> master
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r'e'a'd'm'e' 'h'e'a'd'e'r'
+[master 6e6aa66] readme header
+ 14 files changed, 1724 insertions(+), 202 deletions(-)
+ rewrite .Rproj.user/ABE7B653/console06/INDEX001 (86%)
+ create mode 100644 github_snapshot.jpeg
+ create mode 100644 guthubpres_summary.Rmd
+ create mode 100644 guthubpres_summary.html
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
+Warning: Permanently added the RSA host key for IP address '140.82.114.3' to the list of known hosts.
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 24, done.
+Delta compression using up to 4 threads.
+Compressing objects:   4% (1/22)   Compressing objects:   9% (2/22)   Compressing objects:  13% (3/22)   Compressing objects:  18% (4/22)   Compressing objects:  22% (5/22)   Compressing objects:  27% (6/22)   Compressing objects:  31% (7/22)   Compressing objects:  36% (8/22)   Compressing objects:  40% (9/22)   Compressing objects:  45% (10/22)   Compressing objects:  50% (11/22)   Compressing objects:  54% (12/22)   Compressing objects:  59% (13/22)   Compressing objects:  63% (14/22)   Compressing objects:  68% (15/22)   Compressing objects:  72% (16/22)   Compressing objects:  77% (17/22)   Compressing objects:  81% (18/22)   Compressing objects:  86% (19/22)   Compressing objects:  90% (20/22)   Compressing objects:  95% (21/22)   Compressing objects: 100% (22/22)   Compressing objects: 100% (22/22), done.
+Writing objects:   4% (1/24)   Writing objects:   8% (2/24)   Writing objects:  12% (3/24)   Writing objects:  16% (4/24)   Writing objects:  20% (5/24)   Writing objects:  25% (6/24)   Writing objects:  29% (7/24)   Writing objects:  33% (8/24)   Writing objects:  37% (9/24)   Writing objects:  41% (10/24)   Writing objects:  45% (11/24)   Writing objects:  50% (12/24)   Writing objects:  54% (13/24)   Writing objects:  58% (14/24)   Writing objects:  62% (15/24)   Writing objects:  66% (16/24)   Writing objects:  70% (17/24)   Writing objects:  75% (18/24)   Writing objects:  79% (19/24)   Writing objects:  83% (20/24)   Writing objects:  87% (21/24)   Writing objects:  91% (22/24)   Writing objects:  95% (23/24)   Writing objects:  95% (23/24), 200.00 KiB | 163.00 KiB/s   Writing objects:  95% (23/24), 1.30 MiB | 465.00 KiB/s   Writing objects:  95% (23/24), 1.93 MiB | 448.00 KiB/s   Writing objects:  95% (23/24), 2.55 MiB | 499.00 KiB/s   Writing objects:  95% (23/24), 4.45 MiB | 695.00 KiB/s   Writing objects:  95% (23/24), 5.73 MiB | 769.00 KiB/s   Writing objects: 100% (24/24), 5.73 MiB | 769.00 KiB/s   Writing objects: 100% (24/24), 6.09 MiB | 769.00 KiB/s, done.
+Total 24 (delta 13), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/13)   [Kremote: Resolving deltas:   7% (1/13)   [Kremote: Resolving deltas:  15% (2/13)   [Kremote: Resolving deltas:  23% (3/13)   [Kremote: Resolving deltas:  30% (4/13)   [Kremote: Resolving deltas:  38% (5/13)   [Kremote: Resolving deltas:  46% (6/13)   [Kremote: Resolving deltas:  53% (7/13)   [Kremote: Resolving deltas:  61% (8/13)   [Kremote: Resolving deltas:  69% (9/13)   [Kremote: Resolving deltas:  76% (10/13)   [Kremote: Resolving deltas:  84% (11/13)   [Kremote: Resolving deltas:  92% (12/13)   [Kremote: Resolving deltas: 100% (13/13)   [Kremote: Resolving deltas: 100% (13/13), completed with 13 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   a86e36c..6e6aa66  master -> master
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ opne [K[K[Ken README.md 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open README.md 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add README.md 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commi t-[K[K[Kt -m ''r'[1P'r'e'a'd'm'e' '[1P'_'[1P' '
+[master 936867f] readme
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
+Warning: Permanently added the RSA host key for IP address '140.82.114.4' to the list of known hosts.
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 392 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   6e6aa66..936867f  master -> master
+[K6300L-127771-M:githubpres malishev$ open readme [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[KREADME..md 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ GIT ADD [K[K[K[K[K[K[K[Kgit add .

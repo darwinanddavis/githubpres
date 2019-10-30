@@ -33,11 +33,11 @@ Right click and select 'Save as', then open the HTML on your preferred browser:
 
 <img src="https://raw.githubusercontent.com/darwinanddavis/githubpres/master/gitpres1.jpg" alt=" " width=1000 height=600>  
 
-[Using Git with GUI (Part I)](http://htmlpreview.github.com/?https://github.com/darwinanddavis/githubpres/blob/master/github_presentation_part1.html)          
+[Using Git with GUI (Part I)](http://htmlpreview.github.com/?https://github.com/darwinanddavis/githubpres/raw/master/github_presentation_part1.html)          
 
 <img src="https://raw.githubusercontent.com/darwinanddavis/githubpres/master/gitpres2.jpg" alt=" " width=1000 height=600>    
 
-[Using Git with Terminal (Part II)](http://htmlpreview.github.com/?https://github.com/darwinanddavis/githubpres/blob/master/github_presentation_part2.html)      
+[Using Git with Terminal (Part II)](http://htmlpreview.github.com/?https://github.com/darwinanddavis/githubpres/raw/master/github_presentation_part2.html)      
 
 
 ## The short version (with Terminal)      

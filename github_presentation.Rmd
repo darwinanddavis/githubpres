@@ -75,6 +75,17 @@ $(document).ready(function() {
 <!-- ____________________________________________________________________ -->
 <!-- _____________________________ BODY ________________________________ -->
 
+---  
+
+<center>
+Press `F` for fullscreen  
+Press `W` for widescreen 
+</center>
+
+## Location  
+
+<iframe width="100%" height="50%" src="https://darwinanddavis.github.io/githubpres/emory_location.html" frameborder="0" allowfullscreen></iframe>  
+
 ## What the hell is Github? | And git {.build}       
 
 ### Version control system for data  

@@ -7,3 +7,7 @@ HEAD is now at a6c888e stash2
 M	.Rproj.user/ABE7B653/console06/587CA191
 Already on 'gh-pages'
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
+
+Switched to branch 'gh-pages'
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git checkout gh-ppages -f[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmaster -f[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgh-p[1Pages -f[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add .

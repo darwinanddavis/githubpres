@@ -1277,4 +1277,28 @@ error: Your local changes to the following files would be overwritten by checkou
 Please commit your changes or stash them before you switch branches.
 Aborting
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ g[Kopen .gitignore  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .Saved working directory and index state WIP on gh-pages: c93d757 update gitignore
+HEAD is now at c93d757 update gitignore
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pul
+git: 'pul' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+	pull
+	spull
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pulstash[2Ppull
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> gh-pages
+
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pull --rebas e origin master
+error: Cannot pull with rebase: You have unstaged changes.
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pull --rebasee origin master[C[K[K[K[K[K[Kgh-pages
+error: Cannot pull with rebase: You have unstaged changes.
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git ad [Kd .

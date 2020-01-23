@@ -1177,24 +1177,104 @@ Changes not staged for commit:
 
 	[31mmodified:   .Rproj.user/ABE7B653/console06/587CA191[m
 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pull
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m '' [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg''h'p'a'g'e's' '2'
+[gh-pages (root-commit) cf819b5] ghpages 2
+ 64 files changed, 10530 insertions(+)
+ create mode 100644 .Rhistory
+ create mode 100644 .Rproj.user/ABE7B653/console06/587CA191
+ create mode 100644 .Rproj.user/ABE7B653/console06/587CA191.env
+ create mode 100644 .Rproj.user/ABE7B653/console06/INDEX001
+ create mode 100644 .Rproj.user/ABE7B653/pcs/files-pane.pper
+ create mode 100644 .Rproj.user/ABE7B653/pcs/source-pane.pper
+ create mode 100644 .Rproj.user/ABE7B653/pcs/windowlayoutstate.pper
+ create mode 100644 .Rproj.user/ABE7B653/pcs/workbench-pane.pper
+ create mode 100644 .Rproj.user/ABE7B653/rmd-outputs
+ create mode 100644 .Rproj.user/ABE7B653/saved_source_markers
+ create mode 100644 .Rproj.user/ABE7B653/sources/prop/7D5F6AA9
+ create mode 100644 .Rproj.user/ABE7B653/sources/prop/80962B6B
+ create mode 100644 .Rproj.user/ABE7B653/sources/prop/891A51A6
+ create mode 100644 .Rproj.user/ABE7B653/sources/prop/INDEX
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 RStudio_terminal.jpeg
+ create mode 100644 R_is_dope.Rmd
+ create mode 100644 R_is_dope.html
+ create mode 100644 R_is_dope.log
+ create mode 100644 R_is_dope.pdf
+ create mode 100644 R_is_dope.tex
+ create mode 100644 R_is_dope_files/figure-latex/unnamed-chunk-3-1.pdf
+ create mode 100644 R_is_dope_files/figure-latex/unnamed-chunk-4-1.pdf
+ create mode 100644 billnye.gif
+ create mode 100644 billnye.png
+ create mode 100644 filepage.png
+ create mode 100644 folder.png
+ create mode 100644 git_menu.jpeg
+ create mode 100644 git_process.png
+ create mode 100644 gitguardian.jpeg
+ create mode 100644 github.Rproj
+ create mode 100644 github_presentation.Rmd
+ create mode 100644 github_presentation.html
+ create mode 100644 github_presentation.pdf
+ create mode 100644 github_presentation_part2.Rmd
+ create mode 100644 github_presentation_part2.html
+ create mode 100644 github_presentation_part2.pdf
+ create mode 100644 github_snapshot.jpeg
+ create mode 100644 githublogo.png
+ create mode 100644 gitignore.jpeg
+ create mode 100644 gitpres1.jpg
+ create mode 100644 gitpres2.jpg
+ create mode 100644 guthubpres_summary.Rmd
+ create mode 100644 guthubpres_summary.html
+ create mode 100644 highlight.html
+ create mode 100644 installing_git.Rmd
+ create mode 100644 installing_git.html
+ create mode 100644 installing_git.pdf
+ create mode 100644 installing_git.tex
+ create mode 100644 loadingpage.png
+ create mode 100644 myfile
+ create mode 100644 newrepopage.png
+ create mode 100644 readme.png
+ create mode 100644 readme_header_template.rtf
+ create mode 100644 repopage.png
+ create mode 100644 repopage_.png
+ create mode 100644 wf1.png
+ create mode 100644 wf2.png
+ create mode 100644 wf3.png
+ create mode 100644 wf4.png
+ create mode 100644 wf5.png
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push origin  gh-pages
 Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-There is no tracking information for the current branch.
-Please specify which branch you want to merge with.
-See git-pull(1) for details.
-
-    git pull <remote> <branch>
-
-If you wish to set tracking information for this branch you can do so with:
-
-    git branch --set-upstream-to=origin/<branch> gh-pages
-
+Counting objects: 75, done.
+Delta compression using up to 4 threads.
+Compressing objects:   1% (1/68)   Compressing objects:   2% (2/68)   Compressing objects:   4% (3/68)   Compressing objects:   5% (4/68)   Compressing objects:   7% (5/68)   Compressing objects:   8% (6/68)   Compressing objects:  10% (7/68)   Compressing objects:  11% (8/68)   Compressing objects:  13% (9/68)   Compressing objects:  14% (10/68)   Compressing objects:  16% (11/68)   Compressing objects:  17% (12/68)   Compressing objects:  19% (13/68)   Compressing objects:  20% (14/68)   Compressing objects:  22% (15/68)   Compressing objects:  23% (16/68)   Compressing objects:  25% (17/68)   Compressing objects:  26% (18/68)   Compressing objects:  27% (19/68)   Compressing objects:  29% (20/68)   Compressing objects:  30% (21/68)   Compressing objects:  32% (22/68)   Compressing objects:  33% (23/68)   Compressing objects:  35% (24/68)   Compressing objects:  36% (25/68)   Compressing objects:  38% (26/68)   Compressing objects:  39% (27/68)   Compressing objects:  41% (28/68)   Compressing objects:  42% (29/68)   Compressing objects:  44% (30/68)   Compressing objects:  45% (31/68)   Compressing objects:  47% (32/68)   Compressing objects:  48% (33/68)   Compressing objects:  50% (34/68)   Compressing objects:  51% (35/68)   Compressing objects:  52% (36/68)   Compressing objects:  54% (37/68)   Compressing objects:  55% (38/68)   Compressing objects:  57% (39/68)   Compressing objects:  58% (40/68)   Compressing objects:  60% (41/68)   Compressing objects:  61% (42/68)   Compressing objects:  63% (43/68)   Compressing objects:  64% (44/68)   Compressing objects:  66% (45/68)   Compressing objects:  67% (46/68)   Compressing objects:  69% (47/68)   Compressing objects:  70% (48/68)   Compressing objects:  72% (49/68)   Compressing objects:  73% (50/68)   Compressing objects:  75% (51/68)   Compressing objects:  76% (52/68)   Compressing objects:  77% (53/68)   Compressing objects:  79% (54/68)   Compressing objects:  80% (55/68)   Compressing objects:  82% (56/68)   Compressing objects:  83% (57/68)   Compressing objects:  85% (58/68)   Compressing objects:  86% (59/68)   Compressing objects:  88% (60/68)   Compressing objects:  89% (61/68)   Compressing objects:  91% (62/68)   Compressing objects:  92% (63/68)   Compressing objects:  94% (64/68)   Compressing objects:  95% (65/68)   Compressing objects:  97% (66/68)   Compressing objects:  98% (67/68)   Compressing objects: 100% (68/68)   Compressing objects: 100% (68/68), done.
+Writing objects:   1% (1/75)   Writing objects:   2% (2/75)   Writing objects:   4% (3/75)   Writing objects:   5% (4/75)   Writing objects:   6% (5/75)   Writing objects:   8% (6/75)   Writing objects:   9% (7/75)   Writing objects:  10% (8/75)   Writing objects:  12% (9/75)   Writing objects:  13% (10/75)   Writing objects:  14% (11/75)   Writing objects:  16% (12/75)   Writing objects:  17% (13/75)   Writing objects:  18% (14/75)   Writing objects:  20% (15/75)   Writing objects:  21% (16/75)   Writing objects:  22% (17/75)   Writing objects:  24% (18/75)   Writing objects:  25% (19/75)   Writing objects:  26% (20/75)   Writing objects:  28% (21/75)   Writing objects:  29% (22/75)   Writing objects:  30% (23/75)   Writing objects:  32% (24/75)   Writing objects:  33% (25/75)   Writing objects:  34% (26/75)   Writing objects:  36% (27/75)   Writing objects:  38% (29/75)   Writing objects:  40% (30/75)   Writing objects:  41% (31/75)   Writing objects:  42% (32/75)   Writing objects:  44% (33/75)   Writing objects:  45% (34/75)   Writing objects:  46% (35/75)   Writing objects:  48% (36/75)   Writing objects:  49% (37/75)   Writing objects:  50% (38/75)   Writing objects:  52% (39/75)   Writing objects:  53% (40/75), 4.43 MiB | 8.76 MiB/s   Writing objects:  53% (40/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  54% (41/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  56% (42/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  57% (43/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  58% (44/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  60% (45/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  61% (46/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  62% (47/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  64% (48/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  66% (50/75), 22.89 MiB | 13.28 MiB/s   Writing objects:  68% (51/75), 22.89 MiB | 13.28 MiB/s   Writing objects:  69% (52/75), 22.89 MiB | 13.28 MiB/s   Writing objects:  69% (52/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  70% (53/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  72% (54/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  73% (55/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  74% (56/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  76% (57/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  77% (58/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  78% (59/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  80% (60/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  81% (61/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  82% (62/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  84% (63/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  85% (64/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  86% (65/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  88% (66/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  89% (67/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  90% (68/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  92% (69/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  93% (70/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  94% (71/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  96% (72/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  97% (73/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  98% (74/75), 29.13 MiB | 11.89 MiB/s   Writing objects: 100% (75/75), 29.13 MiB | 11.89 MiB/s   Writing objects: 100% (75/75), 36.40 MiB | 11.89 MiB/s, done.
+Total 75 (delta 5), reused 20 (delta 0)
+remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  60% (3/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), done.[K
+remote: 
+remote: Create a pull request for 'gh-pages' on GitHub by visiting:[K
+remote:      https://github.com/darwinanddavis/githubpres/pull/new/gh-pages[K
+remote: 
+To github.com:darwinanddavis/githubpres.git
+ * [new branch]      gh-pages -> gh-pages
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ git push origin ggh-pages[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m 'ghpages 2'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Padd .
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m 'ghhpages 2'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Padd .
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Saved working directory and index state WIP on gh-pages: 0cd42df ghpages add maps
+HEAD is now at 0cd42df ghpages add maps
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git checkout mas ter
 error: Your local changes to the following files would be overwritten by checkout:
 	.Rproj.user/ABE7B653/console06/587CA191
-	.Rproj.user/ABE7B653/console06/INDEX001
-	github_presentation.html
-	github_presentation_part2.html
 Please commit your changes or stash them before you switch branches.
 Aborting
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add . 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git stash drop
+Dropped refs/stash@{0} (e77b642136a5f0f4cbe0be68034842c2467ecee8)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git stash dropcheckout mastter
+error: Your local changes to the following files would be overwritten by checkout:
+	.Rproj.user/ABE7B653/console06/587CA191
+Please commit your changes or stash them before you switch branches.
+Aborting
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ g[Kopen .gitignore  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .

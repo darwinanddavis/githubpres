@@ -1,1304 +1,4 @@
-
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .[Kgitpu[K[K[K[K[K. 
-gi]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -,[Km ''r'e'f's' 't'o' 'p'r'e's'2'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P' 'g'i't'h'u'b' 'p'a'g'e's' 'p'r'e's'1'[1P'2'
-[master c9d4d51] ref github pages pres2
- 4 files changed, 28 insertions(+), 3 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pis[K[Kush
-Counting objects: 9, done.
-Delta compression using up to 4 threads.
-Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
-Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 23.48 KiB | 0 bytes/s, done.
-Total 9 (delta 6), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6)   [Kremote: Resolving deltas:  33% (2/6)   [Kremote: Resolving deltas:  50% (3/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas:  83% (5/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   7320cb8..c9d4d51  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git log
-[?1h=[33mcommit c9d4d5186f462e1e594f9def863525db3813c95a[m[m
-Author: darwinanddavis <matthew.malishev@gmail.com>[m
-Date:   Fri Nov 30 11:39:12 2018 -0500[m
-[m
-    ref github pages pres2[m
-[m
-:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[7;1H[K[K:[K[K[33mcommit 7320cb826e1af4f76a5e562f76524df489182b5f[m[m
-:[K[K[7mNo next tag  (press RETURN)[27m[7;1H[K[K:[K[K[7mNo next tag  (press RETURN)[27m[7;1H[K[K:[K[K[HM[33mcommit c9d4d5186f462e1e594f9def863525db3813c95a[m[m
-[7;1H[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/ABE7B653/console06/587CA191[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git log
-[?1h=[33mcommit c9d4d5186f462e1e594f9def863525db3813c95a[m[m
-Author: darwinanddavis <matthew.malishev@gmail.com>[m
-Date:   Fri Nov 30 11:39:12 2018 -0500[m
-[m
-    ref github pages pres2[m
-[m
-:[K[K[K:[K[K[33mcommit 7320cb826e1af4f76a5e562f76524df489182b5f[m[m
-:[K[K[HM[33mcommit c9d4d5186f462e1e594f9def863525db3813c95a[m[m
-[7;1H[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open re[K[KEW[K[KREADME.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add RED[KADME.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ GIT COMMI [K[K[K[K[K[K[K[K[K[Kgit commit -m ''h't'm'l' 'p'r'e's' 't'o' 'r'e'a'd'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'r'e'[1P'[1P'r'[1P'r'e'a'd'm'e' 'g'i't'p'[1P' 'p'r'e's'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'h't'm'l'[1P'[1P'[1P'[1P'v'i'e'w' 'r'm'l'[1P'[1P'[1P'h't'm'l's'
-[master 17cf6d8] readme view htmls
- 1 file changed, 2 insertions(+), 2 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 496 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   c9d4d51..17cf6d8  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ got [K[K[Kit add README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r'e'a'd'm'e' 'h't'm'l' 'p'r'e's'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'v'i'e' '[1P'[1P'[1P'i'e'w' 'h't'm'l's'
-[master 5bbe89e] readme view htmls
- 1 file changed, 3 insertions(+), 1 deletion(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 337 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   17cf6d8..5bbe89e  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pres[K[K[K[Kadd[Kd README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r'e'a'd'm'e' 'v'i'r'e'w' '[1P'[1P'[1P'[1P'e'w' 'h't'm'l's'
-[master 49b12e3] readme view htmls
- 1 file changed, 2 insertions(+), 2 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 326 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   5bbe89e..49b12e3  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add r[KREADME.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commi t0[K[K[Kt 0[K-m ''r'e'a'd'm'e'
-[master c908e8e] readme
- 1 file changed, 1 insertion(+), 1 deletion(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 319 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   49b12e3..c908e8e  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add RW[KE[KE
-fatal: pathspec 'RE' did not match any files
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ GI[K[Kgit add README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit 0m[K[K-m ''g'i't'[1P'[1P'[1P'm'[1P'r'e'a'd'm'e'
-On branch master
-Your branch is up-to-date with 'origin/master'.
-Changes not staged for commit:
-	[31mmodified:   .Rproj.user/ABE7B653/console06/587CA191[m
-
-no changes added to commit
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'readme'[4Padd README.md commit -m 'readme'[Kgit pi[Kush
-Everything up-to-date
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pushcommit -m 'readme'[4Padd README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add README.md push[Kcommit -m 'readme'
-[master 0d9963b] readme
- 1 file changed, 1 insertion(+), 1 deletion(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'readme'[4Padd README.md push[K
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 373 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   c908e8e..0d9963b  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open README.md [7Pgit pushcommit -m 'readme'[4Padd README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add README.md [3Popen[C[C[C[C[C[C[C[C[C[C[C[7Pgit pushopen README.md [7Pgit pushcommit -m 'readme'
-[master fcbf5cb] readme
- 1 file changed, 2 insertions(+), 2 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'readme'[4Padd README.md [3Popen[C[C[C[C[C[C[C[C[C[C[C[7Pgit push
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 309 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   0d9963b..fcbf5cb  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r'e'a'd'm'e' me'[1Pme'
-[master 24ed91b] readme
- 1 file changed, 3 insertions(+)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 332 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   fcbf5cb..24ed91b  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pushcommit -m 'readme'[4Padd README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add README.md push[Kcommit -m 'readme'
-[master fc5af68] readme
- 1 file changed, 1 insertion(+), 3 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'readme'[4Padd README.md push[K
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 293 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   24ed91b..fc5af68  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git[K[K[Kgit pushcommit -m 'readme'[4Padd README.md commit -m 'readme'[4Padd README.md commit -m 'readme'push[K[Kgit [K[K[K[Kls
-README.md			github_presentation_part2.Rmd
-R_is_dope.Rmd			github_presentation_part2.html
-R_is_dope.html			github_presentation_part2.pdf
-R_is_dope.pdf			githublogo.png
-R_is_dope.tex			highlight.html
-R_is_dope_files			installing_git.Rmd
-billnye.gif			installing_git.html
-billnye.png			installing_git.pdf
-filepage.png			installing_git.tex
-git_menu.jpeg			loadingpage.png
-git_process.png			newgit.R
-github.Rproj			newrepopage.png
-github_presentation.Rmd		readme.png
-github_presentation.html	repopage.png
-github_presentation.pdf		repopage_.png
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git remote -v
-origin	git@github.com:darwinanddavis/githubpres.git (fetch)
-origin	git@github.com:darwinanddavis/githubpres.git (push)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add github_presentation.html githib[K[Kub_presentatiion_part2.html [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P 
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [K[1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [K[C . 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r' 'w'o'r'j'[1P'k'f'l'o'w'
-[master 0f43e66] r workflow
- 3 files changed, 272 insertions(+), 24 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pih[K[Kush
-Counting objects: 8, done.
-Delta compression using up to 4 threads.
-Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
-Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 3.24 KiB | 0 bytes/s, done.
-Total 8 (delta 5), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   fc5af68..0f43e66  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add re[K[Ke[Kre[K[KREADME.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r'e'a'd'm'e'[C
-[master bf95483] readme
- 1 file changed, 3 insertions(+), 3 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pi[Kush
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 349 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   0f43e66..bf95483  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git [K[K[K[Kopen README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ GIT ADD ;10D[K[K[K[K[K[K[K[K[K[K[K[Kgit add . 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''p'r'e's'2' 'r'e'f'[1P'[1P'e'a'd'm'e' 'r'e'f's'
-[master f3c6c52] pres2 readme refs
- 4 files changed, 56 insertions(+), 1 deletion(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Counting objects: 9, done.
-Delta compression using up to 4 threads.
-Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
-Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 1.71 KiB | 0 bytes/s, done.
-Total 9 (delta 6), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6)   [Kremote: Resolving deltas:  33% (2/6)   [Kremote: Resolving deltas:  50% (3/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas:  83% (5/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   bf95483..f3c6c52  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git remote -v
-origin	git@github.com:darwinanddavis/githubpres.git (fetch)
-origin	git@github.com:darwinanddavis/githubpres.git (push)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ;[K''g'i't'p'r'e's'1'2'[1P'[1P'2' 't'r'o'u'b'[1P'[1P'[1P'[1P's'
-[master 3c4594c] gitpres2 ts
- 2 files changed, 21 insertions(+)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Counting objects: 7, done.
-Delta compression using up to 4 threads.
-Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
-Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 885 bytes | 0 bytes/s, done.
-Total 7 (delta 4), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   f3c6c52..3c4594c  master -> master
-git add .
-git c]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''w'o'r'k'f'l'o'w'
-[master 0ea7f5d] workflow
- 20 files changed, 502 insertions(+), 105 deletions(-)
- rewrite .Rproj.user/ABE7B653/console06/INDEX001 (86%)
- delete mode 100644 R_is_dope_files/figure-latex/unnamed-chunk-3-1.pdf
- delete mode 100644 R_is_dope_files/figure-latex/unnamed-chunk-4-1.pdf
- create mode 100644 folder.png
- delete mode 100644 newgit.R
- create mode 100644 wf1.png
- create mode 100644 wf2.png
- create mode 100644 wf3.png
- create mode 100644 wf4.png
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pish[K[K[Kush
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 23, done.
-Delta compression using up to 4 threads.
-Compressing objects:   4% (1/22)   Compressing objects:   9% (2/22)   Compressing objects:  13% (3/22)   Compressing objects:  18% (4/22)   Compressing objects:  22% (5/22)   Compressing objects:  27% (6/22)   Compressing objects:  31% (7/22)   Compressing objects:  36% (8/22)   Compressing objects:  40% (9/22)   Compressing objects:  45% (10/22)   Compressing objects:  50% (11/22)   Compressing objects:  54% (12/22)   Compressing objects:  59% (13/22)   Compressing objects:  63% (14/22)   Compressing objects:  68% (15/22)   Compressing objects:  72% (16/22)   Compressing objects:  77% (17/22)   Compressing objects:  81% (18/22)   Compressing objects:  86% (19/22)   Compressing objects:  90% (20/22)   Compressing objects:  95% (21/22)   Compressing objects: 100% (22/22)   Compressing objects: 100% (22/22), done.
-Writing objects:   4% (1/23)   Writing objects:   8% (2/23)   Writing objects:  13% (3/23)   Writing objects:  17% (4/23)   Writing objects:  21% (5/23)   Writing objects:  26% (6/23)   Writing objects:  30% (7/23)   Writing objects:  34% (8/23)   Writing objects:  39% (9/23)   Writing objects:  43% (10/23)   Writing objects:  47% (11/23)   Writing objects:  52% (12/23)   Writing objects:  56% (13/23)   Writing objects:  60% (14/23)   Writing objects:  65% (15/23)   Writing objects:  69% (16/23)   Writing objects:  73% (17/23)   Writing objects:  78% (18/23)   Writing objects:  82% (19/23), 792.00 KiB | 1.24 MiB/s   Writing objects:  86% (20/23), 792.00 KiB | 1.24 MiB/s   Writing objects:  91% (21/23), 792.00 KiB | 1.24 MiB/s   Writing objects:  95% (22/23), 792.00 KiB | 1.24 MiB/s   Writing objects: 100% (23/23), 792.00 KiB | 1.24 MiB/s   Writing objects: 100% (23/23), 1.60 MiB | 1.24 MiB/s, done.
-Total 23 (delta 11), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/11)   [Kremote: Resolving deltas:   9% (1/11)   [Kremote: Resolving deltas:  18% (2/11)   [Kremote: Resolving deltas:  27% (3/11)   [Kremote: Resolving deltas:  36% (4/11)   [Kremote: Resolving deltas:  45% (5/11)   [Kremote: Resolving deltas:  54% (6/11)   [Kremote: Resolving deltas:  63% (7/11)   [Kremote: Resolving deltas:  72% (8/11)   [Kremote: Resolving deltas:  81% (9/11)   [Kremote: Resolving deltas:  90% (10/11)   [Kremote: Resolving deltas: 100% (11/11)   [Kremote: Resolving deltas: 100% (11/11), completed with 11 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   3c4594c..0ea7f5d  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add E[KREADME.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r'e'a'd'm'e'
-[master ff656a1] readme
- 1 file changed, 1 insertion(+), 1 deletion(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pish[K[K[Kush
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 298 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   0ea7f5d..ff656a1  master -> master
-[K6300L-127771-M:githubpres malishev$ open .gitn[Kignore 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open .gitignore 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''i'[1P'g'i't'i'g'n'o'r'e'agitignore'dgitignore'dgitignore'egitignore'dgitignore' gitignore'
-[master 1509a41] added gitignore
- 9 files changed, 223 insertions(+), 149 deletions(-)
- rewrite .Rproj.user/ABE7B653/console06/INDEX001 (86%)
- create mode 100644 gitignore.jpeg
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 14, done.
-Delta compression using up to 4 threads.
-Compressing objects:   7% (1/14)   Compressing objects:  14% (2/14)   Compressing objects:  21% (3/14)   Compressing objects:  28% (4/14)   Compressing objects:  35% (5/14)   Compressing objects:  42% (6/14)   Compressing objects:  50% (7/14)   Compressing objects:  57% (8/14)   Compressing objects:  64% (9/14)   Compressing objects:  71% (10/14)   Compressing objects:  78% (11/14)   Compressing objects:  85% (12/14)   Compressing objects:  92% (13/14)   Compressing objects: 100% (14/14)   Compressing objects: 100% (14/14), done.
-Writing objects:   7% (1/14)   Writing objects:  14% (2/14)   Writing objects:  21% (3/14)   Writing objects:  28% (4/14)   Writing objects:  35% (5/14)   Writing objects:  42% (6/14)   Writing objects:  50% (7/14)   Writing objects:  57% (8/14)   Writing objects:  64% (9/14)   Writing objects:  71% (10/14)   Writing objects:  78% (11/14)   Writing objects:  85% (12/14)   Writing objects:  92% (13/14)   Writing objects: 100% (14/14)   Writing objects: 100% (14/14), 48.69 KiB | 0 bytes/s, done.
-Total 14 (delta 7), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   ce42ae2..1509a41  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pushcommit -m 'added gitignore'add .[K
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .[1Ppushcommit -m 'added gitignore'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'g'i't' '[1P'[1P'[1P'[1P'g'i't' 's'c'h'o'o'l'i'n'g'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'l'o'[1P'[1P'h'i's't'o'r'y' 'e'x'a'm'p'l'e'
-[master dc9f70a] git history example
- 3 files changed, 38 insertions(+), 2 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'git history example'add .[K[1Ppush
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 8, done.
-Delta compression using up to 4 threads.
-Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
-Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 1.70 KiB | 0 bytes/s, done.
-Total 8 (delta 5), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   1509a41..dc9f70a  master -> master
-git pushcommit -m 'git history example'add .[K
-^[[A]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .[1Ppushcommit -m 'git history example'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'd'e'l'e't'e' 'f'i'l'e's' 'a'[1P'e'x'a'm'p'l'e'
-^[[A[master ebdab52] delete files example
- 5 files changed, 40 insertions(+), 42 deletions(-)
- rewrite .Rproj.user/ABE7B653/console06/INDEX001 (86%)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'delete files example'add .[K[1Ppush
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 10, done.
-Delta compression using up to 4 threads.
-Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
-Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 1.63 KiB | 0 bytes/s, done.
-Total 10 (delta 6), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6)   [Kremote: Resolving deltas:  33% (2/6)   [Kremote: Resolving deltas:  50% (3/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas:  83% (5/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   dc9f70a..ebdab52  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git remote -v
-origin	git@github.com:darwinanddavis/githubpres.git (fetch)
-origin	git@github.com:darwinanddavis/githubpres.git (push)
-git pushcommit -m 'readme'add .[K
-^[[A]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .[1Ppushcommit -m 'readme'[1P'[1P'[1P'[1P'[1P'[1P'w'o'r'k'f'l'o'w' 'e'x'a'm'p'l'e'
-[master 64023db] workflow example
- 5 files changed, 43 insertions(+), 25 deletions(-)
- rewrite .Rproj.user/ABE7B653/console06/INDEX001 (86%)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'workflow example'add .[K[1Ppush
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 10, done.
-Delta compression using up to 4 threads.
-Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
-Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 1.50 KiB | 0 bytes/s, done.
-Total 10 (delta 7), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   ebdab52..64023db  master -> master
-git add .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''a'd'e'd'[1P'd'[1P'[1P'd'e'd' 'x'c'r'y'n' 'e'r'[1P'[1P'[1P'[1P'[1P'u'n' 't's' '[1P'[1P'[1P'e'r'r'o'r' 't's'
-[master 75751c4] added xcrun error ts
- 8 files changed, 53 insertions(+), 42 deletions(-)
- rewrite .Rproj.user/ABE7B653/console06/INDEX001 (86%)
- create mode 100644 R_is_dope_files/figure-latex/unnamed-chunk-3-1.pdf
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 15, done.
-Delta compression using up to 4 threads.
-Compressing objects:   7% (1/13)   Compressing objects:  15% (2/13)   Compressing objects:  23% (3/13)   Compressing objects:  30% (4/13)   Compressing objects:  38% (5/13)   Compressing objects:  46% (6/13)   Compressing objects:  53% (7/13)   Compressing objects:  61% (8/13)   Compressing objects:  69% (9/13)   Compressing objects:  76% (10/13)   Compressing objects:  84% (11/13)   Compressing objects:  92% (12/13)   Compressing objects: 100% (13/13)   Compressing objects: 100% (13/13), done.
-Writing objects:   6% (1/15)   Writing objects:  13% (2/15)   Writing objects:  20% (3/15)   Writing objects:  26% (4/15)   Writing objects:  33% (5/15)   Writing objects:  40% (6/15)   Writing objects:  46% (7/15)   Writing objects:  53% (8/15)   Writing objects:  60% (9/15)   Writing objects:  66% (10/15)   Writing objects:  73% (11/15)   Writing objects:  80% (12/15)   Writing objects:  86% (13/15)   Writing objects:  93% (14/15)   Writing objects: 100% (15/15)   Writing objects: 100% (15/15), 67.04 KiB | 0 bytes/s, done.
-Total 15 (delta 10), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/10)   [Kremote: Resolving deltas:  10% (1/10)   [Kremote: Resolving deltas:  20% (2/10)   [Kremote: Resolving deltas:  30% (3/10)   [Kremote: Resolving deltas:  40% (4/10)   [Kremote: Resolving deltas:  50% (5/10)   [Kremote: Resolving deltas:  60% (6/10)   [Kremote: Resolving deltas:  80% (8/10)   [Kremote: Resolving deltas:  90% (9/10)   [Kremote: Resolving deltas: 100% (10/10)   [Kremote: Resolving deltas: 100% (10/10), completed with 9 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   64023db..75751c4  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit 0m [K[K[K-m ''r'e'a'd'm'e' 't'[1P'[1P'
-[master 7aa1c06] readme
- 1 file changed, 175 insertions(+), 2 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git ish[K[K[Kpush
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 3.54 KiB | 0 bytes/s, done.
-Total 3 (delta 1), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
-To github.com:darwinanddavis/githubpres.git
-   75751c4..7aa1c06  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pushcommit -m 'readme'[4Padd README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add README.md push[Kcommit -m 'readme'
-[master 83f6b20] readme
- 1 file changed, 3 insertions(+), 1 deletion(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'readme'[4Padd README.md push[K
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 345 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   7aa1c06..83f6b20  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git diff
-[?1h=[1mdiff --git a/.Rproj.user/ABE7B653/console06/587CA191 b/.Rproj.user/ABE7B653/console06/5[m [1m87CA191[m[m
-[1mindex ec07718..2f7527f 100644[m[m
-[1m--- a/.Rproj.user/ABE7B653/console06/587CA191[m[m
-[1m+++ b/.Rproj.user/ABE7B653/console06/587CA191[m[m
-[36m@@ -1000,3 +1000,48 @@[m [mremote: Resolving deltas:   0% (0/7)   [7m^M[27mremote: Resolving delta[m :[K[K[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/ABE7B653/console06/587CA191[m
-	[31mmodified:   .Rproj.user/ABE7B653/console06/587CA191.env[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git log --l[Koneline
-[?1h=[33m83f6b20[m readme[m
-[33m7aa1c06[m readme[m
-[33m75751c4[m added xcrun error ts[m
-[33m64023db[m workflow example[m
-[33mebdab52[m delete files example[m
-[33mdc9f70a[m git history example[m
-:[K[K[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git diff HEAD [K~[K README.md 
-[?1h=[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git diff HEAD README.md [1@~[1@1
-[?1h=[1mdiff --git a/README.md b/README.md[m[m
-[1mindex d869933..542599f 100644[m[m
-[1m--- a/README.md[m[m
-[1m+++ b/README.md[m[m
-[36m@@ -43,8 +43,10 @@[m [mgit remote set-url origin "your github repo"  # if already exists[m[m
- # push changes from local repo to remote repo [m[m
-:[K[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git diff HEAD~1 README.md [1P[1@2
-[?1h=[1mdiff --git a/README.md b/README.md[m[m
-[1mindex 943b3fe..542599f 100644[m[m
-[1m--- a/README.md[m[m
-[1m+++ b/README.md[m[m
-[36m@@ -44,7 +44,179 @@[m [mgit remote set-url origin "your github repo"  # if already exists[m[m
- git push[m[m
-:[K[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git diff HEAD~2 README.md [1P[1@5
-[?1h=[1mdiff --git a/README.md b/README.md[m[m
-[1mindex 943b3fe..542599f 100644[m[m
-[1m--- a/README.md[m[m
-[1m+++ b/README.md[m[m
-[36m@@ -44,7 +44,179 @@[m [mgit remote set-url origin "your github repo"  # if already exists[m[m
- git push[m[m
-:[K[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ gt [K[Kit add .
-git]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git cm[Kommit -m ''a'd'd'e'd' 'e'x'i't' 'g'i't' 'c'o'[1P'[1P'[1P'[1P'[1P'[1P'c'o'm'm'a'n' 'e'[1P'[1P'd' 'e'd't'o'r'[1P'[1P'[1P'i't'o'r'
-[master c1e76f6] added exit command editor
- 5 files changed, 168 insertions(+), 5 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 10, done.
-Delta compression using up to 4 threads.
-Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
-Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 3.30 KiB | 0 bytes/s, done.
-Total 10 (delta 7), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
-gitTo github.com:darwinanddavis/githubpres.git
-   83f6b20..c1e76f6  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git status 
-On branch master
-Your branch is up-to-date with 'origin/master'.
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/ABE7B653/console06/587CA191[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git status [K[K[K[K[K[K[Klog --online
-fatal: unrecognized argument: --online
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git log --onlineeline
-[?1h=[33mc1e76f6[m added exit command editor[m
-[33m83f6b20[m readme[m
-[33m7aa1c06[m readme[m
-[33m75751c4[m added xcrun error ts[m
-[33m64023db[m workflow example[m
-[33mebdab52[m delete files example[m
-:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git --global options
-Unknown option: --global
-usage: git [--version] [--help] [-C <path>] [-c name=value]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           <command> [<args>]
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git --global options[C[C[C[C[C[C[C[K[K[K[K[K[K[K
-Unknown option: --global
-usage: git [--version] [--help] [-C <path>] [-c name=value]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           <command> [<args>]
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git --global [K[K[K[K[K[K[K[K[Koptions
-git: 'options' is not a git command. See 'git --help'.
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git cong[Kfig -h
-usage: git config [<options>]
-
-Config file location
-    --global              use global config file
-    --system              use system config file
-    --local               use repository config file
-    -f, --file <file>     use given config file
-    --blob <blob-id>      read config from given blob object
-
-Action
-    --get                 get value: name [value-regex]
-    --get-all             get all values: key [value-regex]
-    --get-regexp          get values for regexp: name-regex [value-regex]
-    --get-urlmatch        get value specific for the URL: section[.var] URL
-    --replace-all         replace all matching variables: name value [value_regex]
-    --add                 add a new variable: name value
-    --unset               remove a variable: name [value-regex]
-    --unset-all           remove all matches: name [value-regex]
-    --rename-section      rename section: old-name new-name
-    --remove-section      remove a section: name
-    -l, --list            list all
-    -e, --edit            open an editor
-    --get-color           find the color configured: slot [default]
-    --get-colorbool       find the color setting: slot [stdout-is-tty]
-
-Type
-    --bool                value is "true" or "false"
-    --int                 value is decimal number
-    --bool-or-int         value is --bool or --int
-    --path                value is a path (file or directory name)
-
-Other
-    -z, --null            terminate values with NUL byte
-    --name-only           show variable names only
-    --includes            respect include directives on lookup
-    --show-origin         show origin of config (file, standard input, blob, command line)
-
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
-git ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git comi[Kmit -m ''g'i't' 's'c'r'e'e'n' 's'h'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'R' 't'e'r'm'i'n'a'l' 'e'x'a'm'p'l'e'
-[master dfb9019] R terminal example
- 4 files changed, 94 insertions(+), 4 deletions(-)
- create mode 100644 RStudio_terminal.jpeg
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pish[K[K[Kush
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 9, done.
-Delta compression using up to 4 threads.
-Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
-Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 1.11 MiB | 0 bytes/s, done.
-Total 9 (delta 5), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   c1e76f6..dfb9019  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git log --oneline
-[?1h=[33mdfb9019[m R terminal example[m
-[33mc1e76f6[m added exit command editor[m
-[33m83f6b20[m readme[m
-[33m7aa1c06[m readme[m
-[33m75751c4[m added xcrun error ts[m
-[33m64023db[m workflow example[m
-:[K[K[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit --[Km ;;[C[K[K''a'd'd'e'd' 'g'i't' 'i'f'n'o'r'e'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'u'p'd'a't'e'd' 'g'i't' 'i'g'n'o'r'e'
-[master 46df35b] updated git ignore
- 2 files changed, 25 insertions(+), 1 deletion(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'updated git ignore'add .[Klog --onelinepush[Kcommit -m 'R terminal example'push[K
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 7, done.
-Delta compression using up to 4 threads.
-Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
-Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 943 bytes | 0 bytes/s, done.
-Total 7 (delta 4), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   dfb9019..46df35b  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open README.md [7Pgit pushcommit -m 'updated git ignore'add .[K[KREADME.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ GIT P[K[K[K[K[Kgit push [K[K[K[K[Kcommit -m ''r'e'a'd'm'e' 't'e's't'[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt commit 0m [K[K-m[K[K[K-m ''r'e'a'd'[1P'[1P'[1P'[1P'r'e'a'd'm'e' 't'e't'[1P's't'
-[master 203a204] readme test
- 1 file changed, 22 insertions(+)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pis[K[Kush
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 496 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   46df35b..203a204  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pushcommit -m 'readme test'[9Padd README.md [3Popen[C[C[C[C[C[C[C[C[C[C[C
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open README.md [7Pgit pushcommit -m 'readme test'[9Padd README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add README.md [3Popen[C[C[C[C[C[C[C[C[C[C[C[7Pgit pushcommit -m 'readme test'
-[master bc37b81] readme test
- 1 file changed, 5 insertions(+), 3 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'readme test'[9Padd README.md [3Popen[C[C[C[C[C[C[C[C[C[C[C[7Pgit push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 332 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   203a204..bc37b81  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pushcommit -m 'readme test'[9Padd README.md [K[K[K[K[K[K[K[K[K[K.
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r'e'a'd'm'e'
-[master 3b5f403] readme
- 3 files changed, 71 insertions(+), 25 deletions(-)
- create mode 100644 readme_header_template.rtf
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git oish[K[K[K[Kpush
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 8, done.
-Delta compression using up to 4 threads.
-Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
-Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 1.71 KiB | 0 bytes/s, done.
-Total 8 (delta 4), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   bc37b81..3b5f403  master -> master
-git add .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit 0m[K[K-m ''r' 'i's' 'd'o'p'e' 'd'o'c'[1P'[1P'[1P'p'l'o't's'
-[master 8419a5f] r is dope plots
- 9 files changed, 138 insertions(+), 343 deletions(-)
- rewrite .Rproj.user/ABE7B653/console06/INDEX001 (86%)
- rewrite R_is_dope.pdf (63%)
- rewrite R_is_dope_files/figure-latex/unnamed-chunk-3-1.pdf (86%)
- create mode 100644 R_is_dope_files/figure-latex/unnamed-chunk-4-1.pdf
- create mode 100644 wf5.png
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 16, done.
-Delta compression using up to 4 threads.
-Compressing objects:   6% (1/15)   Compressing objects:  13% (2/15)   Compressing objects:  20% (3/15)   Compressing objects:  26% (4/15)   Compressing objects:  33% (5/15)   Compressing objects:  40% (6/15)   Compressing objects:  46% (7/15)   Compressing objects:  53% (8/15)   Compressing objects:  60% (9/15)   Compressing objects:  66% (10/15)   Compressing objects:  73% (11/15)   Compressing objects:  80% (12/15)   Compressing objects:  86% (13/15)   Compressing objects:  93% (14/15)   Compressing objects: 100% (15/15)   Compressing objects: 100% (15/15), done.
-Writing objects:   6% (1/16)   Writing objects:  12% (2/16)   Writing objects:  18% (3/16)   Writing objects:  25% (4/16)   Writing objects:  31% (5/16)   Writing objects:  37% (6/16)   Writing objects:  43% (7/16)   Writing objects:  50% (8/16)   Writing objects:  56% (9/16)   Writing objects:  62% (10/16)   Writing objects:  68% (11/16)   Writing objects:  75% (12/16)   Writing objects:  81% (13/16)   Writing objects:  87% (14/16)   Writing objects:  93% (15/16)   Writing objects: 100% (16/16)   Writing objects: 100% (16/16), 612.73 KiB | 0 bytes/s, done.
-Total 16 (delta 9), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/9)   [Kremote: Resolving deltas:  22% (2/9)   [Kremote: Resolving deltas:  33% (3/9)   [Kremote: Resolving deltas:  44% (4/9)   [Kremote: Resolving deltas:  55% (5/9)   [Kremote: Resolving deltas:  66% (6/9)   [Kremote: Resolving deltas:  77% (7/9)   [Kremote: Resolving deltas:  88% (8/9)   [Kremote: Resolving deltas: 100% (9/9)   [Kremote: Resolving deltas: 100% (9/9), completed with 7 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   3b5f403..8419a5f  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ git pushcommit -m 'r is dope plots'add .[K
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .[1Ppushcommit -m 'r is dope plots'
-[master 96e251b] r is dope plots
- 11 files changed, 33 insertions(+), 10 deletions(-)
- rewrite R_is_dope_files/figure-latex/unnamed-chunk-4-1.pdf (94%)
- create mode 100644 myfile
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m 'r is dope plots'add .[K[1Ppush
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 21, done.
-Delta compression using up to 4 threads.
-Compressing objects:   5% (1/18)   Compressing objects:  11% (2/18)   Compressing objects:  16% (3/18)   Compressing objects:  22% (4/18)   Compressing objects:  27% (5/18)   Compressing objects:  33% (6/18)   Compressing objects:  38% (7/18)   Compressing objects:  44% (8/18)   Compressing objects:  50% (9/18)   Compressing objects:  55% (10/18)   Compressing objects:  61% (11/18)   Compressing objects:  66% (12/18)   Compressing objects:  72% (13/18)   Compressing objects:  77% (14/18)   Compressing objects:  83% (15/18)   Compressing objects:  88% (16/18)   Compressing objects:  94% (17/18)   Compressing objects: 100% (18/18)   Compressing objects: 100% (18/18), done.
-Writing objects:   4% (1/21)   Writing objects:   9% (2/21)   Writing objects:  14% (3/21)   Writing objects:  19% (4/21)   Writing objects:  23% (5/21)   Writing objects:  28% (6/21)   Writing objects:  33% (7/21)   Writing objects:  38% (8/21)   Writing objects:  42% (9/21)   Writing objects:  47% (10/21)   Writing objects:  52% (11/21)   Writing objects:  57% (12/21)   Writing objects:  61% (13/21)   Writing objects:  66% (14/21)   Writing objects:  71% (15/21)   Writing objects:  76% (16/21)   Writing objects:  80% (17/21)   Writing objects:  85% (18/21)   Writing objects:  90% (19/21)   Writing objects:  95% (20/21)   Writing objects: 100% (21/21)   Writing objects: 100% (21/21), 341.23 KiB | 0 bytes/s, done.
-Total 21 (delta 12), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/12)   [Kremote: Resolving deltas:   8% (1/12)   [Kremote: Resolving deltas:  16% (2/12)   [Kremote: Resolving deltas:  25% (3/12)   [Kremote: Resolving deltas:  33% (4/12)   [Kremote: Resolving deltas:  41% (5/12)   [Kremote: Resolving deltas:  50% (6/12)   [Kremote: Resolving deltas:  58% (7/12)   [Kremote: Resolving deltas:  66% (8/12)   [Kremote: Resolving deltas:  75% (9/12)   [Kremote: Resolving deltas:  83% (10/12)   [Kremote: Resolving deltas:  91% (11/12)   [Kremote: Resolving deltas: 100% (12/12)   [Kremote: Resolving deltas: 100% (12/12), completed with 11 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   8419a5f..96e251b  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git c[Kadd .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ gt[Kit commie [K[Kt -m ''i'n's't'r'u'c't'i'o'n's'
-[master 4472a6c] instructions
- 13 files changed, 94 insertions(+), 44 deletions(-)
- rewrite .Rproj.user/ABE7B653/console06/INDEX001 (86%)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push[K[K[K[Kremote -v
-origin	git@github.com:darwinanddavis/githubpres.git (fetch)
-origin	git@github.com:darwinanddavis/githubpres.git (push)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 25, done.
-Delta compression using up to 4 threads.
-Compressing objects:   4% (1/21)   Compressing objects:   9% (2/21)   Compressing objects:  14% (3/21)   Compressing objects:  19% (4/21)   Compressing objects:  23% (5/21)   Compressing objects:  28% (6/21)   Compressing objects:  33% (7/21)   Compressing objects:  38% (8/21)   Compressing objects:  42% (9/21)   Compressing objects:  47% (10/21)   Compressing objects:  52% (11/21)   Compressing objects:  57% (12/21)   Compressing objects:  61% (13/21)   Compressing objects:  66% (14/21)   Compressing objects:  71% (15/21)   Compressing objects:  76% (16/21)   Compressing objects:  80% (17/21)   Compressing objects:  85% (18/21)   Compressing objects:  90% (19/21)   Compressing objects:  95% (20/21)   Compressing objects: 100% (21/21)   Compressing objects: 100% (21/21), done.
-Writing objects:   4% (1/25)   Writing objects:   8% (2/25)   Writing objects:  12% (3/25)   Writing objects:  16% (4/25)   Writing objects:  20% (5/25)   Writing objects:  24% (6/25)   Writing objects:  28% (7/25)   Writing objects:  32% (8/25)   Writing objects:  36% (9/25)   Writing objects:  40% (10/25)   Writing objects:  44% (11/25)   Writing objects:  48% (12/25)   Writing objects:  52% (13/25)   Writing objects:  56% (14/25)   Writing objects:  60% (15/25)   Writing objects:  64% (16/25)   Writing objects:  68% (17/25)   Writing objects:  72% (18/25)   Writing objects:  76% (19/25)   Writing objects:  80% (20/25)   Writing objects:  84% (21/25)   Writing objects:  88% (22/25)   Writing objects:  92% (23/25)   Writing objects:  96% (24/25)   Writing objects: 100% (25/25)   Writing objects: 100% (25/25), 301.65 KiB | 0 bytes/s, done.
-Total 25 (delta 14), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/14)   [Kremote: Resolving deltas:   7% (1/14)   [Kremote: Resolving deltas:  14% (2/14)   [Kremote: Resolving deltas:  21% (3/14)   [Kremote: Resolving deltas:  28% (4/14)   [Kremote: Resolving deltas:  35% (5/14)   [Kremote: Resolving deltas:  42% (6/14)   [Kremote: Resolving deltas:  50% (7/14)   [Kremote: Resolving deltas:  57% (8/14)   [Kremote: Resolving deltas:  64% (9/14)   [Kremote: Resolving deltas:  71% (10/14)   [Kremote: Resolving deltas:  78% (11/14)   [Kremote: Resolving deltas:  85% (12/14)   [Kremote: Resolving deltas:  92% (13/14)   [Kremote: Resolving deltas: 100% (14/14)   [Kremote: Resolving deltas: 100% (14/14), completed with 14 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   96e251b..4472a6c  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open read[K[K[K[Kread[K[K[KRE[K[K[KE[KREADME.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git ad[Kdd .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit 0[K-m ''[C[K[K[K[K[K[K[K[K[K[K[K[Kog
-git: 'og' is not a git command. See 'git --help'.
-
-Did you mean this?
-	log
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git log
-[?1h=[33mcommit 4472a6ce575014cb46378afad7228a0643f0afcd[m[m
-Author: darwinanddavis <matthew.malishev@gmail.com>[m
-Date:   Mon Feb 18 17:01:06 2019 -0500[m
-[m
-    instructions[m
-[m
-[33mcommit 96e251b147e7a144ef5bfb86ff9f3963c5a9ff69[m[m
-Author: darwinanddavis <matthew.malishev@gmail.com>[m
-Date:   Sun Feb 17 12:42:57 2019 -0500[m
-[m
-:[K[K[K:[K[K[?1l>]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	[32mmodified:   .Rproj.user/ABE7B653/console06/587CA191[m
-	[32mmodified:   README.md[m
-	[32mmodified:   installing_git.Rmd[m
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/ABE7B653/console06/587CA191[m
-
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''i'n's'a'l'l'[1P'[1P'[1P't'a'l'l'[1P'[1P'[1P'[1P'[1P'[1P'[1P'u'p'd'a't'e' 'i'n's't'a'l'l'
-[master 3a333a6] update install
- 3 files changed, 31 insertions(+), 4 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ ggi[K[Kit push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 8, done.
-Delta compression using up to 4 threads.
-Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
-Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 1.30 KiB | 0 bytes/s, done.
-Total 8 (delta 5), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   4472a6c..3a333a6  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pushcommit -m 'update install'status[K[3Plog[1Pogadd .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git comi[Kmit 0m [K[K[K-m ''r'e'a'd'm'e'
-[master af58a5d] readme
- 2 files changed, 49 insertions(+), 3 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 7, done.
-Delta compression using up to 4 threads.
-Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
-Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 1.06 KiB | 0 bytes/s, done.
-Total 7 (delta 4), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   3a333a6..af58a5d  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git remote -v
-origin	git@github.com:darwinanddavis/githubpres.git (fetch)
-origin	git@github.com:darwinanddavis/githubpres.git (push)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add . 
-git]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''p'o's't's' 's'w'c' 'w's'h'i'p'[1P'[1P'o'p'[1P[1P[1@t
-[master c631fca] post swc wshop
- 12 files changed, 91 insertions(+), 52 deletions(-)
- create mode 100644 gitguardian.jpeg
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add [K[K[K[Kpush
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 23, done.
-Delta compression using up to 4 threads.
-Compressing objects:   5% (1/20)   Compressing objects:  10% (2/20)   Compressing objects:  15% (3/20)   Compressing objects:  20% (4/20)   Compressing objects:  25% (5/20)   Compressing objects:  30% (6/20)   Compressing objects:  35% (7/20)   Compressing objects:  40% (8/20)   Compressing objects:  45% (9/20)   Compressing objects:  50% (10/20)   Compressing objects:  55% (11/20)   Compressing objects:  60% (12/20)   Compressing objects:  65% (13/20)   Compressing objects:  70% (14/20)   Compressing objects:  75% (15/20)   Compressing objects:  80% (16/20)   Compressing objects:  85% (17/20)   Compressing objects:  90% (18/20)   Compressing objects:  95% (19/20)   Compressing objects: 100% (20/20)   Compressing objects: 100% (20/20), done.
-Writing objects:   4% (1/23)   Writing objects:   8% (2/23)   Writing objects:  13% (3/23)   Writing objects:  17% (4/23)   Writing objects:  21% (5/23)   Writing objects:  26% (6/23)   Writing objects:  30% (7/23)   Writing objects:  34% (8/23)   Writing objects:  39% (9/23)   Writing objects:  43% (10/23)   Writing objects:  47% (11/23)   Writing objects:  52% (12/23)   Writing objects:  56% (13/23)   Writing objects:  60% (14/23)   Writing objects:  65% (15/23)   Writing objects:  69% (16/23)   Writing objects:  73% (17/23)   Writing objects:  78% (18/23)   Writing objects:  82% (19/23)   Writing objects:  86% (20/23)   Writing objects:  91% (21/23)   Writing objects:  95% (22/23)   Writing objects: 100% (23/23)   Writing objects: 100% (23/23), 498.01 KiB | 0 bytes/s, done.
-Total 23 (delta 14), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/14)   [Kremote: Resolving deltas:   7% (1/14)   [Kremote: Resolving deltas:  14% (2/14)   [Kremote: Resolving deltas:  21% (3/14)   [Kremote: Resolving deltas:  28% (4/14)   [Kremote: Resolving deltas:  35% (5/14)   [Kremote: Resolving deltas:  42% (6/14)   [Kremote: Resolving deltas:  50% (7/14)   [Kremote: Resolving deltas:  57% (8/14)   [Kremote: Resolving deltas:  64% (9/14)   [Kremote: Resolving deltas:  71% (10/14)   [Kremote: Resolving deltas:  78% (11/14)   [Kremote: Resolving deltas:  85% (12/14)   [Kremote: Resolving deltas:  92% (13/14)   [Kremote: Resolving deltas: 100% (14/14)   [Kremote: Resolving deltas: 100% (14/14), completed with 14 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   af58a5d..c631fca  master -> master
-git ad [Kd.[K .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r'e'g's'[1P'[1P'f's'
-[master 4e8288a] refs
- 9 files changed, 541 insertions(+), 159 deletions(-)
- rewrite .Rhistory (99%)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 15, done.
-Delta compression using up to 4 threads.
-Compressing objects:   7% (1/14)   Compressing objects:  14% (2/14)   Compressing objects:  21% (3/14)   Compressing objects:  28% (4/14)   Compressing objects:  35% (5/14)   Compressing objects:  42% (6/14)   Compressing objects:  50% (7/14)   Compressing objects:  57% (8/14)   Compressing objects:  64% (9/14)   Compressing objects:  71% (10/14)   Compressing objects:  78% (11/14)   Compressing objects:  85% (12/14)   Compressing objects:  92% (13/14)   Compressing objects: 100% (14/14)   Compressing objects: 100% (14/14), done.
-Writing objects:   6% (1/15)   Writing objects:  13% (2/15)   Writing objects:  20% (3/15)   Writing objects:  26% (4/15)   Writing objects:  33% (5/15)   Writing objects:  40% (6/15)   Writing objects:  46% (7/15)   Writing objects:  53% (8/15)   Writing objects:  60% (9/15)   Writing objects:  66% (10/15)   Writing objects:  73% (11/15)   Writing objects:  80% (12/15)   Writing objects:  86% (13/15)   Writing objects:  93% (14/15)   Writing objects: 100% (15/15)   Writing objects: 100% (15/15), 3.02 KiB | 0 bytes/s, done.
-Total 15 (delta 7), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   c631fca..4e8288a  master -> master
-git --version
-git version 2.10.0
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit 0m [K[K[K-m ''a'd'd' '[1P'[1P'[1P'[1P'i'n's't'a'l'l'a't'i'o'n' 'i'n's't'r'u'c't'i'o'n's'[1Pinstructions'[1Pinstructions'[1Pinstructions'[1Pnstructions'[1Pinstructions'[1Pinstructions'[1Pinstructions' instructions'[1Pinstructions'linstructions' instructions'
-[master 4901cd8] install instructions
- 11 files changed, 243 insertions(+), 83 deletions(-)
- rewrite .Rproj.user/ABE7B653/console06/INDEX001 (86%)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 18, done.
-Delta compression using up to 4 threads.
-Compressing objects:   5% (1/17)   Compressing objects:  11% (2/17)   Compressing objects:  17% (3/17)   Compressing objects:  23% (4/17)   Compressing objects:  29% (5/17)   Compressing objects:  35% (6/17)   Compressing objects:  41% (7/17)   Compressing objects:  47% (8/17)   Compressing objects:  52% (9/17)   Compressing objects:  58% (10/17)   Compressing objects:  64% (11/17)   Compressing objects:  70% (12/17)   Compressing objects:  76% (13/17)   Compressing objects:  82% (14/17)   Compressing objects:  88% (15/17)   Compressing objects:  94% (16/17)   Compressing objects: 100% (17/17)   Compressing objects: 100% (17/17), done.
-Writing objects:   5% (1/18)   Writing objects:  11% (2/18)   Writing objects:  16% (3/18)   Writing objects:  22% (4/18)   Writing objects:  27% (5/18)   Writing objects:  33% (6/18)   Writing objects:  38% (7/18)   Writing objects:  44% (8/18)   Writing objects:  50% (9/18)   Writing objects:  55% (10/18)   Writing objects:  61% (11/18)   Writing objects:  66% (12/18)   Writing objects:  72% (13/18)   Writing objects:  77% (14/18)   Writing objects:  83% (15/18)   Writing objects:  88% (16/18)   Writing objects:  94% (17/18)   Writing objects: 100% (18/18)   Writing objects: 100% (18/18), 117.02 KiB | 0 bytes/s, done.
-Total 18 (delta 13), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/13)   [Kremote: Resolving deltas:   7% (1/13)   [Kremote: Resolving deltas:  15% (2/13)   [Kremote: Resolving deltas:  23% (3/13)   [Kremote: Resolving deltas:  30% (4/13)   [Kremote: Resolving deltas:  38% (5/13)   [Kremote: Resolving deltas:  46% (6/13)   [Kremote: Resolving deltas:  53% (7/13)   [Kremote: Resolving deltas:  61% (8/13)   [Kremote: Resolving deltas:  69% (9/13)   [Kremote: Resolving deltas:  76% (10/13)   [Kremote: Resolving deltas:  84% (11/13)   [Kremote: Resolving deltas:  92% (12/13)   [Kremote: Resolving deltas: 100% (13/13)   [Kremote: Resolving deltas: 100% (13/13), completed with 13 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   4e8288a..4901cd8  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add[K[K[K[K[K[K[Kls -a
-.				github_presentation.pdf
-..				github_presentation_part2.Rmd
-.DS_Store			github_presentation_part2.html
-.Rhistory			github_presentation_part2.pdf
-.Rproj.user			githublogo.png
-.git				gitignore.jpeg
-.gitignore			highlight.html
-README.md			installing_git.Rmd
-RStudio_terminal.jpeg		installing_git.html
-R_is_dope.Rmd			installing_git.pdf
-R_is_dope.html			installing_git.tex
-R_is_dope.pdf			loadingpage.png
-R_is_dope.tex			myfile
-R_is_dope_files			newrepopage.png
-billnye.gif			readme.png
-billnye.png			readme_header_template.rtf
-filepage.png			repopage.png
-folder.png			repopage_.png
-git_menu.jpeg			wf1.png
-git_process.png			wf2.png
-gitguardian.jpeg		wf3.png
-github.Rproj			wf4.png
-github_presentation.Rmd		wf5.png
-github_presentation.html
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ git remote -v
-origin	git@github.com:darwinanddavis/githubpres.git (fetch)
-origin	git@github.com:darwinanddavis/githubpres.git (push)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit.[K .[K-m ''[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit c[Kadd .
-git c]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r'e'v'e'r't' 'o' 'o'l'd'[1P'[1P'[1P'[1P'[1P'o'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'a'c'c'e's's' 'r'e'c'e'n't' 'g'i't's'[1P'[1P'[1P'[1P'c'o'm'm'i't's'
-[master 6c21fad] access recent commits
- 10 files changed, 178 insertions(+), 55 deletions(-)
- rewrite github_presentation_part2.pdf (77%)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 15, done.
-Delta compression using up to 4 threads.
-Compressing objects:   6% (1/15)   Compressing objects:  13% (2/15)   Compressing objects:  20% (3/15)   Compressing objects:  26% (4/15)   Compressing objects:  33% (5/15)   Compressing objects:  40% (6/15)   Compressing objects:  46% (7/15)   Compressing objects:  53% (8/15)   Compressing objects:  60% (9/15)   Compressing objects:  66% (10/15)   Compressing objects:  73% (11/15)   Compressing objects:  80% (12/15)   Compressing objects:  86% (13/15)   Compressing objects:  93% (14/15)   Compressing objects: 100% (15/15)   Compressing objects: 100% (15/15), done.
-Writing objects:   6% (1/15)   Writing objects:  13% (2/15)   Writing objects:  20% (3/15)   Writing objects:  26% (4/15)   Writing objects:  33% (5/15)   Writing objects:  40% (6/15)   Writing objects:  46% (7/15)   Writing objects:  53% (8/15)   Writing objects:  60% (9/15)   Writing objects:  66% (10/15)   Writing objects:  73% (11/15)   Writing objects:  80% (12/15)   Writing objects:  86% (13/15)   Writing objects:  93% (14/15)   Writing objects: 100% (15/15)   Writing objects: 100% (15/15), 487.54 KiB | 0 bytes/s, done.
-Total 15 (delta 11), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/11)   [Kremote: Resolving deltas:   9% (1/11)   [Kremote: Resolving deltas:  18% (2/11)   [Kremote: Resolving deltas:  27% (3/11)   [Kremote: Resolving deltas:  36% (4/11)   [Kremote: Resolving deltas:  45% (5/11)   [Kremote: Resolving deltas:  54% (6/11)   [Kremote: Resolving deltas:  63% (7/11)   [Kremote: Resolving deltas:  72% (8/11)   [Kremote: Resolving deltas:  81% (9/11)   [Kremote: Resolving deltas:  90% (10/11)   [Kremote: Resolving deltas: 100% (11/11)   [Kremote: Resolving deltas: 100% (11/11), completed with 11 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   4901cd8..6c21fad  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git reset
-Unstaged changes after reset:
-M	.Rproj.user/ABE7B653/console06/587CA191
-M	github_presentation_part2.Rmd
-M	github_presentation_part2.html
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git resetadd .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ it[K[Kgit commit -m ''v'i'm' 'e'd'i't'o'r'
-[master 4b37722] vim editor
- 3 files changed, 78 insertions(+), 6 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 8, done.
-Delta compression using up to 4 threads.
-Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
-Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 1.85 KiB | 0 bytes/s, done.
-Total 8 (delta 5), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   6c21fad..4b37722  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git reset
-Unstaged changes after reset:
-M	.Rproj.user/ABE7B653/console06/587CA191
-M	github_presentation_part2.Rmd
-M	github_presentation_part2.html
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
-re]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ re[K[Kgit commit -m ''g'i't'[1P'[1P'[1P'r'e'a'd'm'e' 'e'x'a'm'p'l'e's'
-g[master 5f07c9a] readme examples
-i 3 files changed, 133 insertions(+), 2 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pish[K[K[Kush
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 8, done.
-Delta compression using up to 4 threads.
-Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
-Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 2.56 KiB | 0 bytes/s, done.
-Total 8 (delta 5), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   4b37722..5f07c9a  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git --version
-git version 2.10.0
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git comi[Kmit -m ''a'[1P'i'n't'r'o' 's'l'i'd'e'
-[master 8954334] intro slide
-g 3 files changed, 68 insertions(+), 5 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 8, done.
-Delta compression using up to 4 threads.
-Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
-Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 144.28 KiB | 0 bytes/s, done.
-Total 8 (delta 5), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   5f07c9a..8954334  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ git add .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''o'r'e's' 'c'h'a'n'g'e'[C[1P[1@p[C[C[1@;[1@9[1@C[1P[1P[1P[C[C[C[C[C[C[C[C[C
-[master cc0af03] pres change
- 2 files changed, 15 insertions(+), 1 deletion(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push[K6300L-127771-M:githubpres malishev$ git push[K6300L-127771-M:githubpres malishev$ git push[K6300L-127771-M:githubpres malishev$ git push[K6300L-127771-M:githubpres malishev$ git push[K6300L-127771-M:githubpres malishev$ git push[K6300L-127771-M:githubpres malishev$ git push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 7, done.
-Delta compression using up to 4 threads.
-Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
-Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 759 bytes | 0 bytes/s, done.
-Total 7 (delta 4), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   8954334..cc0af03  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pushcommit -m 'pres change'add .[Kcommit -m 'pres change'push[Kcommit -m 'pres change'add .[Kcommit -m 'pres change'push[K[K6300L-127771-M:githubpres malishev$ git push[K[K[K[K[K[K[K[K[K6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ git add .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git om[K[Kcommit -m ''t'e's't'
-[master 639c5f3] test
- 3 files changed, 16 insertions(+), 1 deletion(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 8, done.
-Delta compression using up to 4 threads.
-Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
-Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 923 bytes | 0 bytes/s, done.
-Total 8 (delta 5), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   cc0af03..639c5f3  master -> master
-[K6300L-127771-M:githubpres malishev$ open README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add. [K[K RAD[K[Kea[K[Kw[KEADME.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git remote --v
-origin	git@github.com:darwinanddavis/githubpres.git (fetch)
-origin	git@github.com:darwinanddavis/githubpres.git (push)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git p[Ks[Kcommit -m '[Creadme.[K'
-[master 918080f] readme
- 1 file changed, 11 insertions(+), 3 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 436 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   639c5f3..918080f  master -> master
-open README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add gitpres.jp[K[K[K1.jpg gitpres2.jpg 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r'e'a'd'm'e'
-[master d0ccebb] readme
- 2 files changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 gitpres1.jpg
- create mode 100644 gitpres2.jpg
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Warning: Permanently added the RSA host key for IP address '140.82.113.3' to the list of known hosts.
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 4, done.
-Delta compression using up to 4 threads.
-Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
-Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 144.61 KiB | 0 bytes/s, done.
-Total 4 (delta 1), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
-To github.com:darwinanddavis/githubpres.git
-   918080f..d0ccebb  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ it [K[K[Kgit add README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commt [K[Kit -m ''r'e'a'd'm'e'i'[1P'[1P'e' 'i'm'g'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'f'i'x'e'd' 'h't'm'l' 'l'i'n'k's' 'r'e'a'd'm'e'
-[master a86e36c] fixed html links readme
- 1 file changed, 11 insertions(+), 4 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pish[K[K[Kush
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 486 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   d0ccebb..a86e36c  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m ''r'e'a'd'm'e' 'h'e'a'd'e'r'
-[master 6e6aa66] readme header
- 14 files changed, 1724 insertions(+), 202 deletions(-)
- rewrite .Rproj.user/ABE7B653/console06/INDEX001 (86%)
- create mode 100644 github_snapshot.jpeg
- create mode 100644 guthubpres_summary.Rmd
- create mode 100644 guthubpres_summary.html
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Warning: Permanently added the RSA host key for IP address '140.82.114.3' to the list of known hosts.
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 24, done.
-Delta compression using up to 4 threads.
-Compressing objects:   4% (1/22)   Compressing objects:   9% (2/22)   Compressing objects:  13% (3/22)   Compressing objects:  18% (4/22)   Compressing objects:  22% (5/22)   Compressing objects:  27% (6/22)   Compressing objects:  31% (7/22)   Compressing objects:  36% (8/22)   Compressing objects:  40% (9/22)   Compressing objects:  45% (10/22)   Compressing objects:  50% (11/22)   Compressing objects:  54% (12/22)   Compressing objects:  59% (13/22)   Compressing objects:  63% (14/22)   Compressing objects:  68% (15/22)   Compressing objects:  72% (16/22)   Compressing objects:  77% (17/22)   Compressing objects:  81% (18/22)   Compressing objects:  86% (19/22)   Compressing objects:  90% (20/22)   Compressing objects:  95% (21/22)   Compressing objects: 100% (22/22)   Compressing objects: 100% (22/22), done.
-Writing objects:   4% (1/24)   Writing objects:   8% (2/24)   Writing objects:  12% (3/24)   Writing objects:  16% (4/24)   Writing objects:  20% (5/24)   Writing objects:  25% (6/24)   Writing objects:  29% (7/24)   Writing objects:  33% (8/24)   Writing objects:  37% (9/24)   Writing objects:  41% (10/24)   Writing objects:  45% (11/24)   Writing objects:  50% (12/24)   Writing objects:  54% (13/24)   Writing objects:  58% (14/24)   Writing objects:  62% (15/24)   Writing objects:  66% (16/24)   Writing objects:  70% (17/24)   Writing objects:  75% (18/24)   Writing objects:  79% (19/24)   Writing objects:  83% (20/24)   Writing objects:  87% (21/24)   Writing objects:  91% (22/24)   Writing objects:  95% (23/24)   Writing objects:  95% (23/24), 200.00 KiB | 163.00 KiB/s   Writing objects:  95% (23/24), 1.30 MiB | 465.00 KiB/s   Writing objects:  95% (23/24), 1.93 MiB | 448.00 KiB/s   Writing objects:  95% (23/24), 2.55 MiB | 499.00 KiB/s   Writing objects:  95% (23/24), 4.45 MiB | 695.00 KiB/s   Writing objects:  95% (23/24), 5.73 MiB | 769.00 KiB/s   Writing objects: 100% (24/24), 5.73 MiB | 769.00 KiB/s   Writing objects: 100% (24/24), 6.09 MiB | 769.00 KiB/s, done.
-Total 24 (delta 13), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/13)   [Kremote: Resolving deltas:   7% (1/13)   [Kremote: Resolving deltas:  15% (2/13)   [Kremote: Resolving deltas:  23% (3/13)   [Kremote: Resolving deltas:  30% (4/13)   [Kremote: Resolving deltas:  38% (5/13)   [Kremote: Resolving deltas:  46% (6/13)   [Kremote: Resolving deltas:  53% (7/13)   [Kremote: Resolving deltas:  61% (8/13)   [Kremote: Resolving deltas:  69% (9/13)   [Kremote: Resolving deltas:  76% (10/13)   [Kremote: Resolving deltas:  84% (11/13)   [Kremote: Resolving deltas:  92% (12/13)   [Kremote: Resolving deltas: 100% (13/13)   [Kremote: Resolving deltas: 100% (13/13), completed with 13 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   a86e36c..6e6aa66  master -> master
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ opne [K[K[Ken README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ open README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add README.md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commi t-[K[K[Kt -m ''r'[1P'r'e'a'd'm'e' '[1P'_'[1P' '
-[master 936867f] readme
- 1 file changed, 7 insertions(+), 7 deletions(-)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Warning: Permanently added the RSA host key for IP address '140.82.114.4' to the list of known hosts.
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 392 bytes | 0 bytes/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   6e6aa66..936867f  master -> master
-[K6300L-127771-M:githubpres malishev$ open readme [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[KREADME..md 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ GIT ADD [K[K[K[K[K[K[K[Kgit add .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git cmm[K[Kommit  -m ''u'p'd'a't'e' 'r'e'a'd'm'e'r'[1P' 'p'r'e's' 'l'i'n'k'
-[master cd389af] update readme pres link
- 11 files changed, 1611 insertions(+), 212 deletions(-)
- rewrite .Rproj.user/ABE7B653/console06/INDEX001 (87%)
- create mode 100644 R_is_dope.log
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git p[K[K remote  --v
-origin	git@github.com:darwinanddavis/githubpres.git (fetch)
-origin	git@github.com:darwinanddavis/githubpres.git (push)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 18, done.
-Delta compression using up to 4 threads.
-Compressing objects:   5% (1/17)   Compressing objects:  11% (2/17)   Compressing objects:  17% (3/17)   Compressing objects:  23% (4/17)   Compressing objects:  29% (5/17)   Compressing objects:  35% (6/17)   Compressing objects:  41% (7/17)   Compressing objects:  47% (8/17)   Compressing objects:  52% (9/17)   Compressing objects:  58% (10/17)   Compressing objects:  64% (11/17)   Compressing objects:  70% (12/17)   Compressing objects:  76% (13/17)   Compressing objects:  82% (14/17)   Compressing objects:  88% (15/17)   Compressing objects:  94% (16/17)   Compressing objects: 100% (17/17)   Compressing objects: 100% (17/17), done.
-Writing objects:   5% (1/18)   Writing objects:  11% (2/18)   Writing objects:  16% (3/18)   Writing objects:  22% (4/18)   Writing objects:  27% (5/18)   Writing objects:  33% (6/18)   Writing objects:  38% (7/18)   Writing objects:  44% (8/18)   Writing objects:  50% (9/18)   Writing objects:  55% (10/18)   Writing objects:  55% (10/18), 2.55 MiB | 2.02 MiB/s   Writing objects:  61% (11/18), 2.55 MiB | 2.02 MiB/s   Writing objects:  66% (12/18), 2.55 MiB | 2.02 MiB/s   Writing objects:  72% (13/18), 2.55 MiB | 2.02 MiB/s   Writing objects:  77% (14/18), 2.55 MiB | 2.02 MiB/s   Writing objects:  83% (15/18), 2.55 MiB | 2.02 MiB/s   Writing objects:  88% (16/18), 2.55 MiB | 2.02 MiB/s   Writing objects:  94% (17/18), 2.55 MiB | 2.02 MiB/s   Writing objects: 100% (18/18), 2.55 MiB | 2.02 MiB/s   Writing objects: 100% (18/18), 2.78 MiB | 2.02 MiB/s, done.
-Total 18 (delta 11), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/11)[Kremote: Resolving deltas:   9% (1/11)[Kremote: Resolving deltas:  18% (2/11)[Kremote: Resolving deltas:  27% (3/11)[Kremote: Resolving deltas:  36% (4/11)[Kremote: Resolving deltas:  45% (5/11)[Kremote: Resolving deltas:  54% (6/11)[Kremote: Resolving deltas:  63% (7/11)[Kremote: Resolving deltas:  72% (8/11)[Kremote: Resolving deltas:  81% (9/11)[Kremote: Resolving deltas:  90% (10/11)[Kremote: Resolving deltas: 100% (11/11)[Kremote: Resolving deltas: 100% (11/11), completed with 11 local objects.[K
-To github.com:darwinanddavis/githubpres.git
-   936867f..cd389af  master -> master
-[K6300L-127771-M:githubpres malishev$ l [Ks -a
-.
-..
-.DS_Store
-.Rhistory
-.Rproj.user
-.git
-.gitignore
-README.md
-RStudio_terminal.jpeg
-R_is_dope.Rmd
-R_is_dope.html
-R_is_dope.log
-R_is_dope.pdf
-R_is_dope.tex
-R_is_dope_files
-billnye.gif
-billnye.png
-filepage.png
-folder.png
-git_menu.jpeg
-git_process.png
-gitguardian.jpeg
-github.Rproj
-github_presentation.Rmd
-github_presentation.html
-github_presentation.pdf
-github_presentation_files
-github_presentation_part2.Rmd
-github_presentation_part2.html
-github_presentation_part2.pdf
-github_presentation_part2_files
-github_snapshot.jpeg
-githublogo.png
-gitignore.jpeg
-gitpres1.jpg
-gitpres2.jpg
-guthubpres_summary.Rmd
-guthubpres_summary.html
-highlight.html
-installing_git.Rmd
-installing_git.html
-installing_git.pdf
-installing_git.tex
-loadingpage.png
-myfile
-newrepopage.png
-readme.png
-readme_header_template.rtf
-repopage.png
-repopage_.png
-wf1.png
-wf2.png
-wf3.png
-wf4.png
-wf5.png
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git remote -v
-origin	git@github.com:darwinanddavis/githubpres.git (fetch)
-origin	git@github.com:darwinanddavis/githubpres.git (push)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git --[K[K[K[K[K[Kgit remote --v
-origin	git@github.com:darwinanddavis/githubpres.git (fetch)
-origin	git@github.com:darwinanddavis/githubpres.git (push)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git checkout --p [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co rpahn [K[K[K[Khan gh-pages 
-M	.Rhistory
-M	.Rproj.user/ABE7B653/console06/587CA191
-M	.Rproj.user/ABE7B653/console06/587CA191.env
-M	.Rproj.user/ABE7B653/console06/INDEX001
-M	.Rproj.user/ABE7B653/pcs/source-pane.pper
-M	.Rproj.user/ABE7B653/pcs/windowlayoutstate.pper
-M	.Rproj.user/ABE7B653/rmd-outputs
-M	github_presentation.html
-M	github_presentation_part2.html
-Switched to a new branch 'gh-pages'
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
-g]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m '' [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci''n'i't' 'g'h'p'a'g'e's'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'i[1@n[C[C[C[C[C[C
-> 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push origin  gh-pages
-error: src refspec gh-pages does not match any.
-error: failed to push some refs to 'git@github.com:darwinanddavis/githubpres.git'
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push origin ggh-pages
-error: src refspec gh-pages does not match any.
-error: failed to push some refs to 'git@github.com:darwinanddavis/githubpres.git'
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ gi [Kt remote --v
-origin	git@github.com:darwinanddavis/githubpres.git (fetch)
-origin	git@github.com:darwinanddavis/githubpres.git (push)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git checkot[Kut mas ter
-error: Your local changes to the following files would be overwritten by checkout:
-	.Rhistory
-	.Rproj.user/ABE7B653/console06/587CA191
-	.Rproj.user/ABE7B653/console06/587CA191.env
-	.Rproj.user/ABE7B653/console06/INDEX001
-	.Rproj.user/ABE7B653/pcs/source-pane.pper
-	.Rproj.user/ABE7B653/pcs/windowlayoutstate.pper
-	.Rproj.user/ABE7B653/rmd-outputs
-	github_presentation.html
-	github_presentation_part2.html
-Please commit your changes or stash them before you switch branches.
-Aborting
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ gt st[K[K[K[Kit status
-On branch gh-pages
-
-Initial commit
-
-Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-
-	[32mnew file:   .Rhistory[m
-	[32mnew file:   .Rproj.user/ABE7B653/console06/587CA191[m
-	[32mnew file:   .Rproj.user/ABE7B653/console06/587CA191.env[m
-	[32mnew file:   .Rproj.user/ABE7B653/console06/INDEX001[m
-	[32mnew file:   .Rproj.user/ABE7B653/pcs/files-pane.pper[m
-	[32mnew file:   .Rproj.user/ABE7B653/pcs/source-pane.pper[m
-	[32mnew file:   .Rproj.user/ABE7B653/pcs/windowlayoutstate.pper[m
-	[32mnew file:   .Rproj.user/ABE7B653/pcs/workbench-pane.pper[m
-	[32mnew file:   .Rproj.user/ABE7B653/rmd-outputs[m
-	[32mnew file:   .Rproj.user/ABE7B653/saved_source_markers[m
-	[32mnew file:   .Rproj.user/ABE7B653/sources/prop/7D5F6AA9[m
-	[32mnew file:   .Rproj.user/ABE7B653/sources/prop/80962B6B[m
-	[32mnew file:   .Rproj.user/ABE7B653/sources/prop/891A51A6[m
-	[32mnew file:   .Rproj.user/ABE7B653/sources/prop/INDEX[m
-	[32mnew file:   .Rproj.user/shared/notebooks/patch-chunk-names[m
-	[32mnew file:   .Rproj.user/shared/notebooks/paths[m
-	[32mnew file:   .gitignore[m
-	[32mnew file:   README.md[m
-	[32mnew file:   RStudio_terminal.jpeg[m
-	[32mnew file:   R_is_dope.Rmd[m
-	[32mnew file:   R_is_dope.html[m
-	[32mnew file:   R_is_dope.log[m
-	[32mnew file:   R_is_dope.pdf[m
-	[32mnew file:   R_is_dope.tex[m
-	[32mnew file:   R_is_dope_files/figure-latex/unnamed-chunk-3-1.pdf[m
-	[32mnew file:   R_is_dope_files/figure-latex/unnamed-chunk-4-1.pdf[m
-	[32mnew file:   billnye.gif[m
-	[32mnew file:   billnye.png[m
-	[32mnew file:   filepage.png[m
-	[32mnew file:   folder.png[m
-	[32mnew file:   git_menu.jpeg[m
-	[32mnew file:   git_process.png[m
-	[32mnew file:   gitguardian.jpeg[m
-	[32mnew file:   github.Rproj[m
-	[32mnew file:   github_presentation.Rmd[m
-	[32mnew file:   github_presentation.html[m
-	[32mnew file:   github_presentation.pdf[m
-	[32mnew file:   github_presentation_part2.Rmd[m
-	[32mnew file:   github_presentation_part2.html[m
-	[32mnew file:   github_presentation_part2.pdf[m
-	[32mnew file:   github_snapshot.jpeg[m
-	[32mnew file:   githublogo.png[m
-	[32mnew file:   gitignore.jpeg[m
-	[32mnew file:   gitpres1.jpg[m
-	[32mnew file:   gitpres2.jpg[m
-	[32mnew file:   guthubpres_summary.Rmd[m
-	[32mnew file:   guthubpres_summary.html[m
-	[32mnew file:   highlight.html[m
-	[32mnew file:   installing_git.Rmd[m
-	[32mnew file:   installing_git.html[m
-	[32mnew file:   installing_git.pdf[m
-	[32mnew file:   installing_git.tex[m
-	[32mnew file:   loadingpage.png[m
-	[32mnew file:   myfile[m
-	[32mnew file:   newrepopage.png[m
-	[32mnew file:   readme.png[m
-	[32mnew file:   readme_header_template.rtf[m
-	[32mnew file:   repopage.png[m
-	[32mnew file:   repopage_.png[m
-	[32mnew file:   wf1.png[m
-	[32mnew file:   wf2.png[m
-	[32mnew file:   wf3.png[m
-	[32mnew file:   wf4.png[m
-	[32mnew file:   wf5.png[m
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/ABE7B653/console06/587CA191[m
-
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m '' [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg''h'p'a'g'e's' '2'
-[gh-pages (root-commit) cf819b5] ghpages 2
- 64 files changed, 10530 insertions(+)
- create mode 100644 .Rhistory
- create mode 100644 .Rproj.user/ABE7B653/console06/587CA191
- create mode 100644 .Rproj.user/ABE7B653/console06/587CA191.env
- create mode 100644 .Rproj.user/ABE7B653/console06/INDEX001
- create mode 100644 .Rproj.user/ABE7B653/pcs/files-pane.pper
- create mode 100644 .Rproj.user/ABE7B653/pcs/source-pane.pper
- create mode 100644 .Rproj.user/ABE7B653/pcs/windowlayoutstate.pper
- create mode 100644 .Rproj.user/ABE7B653/pcs/workbench-pane.pper
- create mode 100644 .Rproj.user/ABE7B653/rmd-outputs
- create mode 100644 .Rproj.user/ABE7B653/saved_source_markers
- create mode 100644 .Rproj.user/ABE7B653/sources/prop/7D5F6AA9
- create mode 100644 .Rproj.user/ABE7B653/sources/prop/80962B6B
- create mode 100644 .Rproj.user/ABE7B653/sources/prop/891A51A6
- create mode 100644 .Rproj.user/ABE7B653/sources/prop/INDEX
- create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
- create mode 100644 .Rproj.user/shared/notebooks/paths
- create mode 100644 .gitignore
- create mode 100644 README.md
- create mode 100644 RStudio_terminal.jpeg
- create mode 100644 R_is_dope.Rmd
- create mode 100644 R_is_dope.html
- create mode 100644 R_is_dope.log
- create mode 100644 R_is_dope.pdf
- create mode 100644 R_is_dope.tex
- create mode 100644 R_is_dope_files/figure-latex/unnamed-chunk-3-1.pdf
- create mode 100644 R_is_dope_files/figure-latex/unnamed-chunk-4-1.pdf
- create mode 100644 billnye.gif
- create mode 100644 billnye.png
- create mode 100644 filepage.png
- create mode 100644 folder.png
- create mode 100644 git_menu.jpeg
- create mode 100644 git_process.png
- create mode 100644 gitguardian.jpeg
- create mode 100644 github.Rproj
- create mode 100644 github_presentation.Rmd
- create mode 100644 github_presentation.html
- create mode 100644 github_presentation.pdf
- create mode 100644 github_presentation_part2.Rmd
- create mode 100644 github_presentation_part2.html
- create mode 100644 github_presentation_part2.pdf
- create mode 100644 github_snapshot.jpeg
- create mode 100644 githublogo.png
- create mode 100644 gitignore.jpeg
- create mode 100644 gitpres1.jpg
- create mode 100644 gitpres2.jpg
- create mode 100644 guthubpres_summary.Rmd
- create mode 100644 guthubpres_summary.html
- create mode 100644 highlight.html
- create mode 100644 installing_git.Rmd
- create mode 100644 installing_git.html
- create mode 100644 installing_git.pdf
- create mode 100644 installing_git.tex
- create mode 100644 loadingpage.png
- create mode 100644 myfile
- create mode 100644 newrepopage.png
- create mode 100644 readme.png
- create mode 100644 readme_header_template.rtf
- create mode 100644 repopage.png
- create mode 100644 repopage_.png
- create mode 100644 wf1.png
- create mode 100644 wf2.png
- create mode 100644 wf3.png
- create mode 100644 wf4.png
- create mode 100644 wf5.png
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push origin  gh-pages
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-Counting objects: 75, done.
-Delta compression using up to 4 threads.
-Compressing objects:   1% (1/68)   Compressing objects:   2% (2/68)   Compressing objects:   4% (3/68)   Compressing objects:   5% (4/68)   Compressing objects:   7% (5/68)   Compressing objects:   8% (6/68)   Compressing objects:  10% (7/68)   Compressing objects:  11% (8/68)   Compressing objects:  13% (9/68)   Compressing objects:  14% (10/68)   Compressing objects:  16% (11/68)   Compressing objects:  17% (12/68)   Compressing objects:  19% (13/68)   Compressing objects:  20% (14/68)   Compressing objects:  22% (15/68)   Compressing objects:  23% (16/68)   Compressing objects:  25% (17/68)   Compressing objects:  26% (18/68)   Compressing objects:  27% (19/68)   Compressing objects:  29% (20/68)   Compressing objects:  30% (21/68)   Compressing objects:  32% (22/68)   Compressing objects:  33% (23/68)   Compressing objects:  35% (24/68)   Compressing objects:  36% (25/68)   Compressing objects:  38% (26/68)   Compressing objects:  39% (27/68)   Compressing objects:  41% (28/68)   Compressing objects:  42% (29/68)   Compressing objects:  44% (30/68)   Compressing objects:  45% (31/68)   Compressing objects:  47% (32/68)   Compressing objects:  48% (33/68)   Compressing objects:  50% (34/68)   Compressing objects:  51% (35/68)   Compressing objects:  52% (36/68)   Compressing objects:  54% (37/68)   Compressing objects:  55% (38/68)   Compressing objects:  57% (39/68)   Compressing objects:  58% (40/68)   Compressing objects:  60% (41/68)   Compressing objects:  61% (42/68)   Compressing objects:  63% (43/68)   Compressing objects:  64% (44/68)   Compressing objects:  66% (45/68)   Compressing objects:  67% (46/68)   Compressing objects:  69% (47/68)   Compressing objects:  70% (48/68)   Compressing objects:  72% (49/68)   Compressing objects:  73% (50/68)   Compressing objects:  75% (51/68)   Compressing objects:  76% (52/68)   Compressing objects:  77% (53/68)   Compressing objects:  79% (54/68)   Compressing objects:  80% (55/68)   Compressing objects:  82% (56/68)   Compressing objects:  83% (57/68)   Compressing objects:  85% (58/68)   Compressing objects:  86% (59/68)   Compressing objects:  88% (60/68)   Compressing objects:  89% (61/68)   Compressing objects:  91% (62/68)   Compressing objects:  92% (63/68)   Compressing objects:  94% (64/68)   Compressing objects:  95% (65/68)   Compressing objects:  97% (66/68)   Compressing objects:  98% (67/68)   Compressing objects: 100% (68/68)   Compressing objects: 100% (68/68), done.
-Writing objects:   1% (1/75)   Writing objects:   2% (2/75)   Writing objects:   4% (3/75)   Writing objects:   5% (4/75)   Writing objects:   6% (5/75)   Writing objects:   8% (6/75)   Writing objects:   9% (7/75)   Writing objects:  10% (8/75)   Writing objects:  12% (9/75)   Writing objects:  13% (10/75)   Writing objects:  14% (11/75)   Writing objects:  16% (12/75)   Writing objects:  17% (13/75)   Writing objects:  18% (14/75)   Writing objects:  20% (15/75)   Writing objects:  21% (16/75)   Writing objects:  22% (17/75)   Writing objects:  24% (18/75)   Writing objects:  25% (19/75)   Writing objects:  26% (20/75)   Writing objects:  28% (21/75)   Writing objects:  29% (22/75)   Writing objects:  30% (23/75)   Writing objects:  32% (24/75)   Writing objects:  33% (25/75)   Writing objects:  34% (26/75)   Writing objects:  36% (27/75)   Writing objects:  38% (29/75)   Writing objects:  40% (30/75)   Writing objects:  41% (31/75)   Writing objects:  42% (32/75)   Writing objects:  44% (33/75)   Writing objects:  45% (34/75)   Writing objects:  46% (35/75)   Writing objects:  48% (36/75)   Writing objects:  49% (37/75)   Writing objects:  50% (38/75)   Writing objects:  52% (39/75)   Writing objects:  53% (40/75), 4.43 MiB | 8.76 MiB/s   Writing objects:  53% (40/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  54% (41/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  56% (42/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  57% (43/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  58% (44/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  60% (45/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  61% (46/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  62% (47/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  64% (48/75), 15.05 MiB | 14.84 MiB/s   Writing objects:  66% (50/75), 22.89 MiB | 13.28 MiB/s   Writing objects:  68% (51/75), 22.89 MiB | 13.28 MiB/s   Writing objects:  69% (52/75), 22.89 MiB | 13.28 MiB/s   Writing objects:  69% (52/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  70% (53/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  72% (54/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  73% (55/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  74% (56/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  76% (57/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  77% (58/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  78% (59/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  80% (60/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  81% (61/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  82% (62/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  84% (63/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  85% (64/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  86% (65/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  88% (66/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  89% (67/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  90% (68/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  92% (69/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  93% (70/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  94% (71/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  96% (72/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  97% (73/75), 29.13 MiB | 11.89 MiB/s   Writing objects:  98% (74/75), 29.13 MiB | 11.89 MiB/s   Writing objects: 100% (75/75), 29.13 MiB | 11.89 MiB/s   Writing objects: 100% (75/75), 36.40 MiB | 11.89 MiB/s, done.
-Total 75 (delta 5), reused 20 (delta 0)
-remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  60% (3/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), done.[K
-remote: 
-remote: Create a pull request for 'gh-pages' on GitHub by visiting:[K
-remote:      https://github.com/darwinanddavis/githubpres/pull/new/gh-pages[K
-remote: 
-To github.com:darwinanddavis/githubpres.git
- * [new branch]      gh-pages -> gh-pages
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ [K6300L-127771-M:githubpres malishev$ git push origin ggh-pages[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m 'ghpages 2'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Padd .
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m 'ghhpages 2'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Padd .
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-Saved working directory and index state WIP on gh-pages: 0cd42df ghpages add maps
-HEAD is now at 0cd42df ghpages add maps
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git checkout mas ter
-error: Your local changes to the following files would be overwritten by checkout:
-	.Rproj.user/ABE7B653/console06/587CA191
-Please commit your changes or stash them before you switch branches.
-Aborting
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git stash drop
-Dropped refs/stash@{0} (e77b642136a5f0f4cbe0be68034842c2467ecee8)
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git stash dropcheckout mastter
-error: Your local changes to the following files would be overwritten by checkout:
-	.Rproj.user/ABE7B653/console06/587CA191
-Please commit your changes or stash them before you switch branches.
-Aborting
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ g[Kopen .gitignore  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .Saved working directory and index state WIP on gh-pages: c93d757 update gitignore
-HEAD is now at c93d757 update gitignore
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pul
-git: 'pul' is not a git command. See 'git --help'.
-
-Did you mean one of these?
-	pull
-	spull
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pulstash[2Ppull
-Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
-There is no tracking information for the current branch.
-Please specify which branch you want to merge with.
-See git-pull(1) for details.
-
-    git pull <remote> <branch>
-
-If you wish to set tracking information for this branch you can do so with:
-
-    git branch --set-upstream-to=origin/<branch> gh-pages
-
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pull --rebas e origin master
-error: Cannot pull with rebase: You have unstaged changes.
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git pull --rebasee origin master[C[K[K[K[K[K[Kgh-pages
-error: Cannot pull with rebase: You have unstaged changes.
+Saved working directory and index state On gh-pages: ghpages maps2
+error: unable to create file .Rproj.user/ABE7B653/console06/587CA191: File exists
+fatal: Could not reset index file to revision 'HEAD'.
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git ad [Kd .

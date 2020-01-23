@@ -1002,3 +1002,7 @@ To github.com:darwinanddavis/githubpres.git
 [K6300L-127771-M:githubpres malishev$ open readme [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[KREADME..md 
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ GIT ADD [K[K[K[K[K[K[K[Kgit add .
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ g[Kopen README.md 
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .

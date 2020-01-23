@@ -1,4 +1,9 @@
 Saved working directory and index state On gh-pages: ghpages maps2
 error: unable to create file .Rproj.user/ABE7B653/console06/587CA191: File exists
 fatal: Could not reset index file to revision 'HEAD'.
-]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git ad [Kd .
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git ad [Kd .[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kd
+HEAD is now at a6c888e stash2
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git checkout gh- pages
+M	.Rproj.user/ABE7B653/console06/587CA191
+Already on 'gh-pages'
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .

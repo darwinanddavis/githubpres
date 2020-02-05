@@ -25,3 +25,20 @@ remote: Resolving deltas:   0% (0/7)[Kremote: Resolving deltas:  14% (1/7)[K
 To github.com:darwinanddavis/githubpres.git
    db3655e..f70f13b  gh-pages -> gh-pages
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git commit -m '' [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr''e'a'd'm'e'
+[gh-pages f0bb33d] readme
+ 2 files changed, 17 insertions(+), 3 deletions(-)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git piush[K[K[K[Kush origin  master
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Everything up-to-date
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push origin  gh-pages
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 1.50 KiB | 0 bytes/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To github.com:darwinanddavis/githubpres.git
+   f70f13b..f0bb33d  gh-pages -> gh-pages
+git add .

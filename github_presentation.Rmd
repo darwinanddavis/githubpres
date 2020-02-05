@@ -1,5 +1,5 @@
 ---
-title: "Using Github for research and life | **Part I**"
+title: "Using `git` for research and life | **Part I**"
 author: "Matt Malishev"  
 date: "@darwinanddavis"  
 output:
@@ -86,7 +86,7 @@ Press `W` for widescreen
 
 <iframe width="100%" height="50%" src="https://darwinanddavis.github.io/githubpres/emory_location.html" frameborder="0" allowfullscreen></iframe>  
 
-## What the hell is Github? | And git {.build}       
+## What the hell is `git` and Github? {.build}         
 
 ### Version control system for data  
 
@@ -99,7 +99,7 @@ Press `W` for widescreen
 <!-- ----------------------- image --------------------------- -->
   
 <!-- _____________________________ break ________________________________ -->
-## What the hell is Github? (cont ...) | And git   
+## What the hell is `git` and Github? (cont ...)  
 
 <!-- ----------------------- image --------------------------- -->
 <div align="center">
@@ -226,7 +226,9 @@ You can dump the contents of any public repo, including its complete version his
 </div>
 
 <!-- _____________________________ break ________________________________ -->
-# Part II | using `git` from the command line  
+# Part II | using `git` from the command line
+
+[Go to Part II](https://darwinanddavis.github.io/githubpres/github_presentation_part2.html#1)  
 
 <!-- _____________________________ break ________________________________ -->
 ## Why use the command line? {.build}    
@@ -286,12 +288,6 @@ You can dump the contents of any public repo, including its complete version his
 [Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)  
 
 [Switching between terminal and GUI](https://pages.github.com/)    
-
-<!-- _____________________________ break ________________________________ -->
-## Notes for improvement    
-
-- Make Windows specfic commands    
-- Start with github not local repo    
 
 <!-- _____________________________ BODY ________________________________ -->
 <!-- ____________________________________________________________________ -->

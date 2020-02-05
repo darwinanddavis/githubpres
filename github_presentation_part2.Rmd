@@ -1,5 +1,5 @@
 ---
-title: "Using Github for research and life | **Part II**"
+title: "Using `git` for research and life | **Part II**"
 author: "Matt Malishev"  
 date: "@darwinanddavis"  
 output:
@@ -87,7 +87,7 @@ Press `W` for widescreen
 <iframe width="100%" height="50%" src="https://darwinanddavis.github.io/githubpres/emory_location.html" frameborder="0" allowfullscreen></iframe>  
 
 
-## What the hell is Github? | And git {.build}       
+## What the hell is `git` and Github? {.build}       
 
 ### Version control system for data  
 
@@ -100,7 +100,7 @@ Press `W` for widescreen
 <!-- ----------------------- image --------------------------- -->
   
 <!-- _____________________________ break ________________________________ -->
-## What the hell is Github? (cont ...) | And git   
+## What the hell is `git` and Github? (cont ...)
 
 <!-- ----------------------- image --------------------------- -->
 <div align="center">
@@ -162,8 +162,6 @@ telnet towel.blinkenlights.nl # watch movie in ascii
 ### Use the `R Studio` in-built command line connected to your Github    
 ### Backup straight from `R`    
 ### _Cake!_  
-git change  
-
 
 <!-- _____________________________ break ________________________________ -->
 ## Best practice for git prep {.build}  
@@ -202,6 +200,12 @@ git init
 ### </b> 
 ```
 
+Check what's happening
+```{shell, eval=F, echo=T}
+ls # list files 
+ls -a # list all hidden files
+```
+
 <!-- _____________________________ break ________________________________ -->
 ## 2. Create and stage your files {.build}    
 
@@ -226,10 +230,11 @@ Let's check the changes
 git log # recent git activity
 git add test.txt # adds individual files  
 git status # check what git is doing 
+git reset # reset latest commit 
 ```
 
 <!-- _____________________________ break ________________________________ -->
-## 3. Push to a remote github repo {.build}    
+## 3. Push to a remote Github repo {.build}    
 
 Now we push the changes we made from our local repo to our Github cloud.  
 
@@ -244,7 +249,7 @@ Now we push the changes we made from our local repo to our Github cloud.
 <!-- ----------------------- image --------------------------- -->
 
 <!-- _____________________________ break ________________________________ -->
-## 3. Push to a remote github repo (cont ...) {.build}    
+## 3. Push to a remote Github repo (cont ...) {.build}    
 
 First, copy the Github repo link you want to push to. Select either **https** or **SSH** (requires key access).        
 
@@ -503,7 +508,7 @@ git remote -v
 git remote add origin "your github repo"  # if remote branch doesn't exist
 git remote set-url origin "your github repo"  # if already exists
 # push changes from local repo to remote repo 
-git push 
+git push origin master 
 ```
 
 ### **If in doubt, ask the internet**    

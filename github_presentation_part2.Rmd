@@ -499,7 +499,7 @@ git add . # adds all files to git. replace '.' with filename for individ files
 git commit -m 'redo intro' # '-m' = message 
 ```
 
-### remote git (version control on your github)  
+### remote git (version control on your github)    
 ```{shell eval=F, echo=T}
 # after the above steps ^ 
 # see what remote repo you have. if a github exists, you can push

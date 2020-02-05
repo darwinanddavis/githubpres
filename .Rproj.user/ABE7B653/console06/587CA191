@@ -62,3 +62,10 @@ Enter passphrase for key '/Users/malishev/.ssh/id_rsa':
 Everything up-to-date
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push origin mmaster[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m 'pre website add2'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Padd .
 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .push origin mmaster[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m 'pre website add2'[1P' 'g'h'p'a'g'e's'
+[gh-pages 6f00acf] pre website add ghpages
+ 1 file changed, 8 insertions(+)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git reset
+Unstaged changes after reset:
+M	.Rproj.user/ABE7B653/console06/587CA191
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .

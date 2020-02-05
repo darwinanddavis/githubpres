@@ -54,3 +54,11 @@ origin	git@github.com:darwinanddavis/githubpres.git (fetch)
 origin	git@github.com:darwinanddavis/githubpres.git (push)
 ]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git remote -vpush origin mmaster[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m 'pre website add'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Padd .
 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git add .remote -vpush origin mmaster[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m 'pre website add'2'
+[gh-pages fe9e34b] pre website add2
+ 2 files changed, 15 insertions(+), 3 deletions(-)
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push origin  master
+Enter passphrase for key '/Users/malishev/.ssh/id_rsa': 
+Everything up-to-date
+]0;~/Documents/Presentations/githubpres6300L-127771-M:githubpres malishev$ git push origin mmaster[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m 'pre website add2'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Padd .
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
